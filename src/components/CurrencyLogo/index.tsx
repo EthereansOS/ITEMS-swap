@@ -8,25 +8,25 @@ import { WrappedTokenInfo } from '../../state/lists/hooks'
 import Logo from '../Logo'
 
 const getTokenLogoURL = (address: string) =>
-  `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/${address}/logo.png`
+  `../../assets/images/${address}.png`
 
 const StyledEthereumLogo = styled.img<{ size: string }>`
   width: ${({ size }) => size};
-  height: ${({ size }) => size};
+  height: 50px;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.075);
-  border-radius: 24px;
+  border-radius: 0px;
 `
 
 const StyledLogo = styled(Logo)<{ size: string }>`
   width: ${({ size }) => size};
-  height: ${({ size }) => size};
-  border-radius: ${({ size }) => size};
+  height: 75px;
+  border-radius: 0px;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.075);
 `
 
 export default function CurrencyLogo({
   currency,
-  size = '24px',
+  size = '50px',
   style
 }: {
   currency?: Currency

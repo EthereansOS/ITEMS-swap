@@ -112,10 +112,10 @@ function CurrencyRow({
       disabled={isSelected}
       selected={otherSelected}
     >
-      <CurrencyLogo currency={currency} size={'24px'} />
+      <CurrencyLogo currency={currency} size={'50px'} />
       <Column>
         <Text title={currency.name} fontWeight={500}>
-          {currency.symbol}
+          {currency.name}
         </Text>
         <FadedSpan>
           {!isOnSelectedList && customAdded ? (
@@ -201,7 +201,7 @@ export default function CurrencyList({
       width="100%"
       itemData={itemData}
       itemCount={itemData.length}
-      itemSize={56}
+      itemSize={100}
       itemKey={itemKey}
     >
       {Row}
