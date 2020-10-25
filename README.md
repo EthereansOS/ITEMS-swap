@@ -8,7 +8,13 @@ In this fork we changed the view of tokens, so you can see perfectly the cards i
 
 We added a standard list in the dropdown menu with all of the WIMD cards.
 
-### you can use it at https://swap.whereismydragon.eth, https://swap.whereismydragon.eth.link or https://b-u-i-d-l.github.io/WIMD-uniswap/
+### you can use it at 
+
+https://swap.whereismydragon.eth 
+
+https://swap.whereismydragon.eth.link 
+
+https://b-u-i-d-l.github.io/WIMD-uniswap/
 
 [![Lint](https://github.com/Uniswap/uniswap-interface/workflows/Lint/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions?query=workflow%3ALint)
 [![Tests](https://github.com/Uniswap/uniswap-interface/workflows/Tests/badge.svg)](https://github.com/Uniswap/uniswap-interface/actions?query=workflow%3ATests)
