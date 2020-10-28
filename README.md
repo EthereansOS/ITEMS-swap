@@ -10,8 +10,16 @@ We added a standard list in the dropdown menu with all of the WIMD cards.
 
 ### you can use it at 
 
+Updated Version:
+
 https://swap.whereismydragon.eth 
 
-https://swap.whereismydragon.eth.link 
+https://swap.whereismydragon.eth.link
+
+https://swap.whereismydragon.com
 
 https://b-u-i-d-l.github.io/WIMD-uniswap/
+
+V1.0:
+
+https://bafybeidohofcst2oxulj75mxdogz77ky7ldhvz27pcqx7htyatuazrcvwi.ipfs.dweb.link
