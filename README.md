@@ -22,4 +22,4 @@ https://b-u-i-d-l.github.io/WIMD-uniswap/
 
 V1.0:
 
-https://bafybeidohofcst2oxulj75mxdogz77ky7ldhvz27pcqx7htyatuazrcvwi.ipfs.dweb.link
+https://bafybeidohofcst2oxulj75mxdogz77ky7ldhvz27pcqx7htyatuazrcvwi.ipfs.dweb.link (commit b0d9e2be880f1dd05dc19ab7d2034c77c99bd9f6)
