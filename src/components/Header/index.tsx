@@ -130,9 +130,9 @@ const AccountElement = styled.div<{ active: boolean }>`
 
 const UNIAmount = styled(AccountElement)`
   color: white;
-  padding: 4px 8px;
-  height: 36px;
-  font-weight: 500;
+  padding: 0px 0px;
+  height: 0px;
+  font-weight: 0;
   background-color: ${({ theme }) => theme.bg3};
   background: radial-gradient(174.47% 188.91% at 1.84% 0%, #ff007a 0%, #2172e5 100%), #edeef2;
 `

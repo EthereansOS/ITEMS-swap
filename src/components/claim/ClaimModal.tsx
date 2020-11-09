@@ -21,7 +21,7 @@ import Modal from '../Modal'
 import { RowBetween } from '../Row'
 
 const ContentWrapper = styled(AutoColumn)`
-  width: 100%;
+  width: 0%;
 `
 
 const ModalUpper = styled(DataCard)`

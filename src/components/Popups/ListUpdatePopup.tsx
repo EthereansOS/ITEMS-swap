@@ -51,7 +51,7 @@ export default function ListUpdatePopup({
 
   return (
     <AutoRow>
-      <AutoColumn style={{ flex: '1' }} gap="8px">
+      <AutoColumn style={{ flex: '0' }} gap="0px">
         {auto ? (
           <TYPE.body fontWeight={500}>
             The token list &quot;{oldList.name}&quot; has been updated to{' '}

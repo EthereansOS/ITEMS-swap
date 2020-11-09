@@ -6,7 +6,7 @@ import { useURLWarningToggle, useURLWarningVisible } from '../../state/user/hook
 import { isMobile } from 'react-device-detect'
 
 const PhishAlert = styled.div<{ isActive: any }>`
-  width: 100%;
+  width: 0%;
   padding: 6px 6px;
   background-color: ${({ theme }) => theme.blue1};
   color: white;

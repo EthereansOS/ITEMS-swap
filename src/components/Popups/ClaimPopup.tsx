@@ -24,7 +24,8 @@ const StyledClaimPopup = styled(AutoColumn)`
   padding: 1.5rem;
   overflow: hidden;
   position: relative;
-  max-width: 360px;
+  display: none !important;
+  width: 0px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 `
 
