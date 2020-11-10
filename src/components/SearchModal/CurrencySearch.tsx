@@ -41,7 +41,7 @@ export function CurrencySearch({
   onDismiss,
   isOpen,
   onChangeList
-}: CurrencySearchProps) {
+}: CurrencySearchProps) { 
   const { t } = useTranslation()
   const { chainId } = useActiveWeb3React()
   const theme = useContext(ThemeContext)
