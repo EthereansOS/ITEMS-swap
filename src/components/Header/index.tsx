@@ -312,14 +312,14 @@ export default function Header() {
           >
             {t('pool')}
           </StyledNavLink>
-          <StyledExternalLink id={`stake-nav-link`} href={'https://whereismydragon.eth.link'}>
-            WIMD <span style={{ fontSize: '11px' }}>↗</span>
+          <StyledExternalLink id={`stake-nav-link`} href={'https://item.eth'}>
+            ETHITEM <span style={{ fontSize: '11px' }}>↗</span>
+          </StyledExternalLink>
+          <StyledExternalLink id={`stake-nav-link`} href={'https://dapp.dfohub.com/?addr=0x7cB2Aa86fC0F3dA708783168BFd25B80F045d183'}>
+            Governance <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink>
           <StyledExternalLink id={`stake-nav-link`} href={'https://github.com/b-u-i-d-l/WIMD-uniswap'}>
-            UniWIMD <span style={{ fontSize: '11px' }}>↗</span>
-          </StyledExternalLink>
-          <StyledExternalLink id={`stake-nav-link`} href={'https://opensea.io/assets/where-is-my-dragon'}>
-            OpenSea <span style={{ fontSize: '11px' }}>↗</span>
+            Github <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink>
         </HeaderLinks>
       </HeaderRow>

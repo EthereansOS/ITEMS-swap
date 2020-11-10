@@ -105,7 +105,7 @@ export default function Menu() {
 
       {open && (
         <MenuFlyout>
-          <MenuItem id="link" href="https://uniswap.org/">
+          <MenuItem id="link" href="https://ethitem.eth.link/">
             <Info size={14} />
             About
           </MenuItem>
@@ -117,7 +117,7 @@ export default function Menu() {
             <Code size={14} />
             Code
           </MenuItem>
-          <MenuItem id="link" href="https://discord.gg/EwFs3Pp">
+          <MenuItem id="link" href="https://discord.gg/nHZ2bUd">
             <MessageCircle size={14} />
             Discord
           </MenuItem>
