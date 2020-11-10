@@ -26,7 +26,7 @@ import { RowBetween, RowFixed } from '../Row'
 import { Dots } from '../swap/styleds'
 
 export const FixedHeightRow = styled(RowBetween)`
-  height: 24px;
+  height: 60px;
 `
 
 export const HoverCard = styled(Card)`
