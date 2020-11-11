@@ -1,11 +1,11 @@
 // the Uniswap Default token list lives here
 export const DEFAULT_TOKEN_LIST_URL = 'https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/master/wimdlist.json'
 
-var list : string[] = [
+var dynamicListOfLists : string[] = [
   DEFAULT_TOKEN_LIST_URL
 ]
 
-function getPage() {
+function extractAddressBarParams() {
   var search :any = {};
   try {
       var splits :any = "";
@@ -42,12 +42,12 @@ function getPage() {
   return search;
 };
 
-var pageSearch : any = getPage();
+var addressBarParams : any = extractAddressBarParams();
+addressBarParams.tokensList && dynamicListOfLists.push(addressBarParams.tokensList);
 
-if(pageSearch.tokensList) {
-  list.push(pageSearch.tokensList);
+try {
+  require("./ethItemLists/ethItemLists.json").forEach((list :string) => dynamicListOfLists.push(list));
+} catch(e) {
 }
 
-console.log(list)
-
-export const DEFAULT_LIST_OF_LISTS = list
+export const DEFAULT_LIST_OF_LISTS = dynamicListOfLists
