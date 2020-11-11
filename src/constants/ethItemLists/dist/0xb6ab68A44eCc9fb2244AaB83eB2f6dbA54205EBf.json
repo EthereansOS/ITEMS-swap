@@ -1,7 +1,7 @@
 {
     "name": "Where is my Dragon",
     "keywords": [],
-    "tag": [],
+    "tags": {},
     "logoURI": "https://ipfs.io/ipfs/QmbgNFQJhaZRUEFRv9oXzxGjJzqKCMpMCez1szWoWh5C8s",
     "tokens": [
         {
@@ -10,8 +10,7 @@
             "symbol": "WIMD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmVBBUiixDzz2ByqsQZwJVvcMmBc9n7nki3q46Yxq22Ppq",
-            "tag": []
+            "logoURI": "https://ipfs.io/ipfs/QmVBBUiixDzz2ByqsQZwJVvcMmBc9n7nki3q46Yxq22Ppq"
         },
         {
             "address": "0xA70C8667cCFB63D6b98C2A050c94b7Bf2085dC55",
@@ -19,8 +18,7 @@
             "symbol": "WIMD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmNaoH5eStRyoYswCxE5CsXzx5yb7KyX36ThAgyv3uSQpT",
-            "tag": []
+            "logoURI": "https://ipfs.io/ipfs/QmNaoH5eStRyoYswCxE5CsXzx5yb7KyX36ThAgyv3uSQpT"
         },
         {
             "address": "0xE63983b5FAdE429eC052d1b365826C4Bc5fCB198",
@@ -28,8 +26,7 @@
             "symbol": "WIMD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmUGMkpUv8tGjogUkocnRyZ8WcsmwEbpyXLGERPMKPRsmX",
-            "tag": []
+            "logoURI": "https://ipfs.io/ipfs/QmUGMkpUv8tGjogUkocnRyZ8WcsmwEbpyXLGERPMKPRsmX"
         },
         {
             "address": "0x9b16e70797276Ae1bE23874961D1E6a9698e1EC6",
@@ -37,8 +34,7 @@
             "symbol": "WIMD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmfCbaMU3QyeyzNx65eRZMZHevLHXB3pw1FgNiyispLJ46",
-            "tag": []
+            "logoURI": "https://ipfs.io/ipfs/QmfCbaMU3QyeyzNx65eRZMZHevLHXB3pw1FgNiyispLJ46"
         },
         {
             "address": "0xc2c5667f69E881C83Fc4692f7A08a22370B4cc41",
@@ -46,8 +42,7 @@
             "symbol": "WIMD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmRmtjJDHAuiQi2B6pVvWnviXxDgri8m4HJjv7tj2STuo6",
-            "tag": []
+            "logoURI": "https://ipfs.io/ipfs/QmRmtjJDHAuiQi2B6pVvWnviXxDgri8m4HJjv7tj2STuo6"
         },
         {
             "address": "0x22e6559F495F97Af51fF56719CdFF80F65a0B93A",
@@ -55,8 +50,7 @@
             "symbol": "WIMD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmUDaGQZyNts6FAfYWzhjFzGTjWALzuZcQY91bDKBmVWur",
-            "tag": []
+            "logoURI": "https://ipfs.io/ipfs/QmUDaGQZyNts6FAfYWzhjFzGTjWALzuZcQY91bDKBmVWur"
         },
         {
             "address": "0x88B95322b5E93B891D83031F2f55Ca238D5e6417",
@@ -64,8 +58,7 @@
             "symbol": "WIMD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmPzhhPK1o39aJBk4V2M9dg2XxSp2S9UCcAbTPvuVCPj4C",
-            "tag": []
+            "logoURI": "https://ipfs.io/ipfs/QmPzhhPK1o39aJBk4V2M9dg2XxSp2S9UCcAbTPvuVCPj4C"
         }
     ],
     "version": {
@@ -73,5 +66,5 @@
         "minor": 1,
         "patch": 1
     },
-    "timestamp": "2020-11-11T18:30:40.595Z"
+    "timestamp": "2020-11-11T19:11:14.940Z"
 }

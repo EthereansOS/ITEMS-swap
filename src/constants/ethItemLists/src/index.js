@@ -48,9 +48,9 @@ async function elaborateCollection(collection, callback) {
         return;
     }
     var cleanCollection = {
-        name : collection.name,
+        name : collection.name.split('"').join(""),
         keywords : [],
-        tag : [],
+        tags : {},
         logoURI : window.formatLinkForExpose(await getLogoURI(collection)),
         tokens : [],
         version : {
@@ -63,12 +63,11 @@ async function elaborateCollection(collection, callback) {
     for(var rawItem of Object.values(collection.items)) {
         cleanCollection.tokens.push({
             address : rawItem.address,
-            name : rawItem.name,
-            symbol : rawItem.symbol,
+            name : rawItem.name.split('"').join(""),
+            symbol : rawItem.symbol.split('"').join(""),
             decimals : window.asNumber(rawItem.decimals),
             chainId : window.asNumber(window.networkId),
-            logoURI : window.formatLinkForExpose(await getLogoURI(rawItem)),
-            tag : []
+            logoURI : window.formatLinkForExpose(await getLogoURI(rawItem))
         });
     }
     callback(collection.address, cleanCollection);
