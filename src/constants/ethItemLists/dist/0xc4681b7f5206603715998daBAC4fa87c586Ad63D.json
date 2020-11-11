@@ -1,0 +1,50 @@
+{
+    "name": "WrappedERC20",
+    "keywords": [],
+    "tag": [],
+    "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/resources/W20-collection.png",
+    "tokens": [
+        {
+            "address": "0xAa843dd5fa4F9f07E2De5920dBf73D9a875C9e10",
+            "name": "EthereumItem",
+            "symbol": "IETH",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/resources/W20-item.png",
+            "tag": []
+        },
+        {
+            "address": "0xB071C111aA4Ec1e8E062600990846D37F175201A",
+            "name": "dfohubItem",
+            "symbol": "Ibuidl",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7b123f53421b1bF8533339BFBdc7C98aA94163db/logo.png",
+            "tag": []
+        },
+        {
+            "address": "0xf25c2cF5324a0E3C2Effc5E2b95d6E980B1de3Bd",
+            "name": "WHALEItem",
+            "symbol": "IWHALE",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9355372396e3F6daF13359B7b607a3374cc638e0/logo.png",
+            "tag": []
+        },
+        {
+            "address": "0x997E36EEB40dc9A46Cc4cef000f1e1E7edE82ce9",
+            "name": "USD CoinItem",
+            "symbol": "IUSDC",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
+            "tag": []
+        }
+    ],
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 1
+    },
+    "timestamp": "2020-11-11T18:22:01.572Z"
+}

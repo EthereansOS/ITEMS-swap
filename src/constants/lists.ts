@@ -46,7 +46,7 @@ var addressBarParams : any = extractAddressBarParams();
 addressBarParams.tokensList && dynamicListOfLists.push(addressBarParams.tokensList);
 
 try {
-  require("./ethItemLists/ethItemLists.json").forEach((list :string) => dynamicListOfLists.push(list));
+  require("./ethItemLists/dist/tokensList.json").forEach((list :string) => dynamicListOfLists.push(list));
 } catch(e) {
 }
 
