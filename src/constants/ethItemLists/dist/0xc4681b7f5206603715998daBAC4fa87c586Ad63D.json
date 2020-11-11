@@ -2,7 +2,7 @@
     "name": "WrappedERC20",
     "keywords": [],
     "tag": [],
-    "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/resources/W20-collection.png",
+    "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W20-collection.png",
     "tokens": [
         {
             "address": "0xAa843dd5fa4F9f07E2De5920dBf73D9a875C9e10",
@@ -10,7 +10,7 @@
             "symbol": "IETH",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/resources/W20-item.png",
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W20-item.png",
             "tag": []
         },
         {
@@ -46,5 +46,5 @@
         "minor": 1,
         "patch": 1
     },
-    "timestamp": "2020-11-11T18:22:01.572Z"
+    "timestamp": "2020-11-11T18:30:36.167Z"
 }

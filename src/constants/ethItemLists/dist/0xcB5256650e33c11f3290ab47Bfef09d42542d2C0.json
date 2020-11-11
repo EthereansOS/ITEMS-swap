@@ -2,7 +2,7 @@
     "name": "ethArt",
     "keywords": [],
     "tag": [],
-    "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/resources/W721-collection.png",
+    "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W721-collection.png",
     "tokens": [
         {
             "address": "0x8467331556e58bCDE5e135efDf441Df685B41C73",
@@ -19,5 +19,5 @@
         "minor": 1,
         "patch": 1
     },
-    "timestamp": "2020-11-11T18:21:58.591Z"
+    "timestamp": "2020-11-11T18:30:33.474Z"
 }
