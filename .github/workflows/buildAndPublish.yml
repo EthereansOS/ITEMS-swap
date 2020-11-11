@@ -11,7 +11,7 @@ jobs:
   buildAndPublish:
     runs-on: ubuntu-latest
     env:
-        working-directory: .src/constants/ethItemLists
+        working-directory: ./src/constants/ethItemLists
     strategy:
       matrix:
         node-version: [12.x]
