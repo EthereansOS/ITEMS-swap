@@ -1,0 +1,41 @@
+{
+    "name": "TokenItem",
+    "keywords": [],
+    "tag": [],
+    "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/W20-collection.png",
+    "tokens": [
+        {
+            "address": "0x5543417502006bFed37C452441e70B35b8C64aBc",
+            "name": "ArtezaItem",
+            "symbol": "IARTEZA",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/W20-item.png",
+            "tag": []
+        },
+        {
+            "address": "0x9255B071dB0D2BeF0CcE237D75AcEFD4d9de1BbF",
+            "name": "DFOhubItem",
+            "symbol": "Ibuidl",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/W20-item.png",
+            "tag": []
+        },
+        {
+            "address": "0xF5E263148AE86f1dE1CE88BDe853b07397211C30",
+            "name": "Wrapped EtherItem",
+            "symbol": "IWETH",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/W20-item.png",
+            "tag": []
+        }
+    ],
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 1
+    },
+    "timestamp": "2020-11-11T15:51:28.062Z"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "TokenItem",
+    "keywords": [],
+    "tag": [],
+    "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/W20-collection.png",
+    "tokens": [
+        {
+            "address": "0x7792710c5E93D17FBEA8316fA227637a339B9830",
+            "name": "USD CoinItem",
+            "symbol": "IUSDC",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/W20-item.png",
+            "tag": []
+        },
+        {
+            "address": "0xE21EeE1710Df1fCA722f53349B03237E356Fc868",
+            "name": "ArtezaItemItem",
+            "symbol": "IIARTEZA",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/W20-item.png",
+            "tag": []
+        }
+    ],
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 1
+    },
+    "timestamp": "2020-11-11T15:51:26.014Z"
+}

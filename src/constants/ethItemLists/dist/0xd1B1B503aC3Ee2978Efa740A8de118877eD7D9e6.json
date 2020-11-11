@@ -1,0 +1,59 @@
+{
+    "name": "MyColl",
+    "keywords": [],
+    "tag": [],
+    "logoURI": "https://ipfs.io/ipfs/QmNa3W2xEEAZhCSmSp3pzuvRD3vC2Tr7mzg8SvdwssYKCZ",
+    "tokens": [
+        {
+            "address": "0x142F0d872a9579C61098c783aeD1c5F9404C6167",
+            "name": "MyColl",
+            "symbol": "MCO",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://ipfs.io/ipfs/QmNa3W2xEEAZhCSmSp3pzuvRD3vC2Tr7mzg8SvdwssYKCZ",
+            "tag": []
+        },
+        {
+            "address": "0x0d6e063390D411fB0B0c284Da0D32630dEfc4D38",
+            "name": "MyColl",
+            "symbol": "MCO",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://ipfs.io/ipfs/QmNa3W2xEEAZhCSmSp3pzuvRD3vC2Tr7mzg8SvdwssYKCZ",
+            "tag": []
+        },
+        {
+            "address": "0x0d5A3BF9CA90aE151F479e3B4E285dFC111B42AF",
+            "name": "MyColl",
+            "symbol": "MCO",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/Native-item.png",
+            "tag": []
+        },
+        {
+            "address": "0xfDF7D1D5541cD6c4f03b3e3aA81CDfaDE54397E9",
+            "name": "Michaelo",
+            "symbol": "MIKI",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/Native-item.png",
+            "tag": []
+        },
+        {
+            "address": "0xE6E7f0b48b2E8026c27584EfF67244126274e01b",
+            "name": "MyColl",
+            "symbol": "MCO",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://ipfs.io/ipfs/QmNa3W2xEEAZhCSmSp3pzuvRD3vC2Tr7mzg8SvdwssYKCZ",
+            "tag": []
+        }
+    ],
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 1
+    },
+    "timestamp": "2020-11-11T15:51:30.733Z"
+}

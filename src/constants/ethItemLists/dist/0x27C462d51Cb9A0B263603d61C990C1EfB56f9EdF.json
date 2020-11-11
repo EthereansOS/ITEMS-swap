@@ -1,0 +1,23 @@
+{
+    "name": "fsdfsd",
+    "keywords": [],
+    "tag": [],
+    "logoURI": "https://ipfs.io/ipfs/QmNa3W2xEEAZhCSmSp3pzuvRD3vC2Tr7mzg8SvdwssYKCZ",
+    "tokens": [
+        {
+            "address": "0x533C80305E5e7aCEC035867c064F15D332a68a7C",
+            "name": "fsdfsd",
+            "symbol": "sdfsdf",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://ipfs.io/ipfs/QmNa3W2xEEAZhCSmSp3pzuvRD3vC2Tr7mzg8SvdwssYKCZ",
+            "tag": []
+        }
+    ],
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 1
+    },
+    "timestamp": "2020-11-11T15:51:24.791Z"
+}

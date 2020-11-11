@@ -1,0 +1,32 @@
+{
+    "name": "TokenItem",
+    "keywords": [],
+    "tag": [],
+    "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/W20-collection.png",
+    "tokens": [
+        {
+            "address": "0x2B3bBc05A69e006fD4885EbDE5E068f64cF42CfB",
+            "name": "ArtezaItem",
+            "symbol": "IARTEZA",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/W20-item.png",
+            "tag": []
+        },
+        {
+            "address": "0xd8566bFcA8713d265F0b8b28d55d6835bee999ad",
+            "name": "Basic Attention TokenItem",
+            "symbol": "IBAT",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/W20-item.png",
+            "tag": []
+        }
+    ],
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 1
+    },
+    "timestamp": "2020-11-11T15:51:25.784Z"
+}

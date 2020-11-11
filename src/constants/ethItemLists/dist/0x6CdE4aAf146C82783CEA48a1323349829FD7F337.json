@@ -1,0 +1,32 @@
+{
+    "name": "EthItemNameService",
+    "keywords": [],
+    "tag": [],
+    "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/W1155-collection.png",
+    "tokens": [
+        {
+            "address": "0xEcb4eC4734fD307279f1d660EDEc504Baf006194",
+            "name": "EthItemNameService",
+            "symbol": "IENS",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/W1155-item.png",
+            "tag": []
+        },
+        {
+            "address": "0xa08E61901451d855Ff1AB3D6F8ae5351C77A12bF",
+            "name": "EthItemNameService",
+            "symbol": "IENS",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/W1155-item.png",
+            "tag": []
+        }
+    ],
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 2
+    },
+    "timestamp": "2020-11-11T15:51:25.758Z"
+}

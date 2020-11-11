@@ -1,0 +1,23 @@
+{
+    "name": "Where is my Dragon",
+    "keywords": [],
+    "tag": [],
+    "logoURI": "https://ipfs.io/ipfs/QmbgNFQJhaZRUEFRv9oXzxGjJzqKCMpMCez1szWoWh5C8s",
+    "tokens": [
+        {
+            "address": "0x3C12E48063e7959426a860DD664AC62cD4545E8E",
+            "name": "Where is my Dragon",
+            "symbol": "Paolo",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://ipfs.io/ipfs/QmbgNFQJhaZRUEFRv9oXzxGjJzqKCMpMCez1szWoWh5C8s",
+            "tag": []
+        }
+    ],
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 1
+    },
+    "timestamp": "2020-11-11T15:51:25.807Z"
+}

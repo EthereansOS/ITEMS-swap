@@ -1,0 +1,59 @@
+{
+    "name": "NewMethod",
+    "keywords": [],
+    "tag": [],
+    "logoURI": "https://ipfs.io/ipfs/QmNa3W2xEEAZhCSmSp3pzuvRD3vC2Tr7mzg8SvdwssYKCZ",
+    "tokens": [
+        {
+            "address": "0x09a3032AbCc42cf686E534Ed774a5F1273820335",
+            "name": "Tst",
+            "symbol": "NEW",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://ipfs.io/ipfs/QmNa3W2xEEAZhCSmSp3pzuvRD3vC2Tr7mzg8SvdwssYKCZ",
+            "tag": []
+        },
+        {
+            "address": "0xE3c3228EC6C82BC7feFE818384CBA586996350Fe",
+            "name": "rrr",
+            "symbol": "NEW",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://ipfs.io/ipfs/QmNa3W2xEEAZhCSmSp3pzuvRD3vC2Tr7mzg8SvdwssYKCZ",
+            "tag": []
+        },
+        {
+            "address": "0xE38b95A153f6B03FF380b2EA72eE71F1f3D64C46",
+            "name": "111",
+            "symbol": "NEW",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://ipfs.io/ipfs/QmNa3W2xEEAZhCSmSp3pzuvRD3vC2Tr7mzg8SvdwssYKCZ",
+            "tag": []
+        },
+        {
+            "address": "0x6bcb36C125370D9B1Cf3A964F424DD1867A71067",
+            "name": "222",
+            "symbol": "NEW",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://ipfs.io/ipfs/QmNa3W2xEEAZhCSmSp3pzuvRD3vC2Tr7mzg8SvdwssYKCZ",
+            "tag": []
+        },
+        {
+            "address": "0x2ab36D2f8234833B99146E9f8C233dBb9597C059",
+            "name": "oo",
+            "symbol": "NEW",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/Native-item.png",
+            "tag": []
+        }
+    ],
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 1
+    },
+    "timestamp": "2020-11-11T15:51:30.089Z"
+}

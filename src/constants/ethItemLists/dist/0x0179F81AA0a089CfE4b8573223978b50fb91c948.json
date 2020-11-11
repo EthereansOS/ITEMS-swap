@@ -1,0 +1,41 @@
+{
+    "name": "Beat",
+    "keywords": [],
+    "tag": [],
+    "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/Native-collection.png",
+    "tokens": [
+        {
+            "address": "0x11B3Ad9F86A8a63dB3113439d595e48837623a0A",
+            "name": "\"\"",
+            "symbol": "BOX",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/Native-item.png",
+            "tag": []
+        },
+        {
+            "address": "0xbC89FF3a96E1e0Fd962F573D20Ca4f0504b0E404",
+            "name": "Beat",
+            "symbol": "BOX",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/Native-item.png",
+            "tag": []
+        },
+        {
+            "address": "0x0098AE3E8E2Cd97Ab14821d943Ec77eDDf2C74c3",
+            "name": "BattiBaleno",
+            "symbol": "BOX",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://raw.githubusercontent.com/item-token-lists-generator/assets/master/assets/img/Native-item.png",
+            "tag": []
+        }
+    ],
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 1
+    },
+    "timestamp": "2020-11-11T15:51:27.381Z"
+}

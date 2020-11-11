@@ -1,0 +1,32 @@
+{
+    "name": "TEST",
+    "keywords": [],
+    "tag": [],
+    "logoURI": "https://ipfs.io/ipfs/QmdHtbaYCuZavLMwoLsX92x7wmkNPduh6EdC8Z1du1rQhp",
+    "tokens": [
+        {
+            "address": "0x9963866f7dA387Ba53F629b60CcA1947AcAF4441",
+            "name": "Gigi",
+            "symbol": "GIG",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://ipfs.io/ipfs/QmR5wkNMwRW3b7bqZcJhHqhbQ5G65Gy4oDSGfSdzUe4ri5",
+            "tag": []
+        },
+        {
+            "address": "0x8E104752b2e74e502a85FF52Ac41dAD97D66957d",
+            "name": "TEST",
+            "symbol": "TEST",
+            "decimals": 18,
+            "chainId": 3,
+            "logoURI": "https://ipfs.io/ipfs/QmVmhmqFV9FeFLwmfJtjbwAXFFCz2K9FKQRaLR6qeaSt6y",
+            "tag": []
+        }
+    ],
+    "version": {
+        "major": 1,
+        "minor": 1,
+        "patch": 1
+    },
+    "timestamp": "2020-11-11T15:51:26.314Z"
+}
