@@ -30,18 +30,15 @@ jobs:
       run: npm install
 
     - name: Create env parameters
-      working-directory: ${{ working-directory }}
       run: |
         touch .env
         echo BLOCKCHAIN_CONNECTION_STRING =${{ secrets.BLOCKCHAIN_CONNECTION_STRING }} >> .env
         echo BLOCKCHAIN_CONNECTION_FOR_LOGS_STRING =${{ secrets.BLOCKCHAIN_CONNECTION_FOR_LOGS_STRING }} >> .env
 
     - name: Build JSONs
-      working-directory: ${{ working-directory }}
       run: npm run start
 
     - name: Commit changes
-      working-directory: ${{ working-directory }}
       uses: EndBug/add-and-commit@v4
       with:
         author_name: King Julian
