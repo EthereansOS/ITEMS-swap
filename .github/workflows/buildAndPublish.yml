@@ -39,7 +39,7 @@ jobs:
 
     - name: Build JSONs
       working-directory: ${{ working-directory }}
-      run: npm run build
+      run: npm run start
 
     - name: Commit changes
       working-directory: ${{ working-directory }}
