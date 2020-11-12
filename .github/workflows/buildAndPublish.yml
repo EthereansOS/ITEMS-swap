@@ -35,7 +35,6 @@ jobs:
       run: |
         touch .env
         echo BLOCKCHAIN_CONNECTION_STRING =${{ secrets.BLOCKCHAIN_CONNECTION_STRING }} >> .env
-        echo BLOCKCHAIN_CONNECTION_FOR_LOGS_STRING =${{ secrets.BLOCKCHAIN_CONNECTION_FOR_LOGS_STRING }} >> .env
 
     - name: Build JSONs
       working-directory: ./src/constants/ethItemLists

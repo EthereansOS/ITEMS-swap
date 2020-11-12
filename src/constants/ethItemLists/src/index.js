@@ -4,7 +4,6 @@ var fs = require('fs');
 var path = require('path');
 
 window.context.blockchainConnectionString = window.context.blockchainConnectionString || process.env.BLOCKCHAIN_CONNECTION_STRING;
-window.context.blockchainConnectionForLogsString = window.context.blockchainConnectionForLogsString || process.env.BLOCKCHAIN_CONNECTION_FOR_LOGS_STRING;
 
 function cleanPath(path) {
     try {

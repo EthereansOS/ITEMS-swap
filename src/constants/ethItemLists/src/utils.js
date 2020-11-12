@@ -174,7 +174,7 @@ window.onEthereumUpdate = function onEthereumUpdate(millis) {
 
 window.createWeb3 = async function createWeb3(connectionProvider) {
     var web3 = new window.Web3Browser(connectionProvider);
-    web3.currentProvider.setMaxListeners && window.web3.currentProvider.setMaxListeners(0);
+    web3.currentProvider && web3.currentProvider.setMaxListeners && window.web3.currentProvider.setMaxListeners(0);
     web3.eth.transactionBlockTimeout = 999999999;
     web3.eth.transactionPollingTimeout = new Date().getTime();
     web3.startBlock = await web3.eth.getBlockNumber();
