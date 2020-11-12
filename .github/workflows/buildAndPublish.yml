@@ -19,11 +19,9 @@ jobs:
     steps:
 
     - name: Use Node.js ${{ matrix.node-version }}
-      working-directory: ${{ working-directory }}
       uses: actions/checkout@v2
 
     - name: Environment Preparation
-      working-directory: ${{ working-directory }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
