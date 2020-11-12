@@ -35,6 +35,70 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+        },
+        {
+            "address": "0xB32D8BC894BF8928Eda0DB3819cF8C10e12e0F5c",
+            "name": "CoomCoinItem",
+            "symbol": "ICOOM",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W20-item.png"
+        },
+        {
+            "address": "0xaD166F08aeEfE903b824D98A0F2d9454a937D1aB",
+            "name": "AmpleforthItem",
+            "symbol": "IAMPL",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xD46bA6D942050d489DBd938a2C909A5d5039A161/logo.png"
+        },
+        {
+            "address": "0xdfb1688CB6dD913c73Ad582Fbb0b9D1A5F951362",
+            "name": "EminenceItem",
+            "symbol": "IEMN",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W20-item.png"
+        },
+        {
+            "address": "0x568E537E969202319Fd29E5955807d5A393fB4E3",
+            "name": "UniFiItem",
+            "symbol": "IUniFi",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"
+        },
+        {
+            "address": "0x89F00d7009C036bb4Cb412416BE06aA9596A4B69",
+            "name": "ethartItem",
+            "symbol": "Iarte",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x34612903Db071e888a4dADcaA416d3EE263a87b9/logo.png"
+        },
+        {
+            "address": "0x468a1f0e1e3139B71464E6200571A8061D850A2c",
+            "name": "Dai StablecoinItem",
+            "symbol": "IDAI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+        },
+        {
+            "address": "0xb75c26052A161898e7f3C8F20A7E92e118060831",
+            "name": "Tether USDItem",
+            "symbol": "IUSDT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+        },
+        {
+            "address": "0x772c0A87ABc1878F4D226cb8757a90bE673DF25A",
+            "name": "Aavegotchi GHST TokenItem",
+            "symbol": "IGHST",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W20-item.png"
         }
     ],
     "version": {
@@ -42,5 +106,5 @@
         "minor": 1,
         "patch": 1
     },
-    "timestamp": "2020-11-11T19:11:10.870Z"
+    "timestamp": "2020-11-12T20:29:15.204Z"
 }
