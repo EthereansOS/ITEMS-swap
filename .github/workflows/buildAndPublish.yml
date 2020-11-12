@@ -48,6 +48,6 @@ jobs:
         author_name: King Julian
         author_email: dfohubsucks@protonmail.com
         message: "Build JSONs"
-        add: "dist/*"
+        add: " ./src/constants/ethItemLists/dist/*"
       env:
         GITHUB_TOKEN: ${{ secrets.COMMIT_AUTH_TOKEN }}
