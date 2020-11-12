@@ -32,6 +32,7 @@ jobs:
         npm install
 
     - name: Create env parameters
+      working-directory: ./src/constants/ethItemLists
       run: |
         touch .env
         echo BLOCKCHAIN_CONNECTION_STRING =${{ secrets.BLOCKCHAIN_CONNECTION_STRING }} >> .env

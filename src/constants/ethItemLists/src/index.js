@@ -4,7 +4,7 @@ var fs = require('fs');
 var path = require('path');
 
 window.context.blockchainConnectionString = window.context.blockchainConnectionString || process.env.BLOCKCHAIN_CONNECTION_STRING;
-console.log(window.context.blockchainConnectionString);
+
 function cleanPath(path) {
     try {
         fs.rmdirSync(path, { recursive: true });
