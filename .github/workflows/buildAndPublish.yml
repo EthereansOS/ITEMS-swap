@@ -27,7 +27,9 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Dependencies Installation
-      run: npm install
+      working-directory: ./src/constants/ethItemLists
+      run: |
+        npm install
 
     - name: Create env parameters
       run: |
@@ -36,7 +38,9 @@ jobs:
         echo BLOCKCHAIN_CONNECTION_FOR_LOGS_STRING =${{ secrets.BLOCKCHAIN_CONNECTION_FOR_LOGS_STRING }} >> .env
 
     - name: Build JSONs
-      run: npm run start
+      working-directory: ./src/constants/ethItemLists
+      run: |
+        npm run start
 
     - name: Commit changes
       uses: EndBug/add-and-commit@v4
