@@ -27,7 +27,6 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Dependencies Installation
-      working-directory: ${{ working-directory }}
       run: npm install
 
     - name: Create env parameters
