@@ -28,7 +28,7 @@ async function loop() {
     cleanPath(distPath);
     var collections = await loadCollections();
     var tokenLists = {
-        name : "EthItem Tokens List",
+        name : window.shortenWord("EthItem Tokens List", 20).replace(/[^\w\s]/gi, '').trim(),
         keywords : [],
         tags : {},
         logoURI : window.context.collectionLogoURI,
@@ -60,7 +60,7 @@ async function elaborateCollection(collection, callback) {
         return;
     }
     var cleanCollection = {
-        name : collection.name.replace(/[^\w\s]/gi, ''),
+        name : window.shortenWord(collection.name, 20).replace(/[^\w\s]/gi, '').trim(),
         keywords : [],
         tags : {},
         logoURI : window.formatLinkForExpose(await getLogoURI(collection)),
@@ -75,8 +75,8 @@ async function elaborateCollection(collection, callback) {
     for(var rawItem of Object.values(collection.items)) {
         cleanCollection.tokens.push({
             address : rawItem.address,
-            name : rawItem.name.replace(/[^\w\s]/gi, ''),
-            symbol : rawItem.symbol.replace(/[^\w\s]/gi, ''),
+            name : window.shortenWord(rawItem.name, 20).replace(/[^\w\s]/gi, '').trim(),
+            symbol : window.shortenWord(rawItem.symbol, 20).replace(/[^\w\s]/gi, '').trim(),
             decimals : window.asNumber(rawItem.decimals),
             chainId : window.asNumber(window.networkId),
             logoURI : window.formatLinkForExpose(await getLogoURI(rawItem))
