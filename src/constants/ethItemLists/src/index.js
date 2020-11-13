@@ -27,17 +27,30 @@ async function loop() {
     var distPath = path.resolve(__dirname, "../dist");
     cleanPath(distPath);
     var collections = await loadCollections();
-    var tokenLists = {};
-    var addToTokenLists = function addToTokenLists(key, value) {
-        tokenLists[key] = value;
+    var tokenLists = {
+        name : "EthItem Tokens List",
+        keywords : [],
+        tags : {},
+        logoURI : window.context.collectionLogoURI,
+        tokens : [],
+        version : {
+            major: 1,
+            minor: 0,
+            patch: 0
+        },
+        timestamp: new Date().toISOString()
+    };
+    var addToTokenLists = function addToTokenLists(tokens) {
+        tokenLists.tokens.push(...tokens);
     };
     await Promise.all(collections.map(collection => elaborateCollection(collection, addToTokenLists)));
     var p = path.resolve(distPath, "tokensList.json");
-    fs.writeFileSync(p, JSON.stringify(Object.keys(tokenLists).map(it => window.context.listURITemplate.format(it)), null, 4));
+    fs.writeFileSync(p, JSON.stringify(tokenLists, null, 4));
+    /*fs.writeFileSync(p, JSON.stringify(Object.keys(tokenLists).map(it => window.context.listURITemplate.format(it)), null, 4));
     for(var entry of Object.entries(tokenLists)) {
         var p = path.resolve(distPath, `${entry[0]}.json`);
         fs.writeFileSync(p, JSON.stringify(entry[1], null, 4));
-    }
+    }*/
     window.context.loopTimeout && setTimeout(loop, window.context.loopTimeout);
 }
 
@@ -69,7 +82,7 @@ async function elaborateCollection(collection, callback) {
             logoURI : window.formatLinkForExpose(await getLogoURI(rawItem))
         });
     }
-    callback(collection.address, cleanCollection);
+    callback(cleanCollection.tokens);
 }
 
 async function getLogoURI(element) {

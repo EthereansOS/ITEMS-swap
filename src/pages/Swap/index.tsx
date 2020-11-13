@@ -1,5 +1,5 @@
-import { CurrencyAmount, JSBI, Trade } from '@uniswap/sdk'
-import React, { useCallback, useContext, useEffect, useState } from 'react'
+import { CurrencyAmount, JSBI, Token, Trade } from '@uniswap/sdk'
+import React, { useCallback, useContext, useEffect, useMemo, useState } from 'react'
 import { ArrowDown } from 'react-feather'
 import ReactGA from 'react-ga'
 import { Text } from 'rebass'
@@ -17,11 +17,13 @@ import BetterTradeLink, { DefaultVersionLink } from '../../components/swap/Bette
 import confirmPriceImpactWithoutFee from '../../components/swap/confirmPriceImpactWithoutFee'
 import { ArrowWrapper, BottomGrouping, SwapCallbackError, Wrapper } from '../../components/swap/styleds'
 import TradePrice from '../../components/swap/TradePrice'
+import TokenWarningModal from '../../components/TokenWarningModal'
 import ProgressSteps from '../../components/ProgressSteps'
 
 import { BETTER_TRADE_LINK_THRESHOLD, INITIAL_ALLOWED_SLIPPAGE } from '../../constants'
 import { getTradeVersion, isTradeBetter } from '../../data/V1'
 import { useActiveWeb3React } from '../../hooks'
+import { useCurrency } from '../../hooks/Tokens'
 import { ApprovalState, useApproveCallbackFromTrade } from '../../hooks/useApproveCallback'
 import useENSAddress from '../../hooks/useENSAddress'
 import { useSwapCallback } from '../../hooks/useSwapCallback'
@@ -30,6 +32,7 @@ import useWrapCallback, { WrapType } from '../../hooks/useWrapCallback'
 import { useToggleSettingsMenu, useWalletModalToggle } from '../../state/application/hooks'
 import { Field } from '../../state/swap/actions'
 import {
+  useDefaultsFromURLSearch,
   useDerivedSwapInfo,
   useSwapActionHandlers,
   useSwapState
@@ -43,6 +46,23 @@ import { ClickableText } from '../Pool/styleds'
 import Loader from '../../components/Loader'
 
 export default function Swap() {
+
+  const loadedUrlParams = useDefaultsFromURLSearch()
+
+  // token warning stuff
+  const [loadedInputCurrency, loadedOutputCurrency] = [
+    useCurrency(loadedUrlParams?.inputCurrencyId),
+    useCurrency(loadedUrlParams?.outputCurrencyId)
+  ]
+  //const [dismissTokenWarning, setDismissTokenWarning] = useState<boolean>(false)
+  const dismissTokenWarning = true;
+  const urlLoadedTokens: Token[] = useMemo(
+    () => [loadedInputCurrency, loadedOutputCurrency]?.filter((c): c is Token => c instanceof Token) ?? [],
+    [loadedInputCurrency, loadedOutputCurrency]
+  )
+  const handleConfirmTokenWarning = useCallback(() => {
+    //setDismissTokenWarning(true)
+  }, [])
 
   const { account } = useActiveWeb3React()
   const theme = useContext(ThemeContext)
@@ -248,6 +268,11 @@ export default function Swap() {
 
   return (
     <>
+      <TokenWarningModal
+        isOpen={urlLoadedTokens.length > 0 && !dismissTokenWarning}
+        tokens={urlLoadedTokens}
+        onConfirm={handleConfirmTokenWarning}
+      />
       <AppBody>
         <SwapPoolTabs active={'swap'} />
         <Wrapper id="swap-page">
