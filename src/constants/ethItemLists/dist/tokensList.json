@@ -6,47 +6,39 @@
     "tokens": [
         {
             "address": "0x94BF495C4E71CD9BC07a8172E2058E423baBdB19",
-            "name": "MyCryptoHeroes:Hero",
+            "name": "MyCryptoHeroesHero",
             "symbol": "MCHH",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
-            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
-            "name": "DΞFY 👁 Token 3",
-            "symbol": "DEFY",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
             "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
-            "name": "Whip of Erebos - Animated Special Edition",
+            "name": "Whip of Erebos  Animated Special Edition",
             "symbol": "MTG",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
-            "name": "Ticket - Mythical",
-            "symbol": "0x93ea6ec350ace7473f7694d43dec2726a515e31a",
+            "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
+            "name": "DRM 1st Edition  Fudzilla common",
+            "symbol": "DRM",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
-            "name": "Genetic Algorithm",
-            "symbol": "SUPR",
+            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
+            "name": "DFY  Token 3",
+            "symbol": "DEFY",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0x8467331556e58bCDE5e135efDf441Df685B41C73",
-            "name": "Lucky the DFOGhost2.0",
+            "name": "Lucky the DFOGhost20",
             "symbol": "ETRA",
             "decimals": 18,
             "chainId": 1,
@@ -61,12 +53,28 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
-            "name": "LAND (119, -40)",
-            "symbol": "LAND",
+            "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
+            "name": "Genetic Algorithm",
+            "symbol": "SUPR",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
+            "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
+        },
+        {
+            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
+            "name": "Ticket  Mythical",
+            "symbol": "0x93ea6ec350ace7473f7694d43dec2726a515e31a",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
+        },
+        {
+            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
+            "name": "Gods Unchained Cards",
+            "symbol": "CARD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
             "address": "0x84d9c5dcD7FB94a148E161d217B21863F81e3dfB",
@@ -77,12 +85,12 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
-            "name": "/DRM/ 1st Edition - Fudzilla [common]",
-            "symbol": "DRM",
+            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
+            "name": "LAND 119 40",
+            "symbol": "LAND",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
+            "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
         },
         {
             "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
@@ -91,14 +99,6 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
-        },
-        {
-            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
-            "name": "Gods Unchained Cards",
-            "symbol": "CARD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
             "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
@@ -118,7 +118,7 @@
         },
         {
             "address": "0x33e554d0f8957A5bC14DCbf033E6C450E20aefA0",
-            "name": "BlueKirby.eth",
+            "name": "BlueKirbyeth",
             "symbol": "RMU",
             "decimals": 18,
             "chainId": 1,
@@ -134,7 +134,7 @@
         },
         {
             "address": "0xFEfFBB1DC28346Ae94c1115420407Ff6e997c3E2",
-            "name": "ChainLinkGod.eth",
+            "name": "ChainLinkGodeth",
             "symbol": "RMU",
             "decimals": 18,
             "chainId": 1,
@@ -206,7 +206,7 @@
         },
         {
             "address": "0x32e4623Ed080085479a31e727b1C005A2CA5A850",
-            "name": "LUCK CARDS - Limited Series - [1] OLD WISE MAN",
+            "name": "LUCK CARDS  Limited Series  1 OLD WISE MAN",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
@@ -222,7 +222,7 @@
         },
         {
             "address": "0x66Af9569DB344d05eC1Dd1777c8604c98a71784c",
-            "name": "Andre Cronje - Yearn.Finance (YFI) Portrait",
+            "name": "Andre Cronje  YearnFinance YFI Portrait",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
@@ -230,7 +230,7 @@
         },
         {
             "address": "0x345eCB9cfD6A30c567696dd7BA69275ee9434527",
-            "name": "Vitalik Buterin - Etherium (ETH) Portrait",
+            "name": "Vitalik Buterin  Etherium ETH Portrait",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
@@ -238,7 +238,7 @@
         },
         {
             "address": "0xe1ca5478C06e121581a6d41E0dA50097E8AE9bA7",
-            "name": "Another World x Vybloom *Limited*",
+            "name": "Another World x Vybloom Limited",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
@@ -254,7 +254,7 @@
         },
         {
             "address": "0x0362EB0CbB99175a8148C57B87f0d11B5AF74714",
-            "name": "Rag-Doll",
+            "name": "RagDoll",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
@@ -286,7 +286,7 @@
         },
         {
             "address": "0x82739705EE805273Ebd2667172D084d8ebF98AF9",
-            "name": "Changpeng Zhao (CZ) Common",
+            "name": "Changpeng Zhao CZ Common",
             "symbol": "MEMES",
             "decimals": 18,
             "chainId": 1,
@@ -310,11 +310,27 @@
         },
         {
             "address": "0xc0Aa1d719B8d55F98701afa37A98D8efFa5C10cD",
-            "name": "Don't Drink",
+            "name": "Dont Drink",
             "symbol": "MEMES",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://images.dontbuymeme.com/artist-series/diego/static/dont-drink.jpg"
+        },
+        {
+            "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
+            "name": "Sam BankmanFried Common",
+            "symbol": "CHADSLTD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://api.chads.vc/img/1.gif"
+        },
+        {
+            "address": "0x52e49e2017763C39137aDa463d447adC74b9E63c",
+            "name": "Anthony Sassano Common",
+            "symbol": "CHADSLTD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://api.chads.vc/img/3.gif"
         },
         {
             "address": "0xAa843dd5fa4F9f07E2De5920dBf73D9a875C9e10",
@@ -590,27 +606,11 @@
         },
         {
             "address": "0x263343aF0519678266e94dBCaDAB369e26cBf724",
-            "name": "SURF.FinanceItem",
+            "name": "SURFFinanceItem",
             "symbol": "ISURF",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c/logo.png"
-        },
-        {
-            "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
-            "name": "Sam Bankman-Fried Common",
-            "symbol": "CHADSLTD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://api.chads.vc/img/1.gif"
-        },
-        {
-            "address": "0x52e49e2017763C39137aDa463d447adC74b9E63c",
-            "name": "Anthony Sassano Common",
-            "symbol": "CHADSLTD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://api.chads.vc/img/3.gif"
         }
     ],
     "version": {
@@ -618,5 +618,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2020-11-13T11:33:52.817Z"
+    "timestamp": "2020-11-13T12:39:53.496Z"
 }
