@@ -60,7 +60,7 @@ async function elaborateCollection(collection, callback) {
         return;
     }
     var cleanCollection = {
-        name : collection.name.split('"').join(""),
+        name : collection.name.replace(/[^\w\s]/gi, ''),
         keywords : [],
         tags : {},
         logoURI : window.formatLinkForExpose(await getLogoURI(collection)),
@@ -75,8 +75,8 @@ async function elaborateCollection(collection, callback) {
     for(var rawItem of Object.values(collection.items)) {
         cleanCollection.tokens.push({
             address : rawItem.address,
-            name : rawItem.name.split('"').join(""),
-            symbol : rawItem.symbol.split('"').join(""),
+            name : rawItem.name.replace(/[^\w\s]/gi, ''),
+            symbol : rawItem.symbol.replace(/[^\w\s]/gi, ''),
             decimals : window.asNumber(rawItem.decimals),
             chainId : window.asNumber(window.networkId),
             logoURI : window.formatLinkForExpose(await getLogoURI(rawItem))
