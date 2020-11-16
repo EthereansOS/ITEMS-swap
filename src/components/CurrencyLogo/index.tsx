@@ -11,14 +11,14 @@ const getTokenLogoURL = (address: string) => `../../assets/images/${address}.png
 
 const StyledEthereumLogo = styled.img<{ size: string }>`
   width: ${({ size }) => size};
-  height: 50px;
+  height: ${({ size }) => size};
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.075);
   border-radius: 0px;
 `
 
 const StyledLogo = styled(Logo)<{ size: string }>`
   width: ${({ size }) => size};
-  height: 75px;
+  max-height: 75px;
   border-radius: 0px;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.075);
 `
