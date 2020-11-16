@@ -19,14 +19,50 @@ export const AMPL = new Token(ChainId.MAINNET, '0xD46bA6D942050d489DBd938a2C909A
 export const WBTC = new Token(ChainId.MAINNET, '0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599', 18, 'WBTC', 'Wrapped BTC')
 export const BUIDL = new Token(ChainId.MAINNET, '0x7b123f53421b1bF8533339BFBdc7C98aA94163db', 18, 'buidl', 'dfohub')
 export const ARTE = new Token(ChainId.MAINNET, '0x34612903Db071e888a4dADcaA416d3EE263a87b9', 18, 'arte', 'ethart')
-export const USD = new Token(ChainId.MAINNET, '0x44086035439E676c02D411880FcCb9837CE37c57', 18, 'uSD', 'unified Stable Dollar')
+export const USD = new Token(
+  ChainId.MAINNET,
+  '0x44086035439E676c02D411880FcCb9837CE37c57',
+  18,
+  'uSD',
+  'unified Stable Dollar'
+)
 export const UNIFI = new Token(ChainId.MAINNET, '0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5', 18, 'UniFI', 'UniFi')
-export const PFS = new Token(ChainId.MAINNET, '0xE63983b5FAdE429eC052d1b365826C4Bc5fCB198', 18, 'Penguin Fancy Shoes', 'PenFS')
-export const UG = new Token(ChainId.MAINNET, '0x88B95322b5E93B891D83031F2f55Ca238D5e6417', 18, 'Unicorn Ghost', 'UniGhost')
-export const UD = new Token(ChainId.MAINNET, '0x22e6559F495F97Af51fF56719CdFF80F65a0B93A', 18, 'Unicorn Dragon', 'UniDragon')
+export const PFS = new Token(
+  ChainId.MAINNET,
+  '0xE63983b5FAdE429eC052d1b365826C4Bc5fCB198',
+  18,
+  'Penguin Fancy Shoes',
+  'PenFS'
+)
+export const UG = new Token(
+  ChainId.MAINNET,
+  '0x88B95322b5E93B891D83031F2f55Ca238D5e6417',
+  18,
+  'Unicorn Ghost',
+  'UniGhost'
+)
+export const UD = new Token(
+  ChainId.MAINNET,
+  '0x22e6559F495F97Af51fF56719CdFF80F65a0B93A',
+  18,
+  'Unicorn Dragon',
+  'UniDragon'
+)
 export const UC = new Token(ChainId.MAINNET, '0xc2c5667f69E881C83Fc4692f7A08a22370B4cc41', 18, 'Unicorn Cat', 'UniCat')
-export const PU = new Token(ChainId.MAINNET, '0x9b16e70797276Ae1bE23874961D1E6a9698e1EC6', 18, 'Penguin Unicorn', 'PenUni')
-export const MU = new Token(ChainId.MAINNET, '0xA70C8667cCFB63D6b98C2A050c94b7Bf2085dC55', 18, 'Magician Unicorn', 'MagUni')
+export const PU = new Token(
+  ChainId.MAINNET,
+  '0x9b16e70797276Ae1bE23874961D1E6a9698e1EC6',
+  18,
+  'Penguin Unicorn',
+  'PenUni'
+)
+export const MU = new Token(
+  ChainId.MAINNET,
+  '0xA70C8667cCFB63D6b98C2A050c94b7Bf2085dC55',
+  18,
+  'Magician Unicorn',
+  'MagUni'
+)
 export const MC = new Token(ChainId.MAINNET, '0x7C23Ac2E8DA915d4f422CF710f4767FAa0c332fa', 18, 'Magician Cat', 'MagCat')
 
 // Block time here is slightly higher (~1s) than average in order to avoid ongoing proposals past the displayed time
@@ -69,7 +105,23 @@ const WETH_ONLY: ChainTokenList = {
 // used to construct intermediary pairs for trading
 export const BASES_TO_CHECK_TRADES_AGAINST: ChainTokenList = {
   ...WETH_ONLY,
-  [ChainId.MAINNET]: [...WETH_ONLY[ChainId.MAINNET], UG, UD, USD, UC, PU, MU, PFS, MC, BUIDL, UNIFI, ARTE, USDC, DAI, WBTC]
+  [ChainId.MAINNET]: [
+    ...WETH_ONLY[ChainId.MAINNET],
+    UG,
+    UD,
+    USD,
+    UC,
+    PU,
+    MU,
+    PFS,
+    MC,
+    BUIDL,
+    UNIFI,
+    ARTE,
+    USDC,
+    DAI,
+    WBTC
+  ]
 }
 
 /**
