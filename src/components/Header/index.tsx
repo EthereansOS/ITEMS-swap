@@ -28,7 +28,6 @@ import { useUserHasAvailableClaim } from '../../state/claim/hooks'
 import { useUserHasSubmittedClaim } from '../../state/transactions/hooks'
 import { Dots } from '../swap/styleds'
 import Modal from '../Modal'
-import UniBalanceContent from './UniBalanceContent'
 import usePrevious from '../../hooks/usePrevious'
 
 const HeaderFrame = styled.div`
@@ -130,9 +129,9 @@ const AccountElement = styled.div<{ active: boolean }>`
 
 const UNIAmount = styled(AccountElement)`
   color: white;
-  padding: 4px 8px;
-  height: 36px;
-  font-weight: 500;
+  padding: 0px 0px;
+  height: 0px;
+  font-weight: 0;
   background-color: ${({ theme }) => theme.bg3};
   background: radial-gradient(174.47% 188.91% at 1.84% 0%, #ff007a 0%, #2172e5 100%), #edeef2;
 `
@@ -288,9 +287,7 @@ export default function Header() {
   return (
     <HeaderFrame>
       <ClaimModal />
-      <Modal isOpen={showUniBalanceModal} onDismiss={() => setShowUniBalanceModal(false)}>
-        <UniBalanceContent setShowUniBalanceModal={setShowUniBalanceModal} />
-      </Modal>
+      <Modal isOpen={showUniBalanceModal} onDismiss={() => setShowUniBalanceModal(false)}></Modal>
       <HeaderRow>
         <Title href=".">
           <UniIcon>
@@ -314,14 +311,17 @@ export default function Header() {
           >
             {t('pool')}
           </StyledNavLink>
-          <StyledExternalLink id={`stake-nav-link`} href={'https://whereismydragon.eth.link'}>
-            WIMD <span style={{ fontSize: '11px' }}>↗</span>
+          <StyledExternalLink id={`stake-nav-link`} href={'https://item.eth'}>
+            ETHITEM <span style={{ fontSize: '11px' }}>↗</span>
+          </StyledExternalLink>
+          <StyledExternalLink
+            id={`stake-nav-link`}
+            href={'https://dapp.dfohub.com/?addr=0x7cB2Aa86fC0F3dA708783168BFd25B80F045d183'}
+          >
+            Governance <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink>
           <StyledExternalLink id={`stake-nav-link`} href={'https://github.com/b-u-i-d-l/WIMD-uniswap'}>
-            UniWIMD <span style={{ fontSize: '11px' }}>↗</span>
-          </StyledExternalLink>
-          <StyledExternalLink id={`stake-nav-link`} href={'https://opensea.io/assets/where-is-my-dragon'}>
-            OpenSea <span style={{ fontSize: '11px' }}>↗</span>
+            Github <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink>
         </HeaderLinks>
       </HeaderRow>

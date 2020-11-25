@@ -53,13 +53,14 @@ export default function Swap() {
     useCurrency(loadedUrlParams?.inputCurrencyId),
     useCurrency(loadedUrlParams?.outputCurrencyId)
   ]
-  const [dismissTokenWarning, setDismissTokenWarning] = useState<boolean>(false)
+  //const [dismissTokenWarning, setDismissTokenWarning] = useState<boolean>(false)
+  const dismissTokenWarning = true
   const urlLoadedTokens: Token[] = useMemo(
     () => [loadedInputCurrency, loadedOutputCurrency]?.filter((c): c is Token => c instanceof Token) ?? [],
     [loadedInputCurrency, loadedOutputCurrency]
   )
   const handleConfirmTokenWarning = useCallback(() => {
-    setDismissTokenWarning(true)
+    //setDismissTokenWarning(true)
   }, [])
 
   const { account } = useActiveWeb3React()
