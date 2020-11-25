@@ -125,9 +125,9 @@ export default function Menu() {
           </MenuItem>
           {account && (
             <MenuItem id="link" href="https://ethitem.eth.link/">
-            <Info size={14} />
-            ITEMs
-          </MenuItem>
+              <Info size={14} />
+              ITEMs
+            </MenuItem>
           )}
         </MenuFlyout>
       )}

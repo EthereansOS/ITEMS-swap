@@ -33,8 +33,8 @@ export default function DoubleCurrencyLogo({
 }: DoubleCurrencyLogoProps) {
   return (
     <Wrapper sizeraw={size} margin={margin}>
-      {currency0 && <HigherLogo currency={currency0} size='20' />}
-      {currency1 && <CoveredLogo currency={currency1} size='20' sizeraw={size} />}
+      {currency0 && <HigherLogo currency={currency0} size="20" />}
+      {currency1 && <CoveredLogo currency={currency1} size="20" sizeraw={size} />}
     </Wrapper>
   )
 }

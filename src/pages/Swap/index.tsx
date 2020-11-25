@@ -46,7 +46,6 @@ import { ClickableText } from '../Pool/styleds'
 import Loader from '../../components/Loader'
 
 export default function Swap() {
-
   const loadedUrlParams = useDefaultsFromURLSearch()
 
   // token warning stuff
@@ -55,7 +54,7 @@ export default function Swap() {
     useCurrency(loadedUrlParams?.outputCurrencyId)
   ]
   //const [dismissTokenWarning, setDismissTokenWarning] = useState<boolean>(false)
-  const dismissTokenWarning = true;
+  const dismissTokenWarning = true
   const urlLoadedTokens: Token[] = useMemo(
     () => [loadedInputCurrency, loadedOutputCurrency]?.filter((c): c is Token => c instanceof Token) ?? [],
     [loadedInputCurrency, loadedOutputCurrency]

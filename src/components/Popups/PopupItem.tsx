@@ -70,16 +70,14 @@ export default function PopupItem({
 
   const theme = useContext(ThemeContext)
 
-  let popupContent	
-  
-  if ('txn' in content) {	
-    const {	
-      txn: { hash, success, summary }	
-    } = content	
+  let popupContent
+
+  if ('txn' in content) {
+    const {
+      txn: { hash, success, summary }
+    } = content
     popupContent = <TransactionPopup hash={hash} success={success} summary={summary} />
-  } 	
-  
-  
+  }
 
   const faderStyle = useSpring({
     from: { width: '100%' },

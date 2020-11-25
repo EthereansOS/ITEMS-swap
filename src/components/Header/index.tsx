@@ -287,8 +287,7 @@ export default function Header() {
   return (
     <HeaderFrame>
       <ClaimModal />
-      <Modal isOpen={showUniBalanceModal} onDismiss={() => setShowUniBalanceModal(false)}>
-      </Modal>
+      <Modal isOpen={showUniBalanceModal} onDismiss={() => setShowUniBalanceModal(false)}></Modal>
       <HeaderRow>
         <Title href=".">
           <UniIcon>
@@ -297,7 +296,7 @@ export default function Header() {
         </Title>
         <HeaderLinks>
           <StyledNavLink id={`swap-nav-link`} to={'/swap'}>
-            {t('swap')} 
+            {t('swap')}
           </StyledNavLink>
           <StyledNavLink
             id={`pool-nav-link`}
@@ -315,7 +314,10 @@ export default function Header() {
           <StyledExternalLink id={`stake-nav-link`} href={'https://item.eth'}>
             ETHITEM <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink>
-          <StyledExternalLink id={`stake-nav-link`} href={'https://dapp.dfohub.com/?addr=0x7cB2Aa86fC0F3dA708783168BFd25B80F045d183'}>
+          <StyledExternalLink
+            id={`stake-nav-link`}
+            href={'https://dapp.dfohub.com/?addr=0x7cB2Aa86fC0F3dA708783168BFd25B80F045d183'}
+          >
             Governance <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink>
           <StyledExternalLink id={`stake-nav-link`} href={'https://github.com/b-u-i-d-l/WIMD-uniswap'}>
