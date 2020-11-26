@@ -93,7 +93,7 @@ export function MinimalPositionCard({ pair, showUnwrapped = false, border }: Pos
               <RowFixed>
                 <DoubleCurrencyLogo currency0={currency0} currency1={currency1} margin={true} size={20} />
                 <Text fontWeight={500} fontSize={20}>
-                  {currency0.symbol}/{currency1.symbol}
+                  {currency0.name}/{currency1.name}
                 </Text>
               </RowFixed>
               <RowFixed>
