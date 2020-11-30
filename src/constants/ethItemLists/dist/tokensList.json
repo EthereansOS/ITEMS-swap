@@ -5,14 +5,6 @@
     "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/logo.png",
     "tokens": [
         {
-            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
-            "name": "DFY  Token 3",
-            "symbol": "DEFY",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
             "address": "0x94BF495C4E71CD9BC07a8172E2058E423baBdB19",
             "name": "MyCryptoHeroesH",
             "symbol": "MCHH",
@@ -37,20 +29,20 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
+            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
+            "name": "DFY  Token 3",
+            "symbol": "DEFY",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
             "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
             "name": "Whip of Erebos",
             "symbol": "MTG",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
-            "name": "Gods Unchained C",
-            "symbol": "CARD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
             "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
@@ -69,14 +61,6 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
-            "name": "Ticket  Mythica",
-            "symbol": "0x93ea6ec350ace7",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
-        },
-        {
             "address": "0x8467331556e58bCDE5e135efDf441Df685B41C73",
             "name": "Lucky the DFOG",
             "symbol": "ETRA",
@@ -93,12 +77,76 @@
             "logoURI": "https://ipfs.io/ipfs/QmVCu7EpCwXf2w5TUsibDzLkaBtk5GtiZSguHFM4sUS8aK"
         },
         {
+            "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
+            "name": "Jet Driver",
+            "symbol": "F1DTI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://nft.f1deltatime.com/image/2019_JetDriver_common.png"
+        },
+        {
             "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
             "name": "LAND 119 40",
             "symbol": "LAND",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
+        },
+        {
+            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
+            "name": "Gods Unchained C",
+            "symbol": "CARD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W721-item.png"
+        },
+        {
+            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
+            "name": "Pepemander",
+            "symbol": "PEPEMON",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
+        },
+        {
+            "address": "0xa8d883B1224284134949C30ecC05a677Af3eAbc7",
+            "name": "Chef Nomi",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/6.jpg"
+        },
+        {
+            "address": "0x33e554d0f8957A5bC14DCbf033E6C450E20aefA0",
+            "name": "BlueKirbyeth",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/10.jpg"
+        },
+        {
+            "address": "0xcd6056d83E918BD9037Af463e1436fC91919C23b",
+            "name": "Monsoonie",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/12.jpg"
+        },
+        {
+            "address": "0xFEfFBB1DC28346Ae94c1115420407Ff6e997c3E2",
+            "name": "ChainLinkGodeth",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/16.jpg"
+        },
+        {
+            "address": "0x68C25417bA30b8B3475752AB05E5B8baB77428F5",
+            "name": "Degen Spartan",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/18.jpg"
         },
         {
             "address": "0x7C23Ac2E8DA915d4f422CF710f4767FAa0c332fa",
@@ -157,44 +205,12 @@
             "logoURI": "https://ipfs.io/ipfs/QmPzhhPK1o39aJBk4V2M9dg2XxSp2S9UCcAbTPvuVCPj4C"
         },
         {
-            "address": "0xa8d883B1224284134949C30ecC05a677Af3eAbc7",
-            "name": "Chef Nomi",
-            "symbol": "RMU",
+            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
+            "name": "Ticket  Mythica",
+            "symbol": "0x93ea6ec350ace7",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/6.jpg"
-        },
-        {
-            "address": "0x33e554d0f8957A5bC14DCbf033E6C450E20aefA0",
-            "name": "BlueKirbyeth",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/10.jpg"
-        },
-        {
-            "address": "0xcd6056d83E918BD9037Af463e1436fC91919C23b",
-            "name": "Monsoonie",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/12.jpg"
-        },
-        {
-            "address": "0xFEfFBB1DC28346Ae94c1115420407Ff6e997c3E2",
-            "name": "ChainLinkGodeth",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/16.jpg"
-        },
-        {
-            "address": "0x68C25417bA30b8B3475752AB05E5B8baB77428F5",
-            "name": "Degen Spartan",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/18.jpg"
+            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
         },
         {
             "address": "0x32e4623Ed080085479a31e727b1C005A2CA5A850",
@@ -253,28 +269,12 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
-            "name": "Jet Driver",
-            "symbol": "F1DTI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://nft.f1deltatime.com/image/2019_JetDriver_common.png"
-        },
-        {
             "address": "0xa15B60d58C39ce010f5E268f028630A08Ef9B54A",
             "name": "wood",
             "symbol": "yeah",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://glkjnode.oss-cn-beijing.aliyuncs.com/douyea/images/wood_white.jpg"
-        },
-        {
-            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
-            "name": "Pepemander",
-            "symbol": "PEPEMON",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
         },
         {
             "address": "0x5430E56eEBA6cc24790c7387167238a2B0F5e173",
@@ -810,5 +810,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2020-11-30T00:23:10.897Z"
+    "timestamp": "2020-11-30T01:26:29.082Z"
 }
