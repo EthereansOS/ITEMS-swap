@@ -13,9 +13,9 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
-            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
-            "name": "Mummy Enemy",
-            "symbol": "ASSET",
+            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
+            "name": "DFY  Token 3",
+            "symbol": "DEFY",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
@@ -29,17 +29,9 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
-            "name": "Gods Unchained C",
-            "symbol": "CARD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W721-item.png"
-        },
-        {
-            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
-            "name": "DFY  Token 3",
-            "symbol": "DEFY",
+            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
+            "name": "Mummy Enemy",
+            "symbol": "ASSET",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
@@ -48,6 +40,14 @@
             "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
             "name": "Whip of Erebos",
             "symbol": "MTG",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0x84d9c5dcD7FB94a148E161d217B21863F81e3dfB",
+            "name": "8325",
+            "symbol": "0xc7e5e9434f4a71",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
@@ -69,14 +69,6 @@
             "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
         },
         {
-            "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
-            "name": "Jet Driver",
-            "symbol": "F1DTI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://nft.f1deltatime.com/image/2019_JetDriver_common.png"
-        },
-        {
             "address": "0x8467331556e58bCDE5e135efDf441Df685B41C73",
             "name": "Lucky the DFOG",
             "symbol": "ETRA",
@@ -93,12 +85,12 @@
             "logoURI": "https://ipfs.io/ipfs/QmVCu7EpCwXf2w5TUsibDzLkaBtk5GtiZSguHFM4sUS8aK"
         },
         {
-            "address": "0x84d9c5dcD7FB94a148E161d217B21863F81e3dfB",
-            "name": "8325",
-            "symbol": "0xc7e5e9434f4a71",
+            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
+            "name": "Gods Unchained C",
+            "symbol": "CARD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
             "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
@@ -107,6 +99,14 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
+        },
+        {
+            "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
+            "name": "Jet Driver",
+            "symbol": "F1DTI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://nft.f1deltatime.com/image/2019_JetDriver_common.png"
         },
         {
             "address": "0xa8d883B1224284134949C30ecC05a677Af3eAbc7",
@@ -810,5 +810,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2020-12-01T13:14:45.019Z"
+    "timestamp": "2020-12-01T14:12:57.671Z"
 }
