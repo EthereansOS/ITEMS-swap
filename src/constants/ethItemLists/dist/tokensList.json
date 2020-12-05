@@ -21,9 +21,9 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
-            "name": "Whip of Erebos",
-            "symbol": "MTG",
+            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
+            "name": "Mummy Enemy",
+            "symbol": "ASSET",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
@@ -37,22 +37,6 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
-            "name": "Ticket  Mythica",
-            "symbol": "0x93ea6ec350ace7",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
-        },
-        {
-            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
-            "name": "Gods Unchained C",
-            "symbol": "CARD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W721-item.png"
-        },
-        {
             "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
             "name": "Genetic Algorith",
             "symbol": "SUPR",
@@ -61,9 +45,9 @@
             "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
         },
         {
-            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
-            "name": "Mummy Enemy",
-            "symbol": "ASSET",
+            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
+            "name": "Whip of Erebos",
+            "symbol": "MTG",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W1155-item.png"
@@ -75,6 +59,14 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://nft.f1deltatime.com/image/2019_JetDriver_common.png"
+        },
+        {
+            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
+            "name": "Gods Unchained C",
+            "symbol": "CARD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
             "address": "0x8467331556e58bCDE5e135efDf441Df685B41C73",
@@ -155,6 +147,14 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/18.jpg"
+        },
+        {
+            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
+            "name": "Ticket  Mythica",
+            "symbol": "0x93ea6ec350ace7",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
         },
         {
             "address": "0x7C23Ac2E8DA915d4f422CF710f4767FAa0c332fa",
@@ -810,5 +810,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2020-12-05T05:08:51.878Z"
+    "timestamp": "2020-12-05T06:09:57.440Z"
 }
