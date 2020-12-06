@@ -10,9 +10,9 @@
     "NewWrappedERC721Created(address,uint256,address,address)": "W721ABI",
     "NewWrappedERC20Created(address,uint256,address,address)": "W20ABI"
   },
-  "listURITemplate": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/dist/{0}.json",
-  "logoURITemplate": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/{0}-{1}.png",
-  "collectionLogoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/ITEMswap/src/constants/ethItemLists/resources/logo.png",
+  "listURITemplate": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/dist/{0}.json",
+  "logoURITemplate": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/{0}-{1}.png",
+  "collectionLogoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/logo.png",
   "deploySearchStart": "11092976",
   "deploySearchStartRopsten": "8900000",
   "blockSearchLimit": 50000,
