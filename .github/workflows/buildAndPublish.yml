@@ -3,7 +3,7 @@ name: Build And Publish
 on:
   push:
     branches:
-      - ITEMswap
+      - master
   schedule:
     - cron: '0 * * * *'
 

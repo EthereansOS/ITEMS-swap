@@ -2746,8 +2746,8 @@ window.loadItemData = async function loadItemData(item, collection, view) {
     )
   }
   item.token = item.token || window.newContract(window.context.IEthItemInteroperableInterfaceABI, item.address)
-  item.name = item.name || (await window.blockchainCall(item.contract.methods.name, item.objectId))
-  item.symbol = item.symbol || (await window.blockchainCall(item.contract.methods.symbol, item.objectId))
+  item.name = item.name || (await window.blockchainCall(item.token.methods.name))
+  item.symbol = item.symbol || (await window.blockchainCall(item.token.methods.symbol))
   if (!item.sourceAddress) {
     item.sourceAddress = 'blank'
     try {
