@@ -23,7 +23,7 @@
   "ipfsHost": "https://ipfs.infura.io:5001/api/v0/",
   "ipfsUrlTemplates": ["ipfs://ipfs/", "ipfs://"],
   "ipfsUrlChanger": "https://gateway.ipfs.io/ipfs/",
-  "exceptFor" : ["0x56458AB3Bedb04F4754C973c173ce5c37740E8d1"],
+  "exceptFor": ["0x56458AB3Bedb04F4754C973c173ce5c37740E8d1"],
   "IERC20ABI": [
     {
       "anonymous": false,
