@@ -6,6 +6,8 @@ const path = require('path')
 window.context.blockchainConnectionString =
   window.context.blockchainConnectionString || process.env.BLOCKCHAIN_CONNECTION_STRING
 
+var exceptFor;
+
 function cleanPath(path) {
   try {
     fs.rmdirSync(path, { recursive: true })
@@ -80,6 +82,9 @@ async function elaborateCollection(collection, callback) {
     timestamp: new Date().toISOString()
   }
   for (const rawItem of Object.values(collection.items)) {
+    if(exceptFor.indexOf(window.web3.utils.toChecksumAddress(rawItem.address)) !== -1) {
+      continue;
+    }
     cleanCollection.tokens.push({
       address: rawItem.address,
       name: window
@@ -119,6 +124,7 @@ function getDefaultLogoURI(element) {
 
 async function loadEnvironment() {
   await window.onEthereumUpdate(0)
+  exceptFor = exceptFor || (window.context.exceptFor || []).map(it => window.web3.utils.toChecksumAddress(it));
   window.ethItemOrchestrator = window.newContract(
     window.context.ethItemOrchestratorABI,
     window.getNetworkElement('ethItemOrchestratorAddress')
