@@ -109,14 +109,6 @@
       "logoURI": "https://ipfs.io/ipfs/QmVCu7EpCwXf2w5TUsibDzLkaBtk5GtiZSguHFM4sUS8aK"
     },
     {
-      "address": "0x56458AB3Bedb04F4754C973c173ce5c37740E8d1",
-      "name": "Buidler Ticket",
-      "symbol": "BE2020",
-      "decimals": 18,
-      "chainId": 1,
-      "logoURI": "https://ipfs.io/ipfs/QmWfe5ofRa5tskcbwrznou9UhBphfSHGsJGwF8FRxYs7Jf"
-    },
-    {
       "address": "0x754B12394D06A6b9a3e6A21aB9D13c8ee563388E",
       "name": "Buidlers Tickets",
       "symbol": "BE2020",
