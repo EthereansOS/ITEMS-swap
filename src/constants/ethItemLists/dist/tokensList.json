@@ -13,9 +13,9 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
-            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
-            "name": "Whip of Erebos",
-            "symbol": "MTG",
+            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
+            "name": "DFY  Token 3",
+            "symbol": "DEFY",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
@@ -29,28 +29,20 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
-            "name": "Genetic Algorith",
-            "symbol": "SUPR",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
-        },
-        {
-            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
-            "name": "DFY  Token 3",
-            "symbol": "DEFY",
+            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
+            "name": "Whip of Erebos",
+            "symbol": "MTG",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
-            "name": "Jet Driver",
-            "symbol": "F1DTI",
+            "address": "0x84d9c5dcD7FB94a148E161d217B21863F81e3dfB",
+            "name": "8325",
+            "symbol": "0xc7e5e9434f4a71",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://nft.f1deltatime.com/image/2019_JetDriver_common.png"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
@@ -69,28 +61,20 @@
             "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
         },
         {
-            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
-            "name": "Gods Unchained C",
-            "symbol": "CARD",
+            "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
+            "name": "Genetic Algorith",
+            "symbol": "SUPR",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
+            "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
         },
         {
-            "address": "0x84d9c5dcD7FB94a148E161d217B21863F81e3dfB",
-            "name": "8325",
-            "symbol": "0xc7e5e9434f4a71",
+            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
+            "name": "Ticket  Mythica",
+            "symbol": "0x93ea6ec350ace7",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0xa15B60d58C39ce010f5E268f028630A08Ef9B54A",
-            "name": "yeahammer",
-            "symbol": "yeah",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
+            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
         },
         {
             "address": "0x8467331556e58bCDE5e135efDf441Df685B41C73",
@@ -109,12 +93,12 @@
             "logoURI": "https://ipfs.io/ipfs/QmVCu7EpCwXf2w5TUsibDzLkaBtk5GtiZSguHFM4sUS8aK"
         },
         {
-            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
-            "name": "Pepemander",
-            "symbol": "PEPEMON",
+            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
+            "name": "Gods Unchained C",
+            "symbol": "CARD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
             "address": "0xD839E4989eC7FCD34554FCD990FA1438bD3a088E",
@@ -141,52 +125,28 @@
             "logoURI": "https://ipfs.io/ipfs/QmXk6ENNWEpTNmaj6ntoovHXUbhsmNf6X8PU4b6himdPFX"
         },
         {
-            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
-            "name": "Ticket  Mythica",
-            "symbol": "0x93ea6ec350ace7",
+            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
+            "name": "Pepemander",
+            "symbol": "PEPEMON",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
+            "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
         },
         {
-            "address": "0xa8d883B1224284134949C30ecC05a677Af3eAbc7",
-            "name": "Chef Nomi",
-            "symbol": "RMU",
+            "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
+            "name": "Jet Driver",
+            "symbol": "F1DTI",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/6.jpg"
+            "logoURI": "https://nft.f1deltatime.com/image/2019_JetDriver_common.png"
         },
         {
-            "address": "0x33e554d0f8957A5bC14DCbf033E6C450E20aefA0",
-            "name": "BlueKirbyeth",
-            "symbol": "RMU",
+            "address": "0xa15B60d58C39ce010f5E268f028630A08Ef9B54A",
+            "name": "yeahammer",
+            "symbol": "yeah",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/10.jpg"
-        },
-        {
-            "address": "0xcd6056d83E918BD9037Af463e1436fC91919C23b",
-            "name": "Monsoonie",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/12.jpg"
-        },
-        {
-            "address": "0xFEfFBB1DC28346Ae94c1115420407Ff6e997c3E2",
-            "name": "ChainLinkGodeth",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/16.jpg"
-        },
-        {
-            "address": "0x68C25417bA30b8B3475752AB05E5B8baB77428F5",
-            "name": "Degen Spartan",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/18.jpg"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
             "address": "0x7C23Ac2E8DA915d4f422CF710f4767FAa0c332fa",
@@ -245,6 +205,46 @@
             "logoURI": "https://ipfs.io/ipfs/QmPzhhPK1o39aJBk4V2M9dg2XxSp2S9UCcAbTPvuVCPj4C"
         },
         {
+            "address": "0xa8d883B1224284134949C30ecC05a677Af3eAbc7",
+            "name": "Chef Nomi",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/6.jpg"
+        },
+        {
+            "address": "0x33e554d0f8957A5bC14DCbf033E6C450E20aefA0",
+            "name": "BlueKirbyeth",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/10.jpg"
+        },
+        {
+            "address": "0xcd6056d83E918BD9037Af463e1436fC91919C23b",
+            "name": "Monsoonie",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/12.jpg"
+        },
+        {
+            "address": "0xFEfFBB1DC28346Ae94c1115420407Ff6e997c3E2",
+            "name": "ChainLinkGodeth",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/16.jpg"
+        },
+        {
+            "address": "0x68C25417bA30b8B3475752AB05E5B8baB77428F5",
+            "name": "Degen Spartan",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/18.jpg"
+        },
+        {
             "address": "0x32e4623Ed080085479a31e727b1C005A2CA5A850",
             "name": "LUCK CARDS  Lim",
             "symbol": "RARI",
@@ -299,70 +299,6 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x5430E56eEBA6cc24790c7387167238a2B0F5e173",
-            "name": "Meme Grail Relic",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/genesis/meme-grail-relic.png"
-        },
-        {
-            "address": "0x7ebf9FBf53B3F94EA4Ee0df9b64149Fb10D81743",
-            "name": "Sergey Nazarov C",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/genesis/sergey-nazarov-common.png"
-        },
-        {
-            "address": "0x82739705EE805273Ebd2667172D084d8ebF98AF9",
-            "name": "Changpeng Zhao",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/genesis/cz-common.png"
-        },
-        {
-            "address": "0x1Da760C35461cF6ab2bE37A819bEf5a676642e21",
-            "name": "Andre Cronje Rar",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/genesis/andre-rare.jpg"
-        },
-        {
-            "address": "0x694CAFFC28EaF9b110B509B6b09c3EDC82bBAFCd",
-            "name": "NFT Thief Relic",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/genesis/relic-nft-thief.jpg"
-        },
-        {
-            "address": "0xc0Aa1d719B8d55F98701afa37A98D8efFa5C10cD",
-            "name": "Dont Drink",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/artist-series/diego/static/dont-drink.jpg"
-        },
-        {
-            "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
-            "name": "Sam BankmanFrie",
-            "symbol": "CHADSLTD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://api.chads.vc/img/1.gif"
-        },
-        {
-            "address": "0x52e49e2017763C39137aDa463d447adC74b9E63c",
-            "name": "Anthony Sassano",
-            "symbol": "CHADSLTD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://api.chads.vc/img/3.gif"
         },
         {
             "address": "0x754B12394D06A6b9a3e6A21aB9D13c8ee563388E",
@@ -475,6 +411,126 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.io/ipfs/QmWtt5t4wsxmCq96cZDojesJ7iu8L85gyQAd7fStnzPGkd"
+        },
+        {
+            "address": "0xc7b121761eBECB4f704e406e7bBb85Ef123eFcFe",
+            "name": "The Portal",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmPVfuDugB4HNaDKV5Sxh98RDA7h8ddz7TLV3h9GaJXdDH"
+        },
+        {
+            "address": "0xC23A760D04d479e7E358223C05843f79e5EeE66b",
+            "name": "BUIDLERBERG MEET",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmZszdcb79fZd21XCvTaeYnNvK9a532UyQ5RAtoXeZxhor"
+        },
+        {
+            "address": "0x29e7B013ECC0DffEb6990665521086A0A3D249cD",
+            "name": "Alex Grey into t",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmSoT5aScXKyK4RC852YyfMx8md9n2MgRHALNpREB8m4Qe"
+        },
+        {
+            "address": "0x552860Ab98d5D32e93Bc09Fe118eDd31dD7DAEf4",
+            "name": "Julianx Revoluti",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmbxyKmV1yZNevqcXXiX7Ep4gsEJS2E4pHHmR3cskjLT7p"
+        },
+        {
+            "address": "0xBa83E2aDf0c66f050941B2235C67662bE9A150b4",
+            "name": "Valemostro Hallo",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmS9viuQY9dPkXui6x8zmtki2JVRrNMkgEVfR6RT3jtNzp"
+        },
+        {
+            "address": "0xD2dF9E10a8725BEAd6e856065E040c1Fb0ce94a1",
+            "name": "Shut up and take",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmPb2F3rpXm64L5EURwD1Guj2KaonbSMadaF5n21mtEqVz"
+        },
+        {
+            "address": "0x917F1c6Fc2d8Fc0dC21D81e508607482102386fA",
+            "name": "Buidler Knight",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmTD2xWujM6pz6SsevYzYfo3wbhHHVezy8UZf7xVTWnvAq"
+        },
+        {
+            "address": "0x5430E56eEBA6cc24790c7387167238a2B0F5e173",
+            "name": "Meme Grail Relic",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/genesis/meme-grail-relic.png"
+        },
+        {
+            "address": "0x7ebf9FBf53B3F94EA4Ee0df9b64149Fb10D81743",
+            "name": "Sergey Nazarov C",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/genesis/sergey-nazarov-common.png"
+        },
+        {
+            "address": "0x82739705EE805273Ebd2667172D084d8ebF98AF9",
+            "name": "Changpeng Zhao",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/genesis/cz-common.png"
+        },
+        {
+            "address": "0x1Da760C35461cF6ab2bE37A819bEf5a676642e21",
+            "name": "Andre Cronje Rar",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/genesis/andre-rare.jpg"
+        },
+        {
+            "address": "0x694CAFFC28EaF9b110B509B6b09c3EDC82bBAFCd",
+            "name": "NFT Thief Relic",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/genesis/relic-nft-thief.jpg"
+        },
+        {
+            "address": "0xc0Aa1d719B8d55F98701afa37A98D8efFa5C10cD",
+            "name": "Dont Drink",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/artist-series/diego/static/dont-drink.jpg"
+        },
+        {
+            "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
+            "name": "Sam BankmanFrie",
+            "symbol": "CHADSLTD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://api.chads.vc/img/1.gif"
+        },
+        {
+            "address": "0x52e49e2017763C39137aDa463d447adC74b9E63c",
+            "name": "Anthony Sassano",
+            "symbol": "CHADSLTD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://api.chads.vc/img/3.gif"
         },
         {
             "address": "0xAa843dd5fa4F9f07E2De5920dBf73D9a875C9e10",
@@ -946,5 +1002,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2020-12-24T12:16:15.840Z"
+    "timestamp": "2020-12-24T13:25:00.521Z"
 }
