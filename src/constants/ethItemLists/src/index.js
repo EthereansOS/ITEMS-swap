@@ -49,9 +49,9 @@ async function loop() {
   const addToTokenLists = function addToTokenLists(tokens) {
     tokenLists.tokens.push(...tokens)
   }
-  console.log("Elaborating collections...");
+  console.log('Elaborating collections...')
   await Promise.all(collections.map(collection => elaborateCollection(collection, addToTokenLists)))
-  console.log("Elaboration done");
+  console.log('Elaboration done')
   const p = path.resolve(distPath, 'tokensList.json')
   fs.writeFileSync(p, JSON.stringify(tokenLists, null, 4))
   /*fs.writeFileSync(p, JSON.stringify(Object.keys(tokenLists).map(it => window.context.listURITemplate.format(it)), null, 4));
@@ -162,13 +162,13 @@ async function loadCollections() {
     return new Promise(function(ok, ko) {
       collections.push(...subCollections)
       Promise.all(subCollections.map(it => window.refreshSingleCollection(it)))
-      .then(ok)
-      .catch(ko)
+        .then(ok)
+        .catch(ko)
     })
   }
   const subCollectionsPromises = []
   for (const block of blocks) {
-    console.log(block[0], '-', block[1]);
+    console.log(block[0], '-', block[1])
     const subCollections = []
     const logs = await window.getLogs({
       address,

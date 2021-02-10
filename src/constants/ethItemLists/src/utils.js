@@ -186,7 +186,7 @@ window.onEthereumUpdate = function onEthereumUpdate(millis) {
             return alert('This network is actually not supported!')
           }
           update = true
-          window.globalCollections = {};
+          window.globalCollections = {}
         }
         delete window.walletAddress
         try {
@@ -2745,7 +2745,7 @@ window.loadItemData = async function loadItemData(item, collection, view) {
       )
     )
   }
-  console.log(item.address);
+  console.log(item.address)
   item.token = item.token || window.newContract(window.context.IEthItemInteroperableInterfaceABI, item.address)
   item.name = item.name || (await window.blockchainCall(item.token.methods.name))
   item.symbol = item.symbol || (await window.blockchainCall(item.token.methods.symbol))
@@ -2765,7 +2765,8 @@ window.loadItemData = async function loadItemData(item, collection, view) {
     item.trustWalletURI = window.context.trustwalletImgURLTemplate.format(item.sourceAddress)
     window
       .AJAXRequest((item.trustWalletURI = window.context.trustwalletImgURLTemplate.format(item.sourceAddress)))
-      .then(() => (item.image = item.trustWalletURI) && view && view.setState({ item })).catch(console.log)
+      .then(() => (item.image = item.trustWalletURI) && view && view.setState({ item }))
+      .catch(console.log)
   }
   item.decimals = item.decimals || (await window.blockchainCall(item.token.methods.decimals))
   return item
@@ -3078,19 +3079,19 @@ window.loadSingleCollection = async function loadSingleCollection(collectionAddr
 }
 
 window.packCollection = function packCollection(address, category, modelAddress) {
-  console.log(address, category, modelAddress);
-  window.globalCollections = window.globalCollections || {};
+  console.log(address, category, modelAddress)
+  window.globalCollections = window.globalCollections || {}
   const abi = window.context[category]
   const contract = window.newContract(abi, address)
   category = category.substring(0, category.length - 3)
   const key = address
-  return window.globalCollections[key] = window.globalCollections[key] || {
+  return (window.globalCollections[key] = window.globalCollections[key] || {
     key,
     address,
     modelAddress,
     category,
     contract
-  }
+  })
 }
 
 window.refreshSingleCollection = async function refreshSingleCollection(collection, view) {
