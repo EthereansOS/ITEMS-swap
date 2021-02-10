@@ -2767,16 +2767,6 @@ window.loadItemData = async function loadItemData(item, collection, view) {
       .then(() => (item.image = item.trustWalletURI) && view && view.setState({ item }))
   }
   item.decimals = item.decimals || (await window.blockchainCall(item.token.methods.decimals))
-  try {
-    item.collectionDecimals =
-      item.collectionDecimals || (await window.blockchainCall(item.collection.contract.methods.decimals, item.objectId))
-  } catch (e) {
-    var contract = window.newContract(window.context.NativeABI, await window.blockchainCall(contract.methods.mainInterface))
-    item.collectionDecimals =
-      item.collectionDecimals || (await window.blockchainCall(contract.methods.decimals, item.objectId))
-  }
-  /*view && view.setState({ item }, () => window.updateItemDynamicData(item, view));
-    !view && await window.updateItemDynamicData(item);*/
   return item
 }
 
@@ -3107,6 +3097,7 @@ window.packCollection = function packCollection(address, category, modelAddress)
 }
 
 window.refreshSingleCollection = async function refreshSingleCollection(collection, view) {
+  console.log(collection.options.address);
   collection.name = collection.name || (await window.blockchainCall(collection.contract.methods.name))
   collection.symbol = collection.symbol || (await window.blockchainCall(collection.contract.methods.symbol))
   if (!collection.sourceAddress) {
