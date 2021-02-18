@@ -156,7 +156,9 @@ async function loadCollections() {
   Object.entries(window.context.ethItemFactoryEvents).forEach(it => (map[window.web3.utils.sha3(it[0])] = it[1]))
   const topics = [Object.keys(map)]
   const addresses = await window.blockchainCall(window.ethItemOrchestrator.methods.factories)
-  const list = (window.getNetworkElement("additionalFactories") || []).map(it => window.web3.utils.toChecksumAddress(it))
+  const list = (window.getNetworkElement('additionalFactories') || []).map(it =>
+    window.web3.utils.toChecksumAddress(it)
+  )
   const address = [...addresses, ...list.filter(it => addresses.indexOf(it) === -1)]
   const collections = []
   const blocks = await window.loadBlockSearchTranches()
