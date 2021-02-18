@@ -161,12 +161,8 @@ async function loadCollections() {
   const collections = []
   const blocks = await window.loadBlockSearchTranches()
   const updateSubCollectionsPromise = function updateSubCollectionsPromise(subCollections) {
-    return new Promise(function(ok, ko) {
-      collections.push(...subCollections)
-      Promise.all(subCollections.map(it => window.refreshSingleCollection(it)))
-        .then(ok)
-        .catch(ko)
-    })
+    collections.push(...subCollections)
+    return Promise.all(subCollections.map(it => window.refreshSingleCollection(it)))
   }
   const subCollectionsPromises = []
   for (const block of blocks) {

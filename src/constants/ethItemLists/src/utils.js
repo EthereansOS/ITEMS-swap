@@ -2745,7 +2745,6 @@ window.loadItemData = async function loadItemData(item, collection, view) {
       )
     )
   }
-  console.log(item.address)
   item.token = item.token || window.newContract(window.context.IEthItemInteroperableInterfaceABI, item.address)
   item.name = item.name || (await window.blockchainCall(item.token.methods.name))
   item.symbol = item.symbol || (await window.blockchainCall(item.token.methods.symbol))
@@ -3079,7 +3078,6 @@ window.loadSingleCollection = async function loadSingleCollection(collectionAddr
 }
 
 window.packCollection = function packCollection(address, category, modelAddress) {
-  console.log(address, category, modelAddress)
   window.globalCollections = window.globalCollections || {}
   const abi = window.context[category]
   const contract = window.newContract(abi, address)
