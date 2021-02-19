@@ -170,6 +170,7 @@ async function loadEnvironment() {
 }
 
 async function loadCollections() {
+    var excludingCollections = (window.context.excludingCollections || []).map(it => window.web3.utils.toChecksumAddress(it));
     const map = {}
     Object.entries(window.context.ethItemFactoryEvents).forEach(it => (map[window.web3.utils.sha3(it[0])] = it[1]))
     const topics = [Object.keys(map)]
@@ -192,6 +193,9 @@ async function loadCollections() {
             const collectionAddress = window.web3.utils.toChecksumAddress(
                 window.web3.eth.abi.decodeParameter('address', log.topics[log.topics.length - 1])
             )
+            if(excludingCollections.indexOf(collectionAddress) !== -1) {
+              continue;
+            }
             const category = map[log.topics[0]]
             subCollectionsPromises.push(window.refreshSingleCollection(window.packCollection(collectionAddress, category, modelAddress)).catch(console.error))
         }
