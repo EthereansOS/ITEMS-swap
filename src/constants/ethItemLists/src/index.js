@@ -129,7 +129,10 @@ function getLogoURI(element) {
 }
 
 function timeout(millis) {
-    return new Promise(ok => setTimeout(ok, millis));
+    return new Promise(ok => setTimeout(function() {
+      console.log("Timeout!");
+      ok();
+    }, millis));
 }
 
 function getDefaultLogoURI(element) {
