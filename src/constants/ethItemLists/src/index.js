@@ -160,16 +160,9 @@ async function loadCollections() {
     window.web3.utils.toChecksumAddress(it)
   )
   const address = [...addresses, ...list.filter(it => addresses.indexOf(it) === -1)]
-  const collections = []
   const blocks = await window.loadBlockSearchTranches()
-  const updateSubCollectionsPromise = function updateSubCollectionsPromise(subCollections) {
-    collections.push(...subCollections)
-    return Promise.all(subCollections.map(it => window.refreshSingleCollection(it)))
-  }
   const subCollectionsPromises = []
   for (const block of blocks) {
-    console.log(block[0], '-', block[1])
-    const subCollections = []
     const logs = await window.getLogs({
       address,
       topics,
@@ -182,12 +175,10 @@ async function loadCollections() {
         window.web3.eth.abi.decodeParameter('address', log.topics[log.topics.length - 1])
       )
       const category = map[log.topics[0]]
-      subCollections.push(window.packCollection(collectionAddress, category, modelAddress))
+      subCollectionsPromises.push(window.refreshSingleCollection(window.packCollection(collectionAddress, category, modelAddress)).catch(console.error))
     }
-    subCollectionsPromises.push(updateSubCollectionsPromise(subCollections))
   }
-  await Promise.all(subCollectionsPromises)
-  return collections
+  return (await Promise.all(subCollectionsPromises)).filter(it => it !== undefined && it !== null);
 }
 
 async function loadItems(collection) {
