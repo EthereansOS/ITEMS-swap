@@ -50,7 +50,9 @@ async function loop() {
     tokenLists.tokens.push(...tokens)
   }
   console.log('Elaborating collections...')
-  await Promise.all(collections.map(collection => elaborateCollection(collection, addToTokenLists)))
+  for(var collection of collections) {
+    await elaborateCollection(collection, addToTokenLists);
+  }
   console.log('Elaboration done')
   const p = path.resolve(distPath, 'tokensList.json')
   fs.writeFileSync(p, JSON.stringify(tokenLists, null, 4))
@@ -74,7 +76,6 @@ async function elaborateCollection(collection, callback) {
       .trim(),
     keywords: [],
     tags: {},
-    logoURI: window.formatLinkForExpose(await getLogoURI(collection)),
     tokens: [],
     version: {
       major: window.asNumber(collection.standardVersion),
@@ -83,11 +84,14 @@ async function elaborateCollection(collection, callback) {
     },
     timestamp: new Date().toISOString()
   }
+  console.log(cleanCollection.name, "Loading");
+  cleanCollection.logoURI = window.formatLinkForExpose(await getLogoURI(collection));
+  console.log(cleanCollection.name, "Loaded");
   for (const rawItem of Object.values(collection.items)) {
     if (exceptFor.indexOf(window.web3.utils.toChecksumAddress(rawItem.address)) !== -1) {
       continue
     }
-    cleanCollection.tokens.push({
+    var token = {
       address: rawItem.address,
       name: window
         .shortenWord(rawItem.name, window.context.tokenListWordLimit)
@@ -98,9 +102,12 @@ async function elaborateCollection(collection, callback) {
         .replace(/[^\w\s]/gi, '')
         .trim(),
       decimals: window.asNumber(rawItem.decimals),
-      chainId: window.asNumber(window.networkId),
-      logoURI: window.formatLinkForExpose(await getLogoURI(rawItem))
-    })
+      chainId: window.asNumber(window.networkId)
+    }
+    console.log(token.name, "Loading");
+    token.logoURI = window.formatLinkForExpose(await getLogoURI(rawItem));
+    console.log(token.name, "Loaded");
+    cleanCollection.tokens.push(token)
   }
   callback(cleanCollection.tokens)
 }
@@ -178,7 +185,11 @@ async function loadCollections() {
       subCollectionsPromises.push(window.refreshSingleCollection(window.packCollection(collectionAddress, category, modelAddress)).catch(console.error))
     }
   }
-  return (await Promise.all(subCollectionsPromises)).filter(it => it !== undefined && it !== null);
+  var collection = [];
+  for(var promise of subCollectionsPromises) {
+    collection.push(await promise);
+  }
+  return collection;
 }
 
 async function loadItems(collection) {
