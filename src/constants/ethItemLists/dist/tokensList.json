@@ -1,5 +1,5 @@
 {
-    "name": "EthItem Tokens L",
+    "name": "EthItem Tokens List",
     "keywords": [],
     "tags": {},
     "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/logo.png",
@@ -54,7 +54,7 @@
         },
         {
             "address": "0xD15c7Fcda27a93b9d4cD3617E09416Ec3aaA5237",
-            "name": "WIMD - Common Ca",
+            "name": "WIMD - Common Cards ...",
             "symbol": "WCCD",
             "decimals": 18,
             "chainId": 1,
@@ -86,7 +86,7 @@
         },
         {
             "address": "0x754B12394D06A6b9a3e6A21aB9D13c8ee563388E",
-            "name": "Buidlers Tickets",
+            "name": "Buidlers Tickets - B...",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -94,7 +94,7 @@
         },
         {
             "address": "0xd1E9647C47579A52958b8352fFa155F38dDF7a98",
-            "name": "Julian The Snipe",
+            "name": "Julian The Sniper Re...",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -110,7 +110,7 @@
         },
         {
             "address": "0x0Fd8Bf220d44f3c523DE839e007E9f68858DA8fE",
-            "name": "Mario  Wario vs",
+            "name": "Mario  Wario vs Lord...",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -126,7 +126,7 @@
         },
         {
             "address": "0xD997D89d914F018631CE01672C015d42F8D38b41",
-            "name": "NUVOS ORDO ETHER",
+            "name": "NUVOS ORDO ETHEREUS",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -134,7 +134,7 @@
         },
         {
             "address": "0x28568B4685275B281600cF40BddB5AacF28D191b",
-            "name": "The Buidlerberg",
+            "name": "The Buidlerberg Prop...",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -150,7 +150,7 @@
         },
         {
             "address": "0xF640BC933BB563C0f6582E2BA93ec7a9A3e91254",
-            "name": "More than just F",
+            "name": "More than just Farm",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -158,7 +158,7 @@
         },
         {
             "address": "0x1987b9A872378093b8C36730970534F3adf004EC",
-            "name": "Super Saiyan Bro",
+            "name": "Super Saiyan Brother...",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -182,7 +182,7 @@
         },
         {
             "address": "0xbfD49110C4D85B519ECAe3A2a9a04E39F0526C4d",
-            "name": "Space Buidlers E",
+            "name": "Space Buidlers Explo...",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -190,7 +190,7 @@
         },
         {
             "address": "0xB186781403A79CCe9F77599EA71e00B0b9BfA77E",
-            "name": "New Ethereum Ord",
+            "name": "New Ethereum Order A...",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -206,7 +206,7 @@
         },
         {
             "address": "0xC23A760D04d479e7E358223C05843f79e5EeE66b",
-            "name": "BUIDLERBERG MEET",
+            "name": "BUIDLERBERG MEETING ...",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -214,7 +214,7 @@
         },
         {
             "address": "0x29e7B013ECC0DffEb6990665521086A0A3D249cD",
-            "name": "Alex Grey into t",
+            "name": "Alex Grey into the B...",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -222,7 +222,7 @@
         },
         {
             "address": "0x552860Ab98d5D32e93Bc09Fe118eDd31dD7DAEf4",
-            "name": "Julianx Revoluti",
+            "name": "Julianx Revolutions",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -230,7 +230,7 @@
         },
         {
             "address": "0xBa83E2aDf0c66f050941B2235C67662bE9A150b4",
-            "name": "Valemostro Hallo",
+            "name": "Valemostro Halloween...",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -238,7 +238,7 @@
         },
         {
             "address": "0xD2dF9E10a8725BEAd6e856065E040c1Fb0ce94a1",
-            "name": "Shut up and take",
+            "name": "Shut up and take my ...",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -254,7 +254,7 @@
         },
         {
             "address": "0xD6a0b85192C09D225323866Edeea55e471C82f25",
-            "name": "Find the differe",
+            "name": "Find the differences...",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -270,7 +270,7 @@
         },
         {
             "address": "0xF7Ed3Ac8dA505aD464107e23dc7D3d1eB4f51319",
-            "name": "Baby Joda and th",
+            "name": "Baby Joda and the IT...",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -318,7 +318,7 @@
         },
         {
             "address": "0xc2F09C24e81e7f9B45C5a0b3C11a63E762d9Be03",
-            "name": "Pepe wizard and",
+            "name": "Pepe wizard and the ...",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
@@ -406,7 +406,7 @@
         },
         {
             "address": "0x468a1f0e1e3139B71464E6200571A8061D850A2c",
-            "name": "Dai StablecoinIt",
+            "name": "Dai StablecoinItem",
             "symbol": "IDAI",
             "decimals": 18,
             "chainId": 1,
@@ -422,7 +422,7 @@
         },
         {
             "address": "0x772c0A87ABc1878F4D226cb8757a90bE673DF25A",
-            "name": "Aavegotchi GHST",
+            "name": "Aavegotchi GHST Toke...",
             "symbol": "IGHST",
             "decimals": 18,
             "chainId": 1,
@@ -430,7 +430,7 @@
         },
         {
             "address": "0x798DDd929b18472D45ae0b4929Bb807875abdd38",
-            "name": "DefiPulse IndexI",
+            "name": "DefiPulse IndexItem",
             "symbol": "IDPI",
             "decimals": 18,
             "chainId": 1,
@@ -438,7 +438,7 @@
         },
         {
             "address": "0x9bdC2C3A1C300f0bFdEbb62c372BE896Aa7214e3",
-            "name": "ChainLink TokenI",
+            "name": "ChainLink TokenItem",
             "symbol": "ILINK",
             "decimals": 18,
             "chainId": 1,
@@ -470,7 +470,7 @@
         },
         {
             "address": "0xB96f7F715A0CB010b0154Ecd1d2fc69d76EA0D05",
-            "name": "Synthetix Networ",
+            "name": "Synthetix Network To...",
             "symbol": "ISNX",
             "decimals": 18,
             "chainId": 1,
@@ -478,7 +478,7 @@
         },
         {
             "address": "0xbB2137314F9C44a0620cfA3516a199fCad71BDB8",
-            "name": "Kyber Network Cr",
+            "name": "Kyber Network Crysta...",
             "symbol": "IKNC",
             "decimals": 18,
             "chainId": 1,
@@ -494,7 +494,7 @@
         },
         {
             "address": "0x6a4B7074fcDCabC7762300518fD63104d40e73BE",
-            "name": "Basic Attention",
+            "name": "Basic Attention Toke...",
             "symbol": "IBAT",
             "decimals": 18,
             "chainId": 1,
@@ -526,7 +526,7 @@
         },
         {
             "address": "0x13a7FBBDeE526792db6513B0166f52e7E8c9111D",
-            "name": "STASIS EURS Toke",
+            "name": "STASIS EURS TokenIte...",
             "symbol": "IEURS",
             "decimals": 18,
             "chainId": 1,
@@ -542,7 +542,7 @@
         },
         {
             "address": "0x62dD56b755C0DF7a5234b3094112e4ae27321187",
-            "name": "unified Stable D",
+            "name": "unified Stable Dolla...",
             "symbol": "IuSD",
             "decimals": 18,
             "chainId": 1,
@@ -550,7 +550,7 @@
         },
         {
             "address": "0xc8f6F81BCAbbB10BdA8A988EAe7a19235bc10825",
-            "name": "Aragon Network T",
+            "name": "Aragon Network Token...",
             "symbol": "IANT",
             "decimals": 18,
             "chainId": 1,
@@ -566,7 +566,7 @@
         },
         {
             "address": "0x716673B37eA233783a6CD09F3bE03424C836CC25",
-            "name": "Reserve RightsIt",
+            "name": "Reserve RightsItem",
             "symbol": "IRSR",
             "decimals": 18,
             "chainId": 1,
@@ -582,7 +582,7 @@
         },
         {
             "address": "0x683A0Bd7484B8189646375d3Ba5Cf9F4204179f0",
-            "name": "LoopringCoin V2I",
+            "name": "LoopringCoin V2Item",
             "symbol": "ILRC",
             "decimals": 18,
             "chainId": 1,
@@ -590,7 +590,7 @@
         },
         {
             "address": "0x103D86C8e35B97DD804Df2df037C71E4932c6b33",
-            "name": "Republic TokenIt",
+            "name": "Republic TokenItem",
             "symbol": "IREN",
             "decimals": 18,
             "chainId": 1,
@@ -598,7 +598,7 @@
         },
         {
             "address": "0x22C2424521228BD618cf8adAa400E797eFA170E5",
-            "name": "Empty Set Dollar",
+            "name": "Empty Set DollarItem...",
             "symbol": "IESD",
             "decimals": 18,
             "chainId": 1,
@@ -622,7 +622,7 @@
         },
         {
             "address": "0x51F2550ceFeA6c86deEF4C35048Ce7924921135C",
-            "name": "Bancor Network T",
+            "name": "Bancor Network Token...",
             "symbol": "IBNT",
             "decimals": 18,
             "chainId": 1,
@@ -678,7 +678,7 @@
         },
         {
             "address": "0xF11F23E306eecEb1b963a4873571eE9B47f9962F",
-            "name": "Paxos StandardIt",
+            "name": "Paxos StandardItem",
             "symbol": "IPAX",
             "decimals": 18,
             "chainId": 1,
@@ -710,7 +710,7 @@
         },
         {
             "address": "0xC4beD388E8898e70ba68f7132796B654d825E362",
-            "name": "Decentraland MAN",
+            "name": "Decentraland MANAIte...",
             "symbol": "IMANA",
             "decimals": 18,
             "chainId": 1,
@@ -734,7 +734,7 @@
         },
         {
             "address": "0x2dFA748719de81B083CBe79C884ba0eef3a27562",
-            "name": "EthLend TokenIte",
+            "name": "EthLend TokenItem",
             "symbol": "ILEND",
             "decimals": 18,
             "chainId": 1,
@@ -742,7 +742,7 @@
         },
         {
             "address": "0xd84F01fcC73c2AA0159617f4a3e79250eE9aab9b",
-            "name": "Curve DAO TokenI",
+            "name": "Curve DAO TokenItem",
             "symbol": "ICRV",
             "decimals": 18,
             "chainId": 1,
@@ -750,7 +750,7 @@
         },
         {
             "address": "0xCEa75d22E181332953DC7e26c900040CCECeb3b2",
-            "name": "iExec Network T",
+            "name": "iExec Network TokenI...",
             "symbol": "IRLC",
             "decimals": 18,
             "chainId": 1,
@@ -758,7 +758,7 @@
         },
         {
             "address": "0xc930b6C9f1c38E03f8276ec39A15C35dB42de104",
-            "name": "Quantstamp Token",
+            "name": "Quantstamp TokenItem...",
             "symbol": "IQSP",
             "decimals": 18,
             "chainId": 1,
@@ -798,7 +798,7 @@
         },
         {
             "address": "0x8467331556e58bCDE5e135efDf441Df685B41C73",
-            "name": "Lucky the DFOG",
+            "name": "Lucky the DFOGhost20...",
             "symbol": "ETRA",
             "decimals": 18,
             "chainId": 1,
@@ -822,15 +822,15 @@
         },
         {
             "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
-            "name": "INVALID -- DO N",
-            "symbol": "0x93ea6ec350ace7",
+            "name": "INVALID -- DO NOT BU...",
+            "symbol": "0x93ea6ec350ace7473f...",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
         },
         {
             "address": "0x32e4623Ed080085479a31e727b1C005A2CA5A850",
-            "name": "LUCK CARDS - Lim",
+            "name": "LUCK CARDS - Limited...",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
@@ -838,7 +838,7 @@
         },
         {
             "address": "0xdcF16D7254e30BD7a3cD625066B841c44F44110d",
-            "name": "Sergey Nazarov P",
+            "name": "Sergey Nazarov Portr...",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
@@ -846,7 +846,7 @@
         },
         {
             "address": "0x66Af9569DB344d05eC1Dd1777c8604c98a71784c",
-            "name": "Andre Cronje - Y",
+            "name": "Andre Cronje - Yearn...",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
@@ -854,7 +854,7 @@
         },
         {
             "address": "0x345eCB9cfD6A30c567696dd7BA69275ee9434527",
-            "name": "Vitalik Buterin",
+            "name": "Vitalik Buterin - Et...",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
@@ -862,7 +862,7 @@
         },
         {
             "address": "0xe1ca5478C06e121581a6d41E0dA50097E8AE9bA7",
-            "name": "Another World x",
+            "name": "Another World x Vybl...",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
@@ -902,7 +902,7 @@
         },
         {
             "address": "0x7ebf9FBf53B3F94EA4Ee0df9b64149Fb10D81743",
-            "name": "Sergey Nazarov C",
+            "name": "Sergey Nazarov Commo...",
             "symbol": "MEMES",
             "decimals": 18,
             "chainId": 1,
@@ -910,7 +910,7 @@
         },
         {
             "address": "0x82739705EE805273Ebd2667172D084d8ebF98AF9",
-            "name": "Changpeng Zhao",
+            "name": "Changpeng Zhao CZ Co...",
             "symbol": "MEMES",
             "decimals": 18,
             "chainId": 1,
@@ -918,7 +918,7 @@
         },
         {
             "address": "0x1Da760C35461cF6ab2bE37A819bEf5a676642e21",
-            "name": "Andre Cronje Rar",
+            "name": "Andre Cronje Rare",
             "symbol": "MEMES",
             "decimals": 18,
             "chainId": 1,
@@ -943,14 +943,14 @@
         {
             "address": "0x84d9c5dcD7FB94a148E161d217B21863F81e3dfB",
             "name": "8325",
-            "symbol": "0xc7e5e9434f4a71",
+            "symbol": "0xc7e5e9434f4a71e6db...",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0x94BF495C4E71CD9BC07a8172E2058E423baBdB19",
-            "name": "MyCryptoHeroesH",
+            "name": "MyCryptoHeroesHero",
             "symbol": "MCHH",
             "decimals": 18,
             "chainId": 1,
@@ -966,7 +966,7 @@
         },
         {
             "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
-            "name": "Genetic Algorith",
+            "name": "Genetic Algorithm",
             "symbol": "SUPR",
             "decimals": 18,
             "chainId": 1,
@@ -982,7 +982,7 @@
         },
         {
             "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
-            "name": "/DRM/ 1st Editio",
+            "name": "/DRM/ 1st Edition - ...",
             "symbol": "DRM",
             "decimals": 18,
             "chainId": 1,
@@ -990,7 +990,7 @@
         },
         {
             "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
-            "name": "Sam Bankman-Frie",
+            "name": "Sam Bankman-Fried Co...",
             "symbol": "CHADSLTD",
             "decimals": 18,
             "chainId": 1,
@@ -998,7 +998,7 @@
         },
         {
             "address": "0x52e49e2017763C39137aDa463d447adC74b9E63c",
-            "name": "Anthony Sassano",
+            "name": "Anthony Sassano Comm...",
             "symbol": "CHADSLTD",
             "decimals": 18,
             "chainId": 1,
@@ -1006,7 +1006,7 @@
         },
         {
             "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
-            "name": "Whip of Erebos -",
+            "name": "Whip of Erebos - Ani...",
             "symbol": "MTG",
             "decimals": 18,
             "chainId": 1,
@@ -1086,7 +1086,7 @@
         },
         {
             "address": "0xE63983b5FAdE429eC052d1b365826C4Bc5fCB198",
-            "name": "Penguin Fancy Sh",
+            "name": "Penguin Fancy Shoes",
             "symbol": "WIMD",
             "decimals": 18,
             "chainId": 1,
@@ -1130,5 +1130,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-02-19T12:53:58.353Z"
+    "timestamp": "2021-02-19T12:58:43.593Z"
 }
