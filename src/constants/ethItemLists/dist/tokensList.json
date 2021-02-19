@@ -39,7 +39,7 @@
         {
             "address": "0x9E4c291b1064973fD53b90b2F117BcF43dF3E9ca",
             "name": "EthOS Index 1",
-            "symbol": "OS_1",
+            "symbol": "OS1",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.io/ipfs/QmWoAzMRqcK1qYrv5YJG4V4kEUzbk9x4u83jyhtwsZfoTP"
@@ -54,7 +54,7 @@
         },
         {
             "address": "0xD15c7Fcda27a93b9d4cD3617E09416Ec3aaA5237",
-            "name": "WIMD  Common Ca",
+            "name": "WIMD - Common Ca",
             "symbol": "WCCD",
             "decimals": 18,
             "chainId": 1,
@@ -822,7 +822,7 @@
         },
         {
             "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
-            "name": "INVALID  DO N",
+            "name": "INVALID -- DO N",
             "symbol": "0x93ea6ec350ace7",
             "decimals": 18,
             "chainId": 1,
@@ -830,7 +830,7 @@
         },
         {
             "address": "0x32e4623Ed080085479a31e727b1C005A2CA5A850",
-            "name": "LUCK CARDS  Lim",
+            "name": "LUCK CARDS - Lim",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
@@ -846,7 +846,7 @@
         },
         {
             "address": "0x66Af9569DB344d05eC1Dd1777c8604c98a71784c",
-            "name": "Andre Cronje  Y",
+            "name": "Andre Cronje - Y",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
@@ -878,7 +878,7 @@
         },
         {
             "address": "0x0362EB0CbB99175a8148C57B87f0d11B5AF74714",
-            "name": "RagDoll",
+            "name": "Rag-Doll",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
@@ -982,7 +982,7 @@
         },
         {
             "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
-            "name": "DRM 1st Editio",
+            "name": "/DRM/ 1st Editio",
             "symbol": "DRM",
             "decimals": 18,
             "chainId": 1,
@@ -990,7 +990,7 @@
         },
         {
             "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
-            "name": "Sam BankmanFrie",
+            "name": "Sam Bankman-Frie",
             "symbol": "CHADSLTD",
             "decimals": 18,
             "chainId": 1,
@@ -1006,7 +1006,7 @@
         },
         {
             "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
-            "name": "Whip of Erebos",
+            "name": "Whip of Erebos -",
             "symbol": "MTG",
             "decimals": 18,
             "chainId": 1,
@@ -1014,7 +1014,7 @@
         },
         {
             "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
-            "name": "LAND 119 40",
+            "name": "LAND 119 -40",
             "symbol": "LAND",
             "decimals": 18,
             "chainId": 1,
@@ -1130,5 +1130,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-02-19T12:25:30.238Z"
+    "timestamp": "2021-02-19T12:53:58.353Z"
 }
