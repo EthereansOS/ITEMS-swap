@@ -65,6 +65,7 @@ async function loop() {
 }
 
 async function elaborateCollection(collection, callback) {
+  console.log("Elaborating Collection", collection.name, collection.symbol);
   await loadItems(collection)
   if (!collection.items || Object.values(collection.items).length === 0) {
     return
@@ -84,9 +85,9 @@ async function elaborateCollection(collection, callback) {
     },
     timestamp: new Date().toISOString()
   }
-  console.log(cleanCollection.name, "Loading");
+  console.log("Logo of Collection", cleanCollection.name, "Loading");
   cleanCollection.logoURI = window.formatLinkForExpose(await getLogoURI(collection));
-  console.log(cleanCollection.name, "Loaded");
+  console.log("Logo of Collection", cleanCollection.name, "Loaded");
   for (const rawItem of Object.values(collection.items)) {
     if (exceptFor.indexOf(window.web3.utils.toChecksumAddress(rawItem.address)) !== -1) {
       continue
@@ -104,9 +105,9 @@ async function elaborateCollection(collection, callback) {
       decimals: window.asNumber(rawItem.decimals),
       chainId: window.asNumber(window.networkId)
     }
-    console.log(token.name, "Loading");
+    console.log("Logo of Token", token.name, "Loading");
     token.logoURI = window.formatLinkForExpose(await getLogoURI(rawItem));
-    console.log(token.name, "Loaded");
+    console.log("Logo of Token", token.name, "Loaded");
     cleanCollection.tokens.push(token)
   }
   callback(cleanCollection.tokens)
