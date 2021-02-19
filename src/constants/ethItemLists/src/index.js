@@ -115,24 +115,22 @@ async function elaborateCollection(collection, callback) {
 
 function getLogoURI(element) {
     return new Promise(async ok => {
-        timeout(15000).then(() => ok(getDefaultLogoURI(element)));
+        var tmo = setTimeout(function() {
+          console.log("Timeout!");
+          ok(getDefaultLogoURI(element));
+        }, 15000);
         try {
             await window.AJAXRequest(element.trustWalletURI)
             element.image = element.trustWalletURI
         } catch (e) {}
         try {
             await window.AJAXRequest(element.image)
+            clearTimeout(tmo);
             return ok(element.image)
         } catch (e) {}
+        clearTimeout(tmo);
         return ok(getDefaultLogoURI(element))
     });
-}
-
-function timeout(millis) {
-    return new Promise(ok => setTimeout(function() {
-      console.log("Timeout!");
-      ok();
-    }, millis));
 }
 
 function getDefaultLogoURI(element) {
