@@ -113,26 +113,23 @@ async function elaborateCollection(collection, callback) {
     callback(cleanCollection.tokens)
 }
 
-function getLogoURI(element) {
-    return new Promise(ok => {
-        var tmo = setTimeout(function() {
-          console.log("Timeout!");
-          ok(getDefaultLogoURI(element));
-        }, 15000);
-        window.AJAXRequest(element.trustWalletURI)
-        .catch(() => {})
-        .then(() => {
-          element.image = element.trustWalletURI;
-        })
-        .then(() => window.AJAXRequest(element.image)
-        .catch(() => {
-          clearTimeout(tmo)
-          ok(getDefaultLogoURI(element))
-        })
-        .then(() => {
-          clearTimeout(tmo)
-          ok(element.image)}))
-    });
+async function getLogoURI(element) {
+  try {
+    await window.AJAXRequest(element.trustWalletURI)
+    element.image = element.trustWalletURI
+  } catch (e) {
+    console.error(e.message);
+  }
+  console.log(element.image, element.trustWalletURI);
+  try {
+    await window.AJAXRequest(element.image)
+    return element.image
+  } catch (e) {
+    console.error(e.message);
+  }
+  var img = getDefaultLogoURI(element);
+  console.log(img);
+  return img;
 }
 
 function getDefaultLogoURI(element) {
