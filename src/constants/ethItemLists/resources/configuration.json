@@ -24,7 +24,7 @@
   "ipfsUrlTemplates": ["ipfs://ipfs/", "ipfs://"],
   "ipfsUrlChanger": "https://gateway.ipfs.io/ipfs/",
   "exceptFor": ["0x56458AB3Bedb04F4754C973c173ce5c37740E8d1", "0x93b45be03fdc98909589eaf4e1e5d5a282f96c75"],
-  "excludingCollections": ["0x93b45be03fdc98909589eaf4e1e5d5a282f96c75"],
+  "excludingCollections": ["0x93b45be03fdc98909589eaf4e1e5d5a282f96c75", "0x75bFc3FF5d2E0Ed6587986bFf57325b062458403"],
   "additionalFactories": ["0x59d122eCC9aE61dD930F4706BcaAB239f671D611"],
   "additionalFactoriesRopsten": [],
   "IERC20ABI": [
