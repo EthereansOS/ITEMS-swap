@@ -49,11 +49,7 @@ async function loop() {
     const addToTokenLists = function addToTokenLists(tokens) {
         tokenLists.tokens.push(...tokens)
     }
-    console.log('Elaborating collections...')
-    for (var collection of collections) {
-        await elaborateCollection(collection, addToTokenLists);
-    }
-    console.log('Elaboration done')
+    await Promise.all(collections.map(collection => elaborateCollection(collection, addToTokenLists)));
     const p = path.resolve(distPath, 'tokensList.json')
     fs.writeFileSync(p, JSON.stringify(tokenLists, null, 4))
         /*fs.writeFileSync(p, JSON.stringify(Object.keys(tokenLists).map(it => window.context.listURITemplate.format(it)), null, 4));
@@ -65,7 +61,6 @@ async function loop() {
 }
 
 async function elaborateCollection(collection, callback) {
-    console.log("Elaborating Collection", collection.name, collection.symbol);
     await loadItems(collection)
     if (!collection.items || Object.values(collection.items).length === 0) {
         return
@@ -84,9 +79,7 @@ async function elaborateCollection(collection, callback) {
         },
         timestamp: new Date().toISOString()
     }
-    console.log("Logo of Collection", cleanCollection.name, "Loading");
     cleanCollection.logoURI = window.formatLinkForExpose(await getLogoURI(collection));
-    console.log("Logo of Collection", cleanCollection.name, "Loaded");
     for (const rawItem of Object.values(collection.items)) {
         if (exceptFor.indexOf(window.web3.utils.toChecksumAddress(rawItem.address)) !== -1) {
             continue
@@ -102,9 +95,7 @@ async function elaborateCollection(collection, callback) {
             decimals: window.asNumber(rawItem.decimals),
             chainId: window.asNumber(window.networkId)
         }
-        console.log("Logo of Token", token.name, "Loading");
         token.logoURI = window.formatLinkForExpose(await getLogoURI(rawItem));
-        console.log("Logo of Token", token.name, "Loaded");
         cleanCollection.tokens.push(token)
     }
     callback(cleanCollection.tokens)
@@ -115,18 +106,13 @@ async function getLogoURI(element) {
     await window.AJAXRequest(element.trustWalletURI)
     element.image = element.trustWalletURI
   } catch (e) {
-    console.error(e.message);
   }
-  console.log(element.image, element.trustWalletURI);
   try {
     await window.AJAXRequest(element.image)
     return element.image
   } catch (e) {
-    console.error(e.message);
   }
-  var img = getDefaultLogoURI(element);
-  console.log(img);
-  return img;
+  return getDefaultLogoURI(element);
 }
 
 function getDefaultLogoURI(element) {
@@ -194,11 +180,7 @@ async function loadCollections() {
             subCollectionsPromises.push(window.refreshSingleCollection(window.packCollection(collectionAddress, category, modelAddress)).catch(console.error))
         }
     }
-    var collection = [];
-    for (var promise of subCollectionsPromises) {
-        collection.push(await promise);
-    }
-    return collection;
+    return await Promise.all(subCollectionsPromises);
 }
 
 async function loadItems(collection) {
