@@ -13,22 +13,6 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
-            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
-            "name": "Whip of Erebos - Ani",
-            "symbol": "MTG",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x1D6316dbbE18b6E9B75AE064aA114FE7dC208eDC",
-            "name": "EthereumItem",
-            "symbol": "IETH",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W20-item.png"
-        },
-        {
             "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
             "name": "/DRM/ 1st Edition -",
             "symbol": "DRM",
@@ -37,20 +21,12 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
-            "name": "Genetic Algorithm",
-            "symbol": "SUPR",
+            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
+            "name": "DFY  Token 3",
+            "symbol": "DEFY",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
-        },
-        {
-            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
-            "name": "Dionysian Drunk",
-            "symbol": "CARD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://card.godsunchained.com/?id=1207&q=4"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
@@ -61,12 +37,52 @@
             "logoURI": "https://assets.f1deltatime.com/image/nft/2019_JetDriver_common.png"
         },
         {
-            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
-            "name": "LAND 119 -40",
-            "symbol": "LAND",
+            "address": "0x1D6316dbbE18b6E9B75AE064aA114FE7dC208eDC",
+            "name": "EthereumItem",
+            "symbol": "IETH",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W20-item.png"
+        },
+        {
+            "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
+            "name": "Genetic Algorithm",
+            "symbol": "SUPR",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
+        },
+        {
+            "address": "0xa15B60d58C39ce010f5E268f028630A08Ef9B54A",
+            "name": "yeahammer",
+            "symbol": "yeah",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
+        },
+        {
+            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
+            "name": "INVALID -- DO NOT BU",
+            "symbol": "0x93ea6ec350ace7473f",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
+        },
+        {
+            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
+            "name": "Dionysian Drunk",
+            "symbol": "CARD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://card.godsunchained.com/?id=1207&q=4"
+        },
+        {
+            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
+            "name": "Whip of Erebos - Ani",
+            "symbol": "MTG",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0x84d9c5dcD7FB94a148E161d217B21863F81e3dfB",
@@ -77,12 +93,12 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0xa15B60d58C39ce010f5E268f028630A08Ef9B54A",
-            "name": "yeahammer",
-            "symbol": "yeah",
+            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
+            "name": "LAND 119 -40",
+            "symbol": "LAND",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
+            "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
         },
         {
             "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
@@ -107,86 +123,6 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.io/ipfs/QmVCu7EpCwXf2w5TUsibDzLkaBtk5GtiZSguHFM4sUS8aK"
-        },
-        {
-            "address": "0x9E4c291b1064973fD53b90b2F117BcF43dF3E9ca",
-            "name": "EthOS Index 1",
-            "symbol": "OS1",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmWoAzMRqcK1qYrv5YJG4V4kEUzbk9x4u83jyhtwsZfoTP"
-        },
-        {
-            "address": "0xc63CAAc1ad9954AD3bC8247Ab33fF233b0DD0FcD",
-            "name": "DeFi Selection",
-            "symbol": "DeFi",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmT27UJUFk4GGUDnZHHGfu2di8ad9axHpwxg1caf9SMpFc"
-        },
-        {
-            "address": "0xD15c7Fcda27a93b9d4cD3617E09416Ec3aaA5237",
-            "name": "WIMD - Common Cards",
-            "symbol": "WCCD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmbUYRhM8TKGm7iD9mLgSVC5fcToeXaDdk8ntz6yDMJnp1"
-        },
-        {
-            "address": "0xD839E4989eC7FCD34554FCD990FA1438bD3a088E",
-            "name": "Dead End",
-            "symbol": "FXT",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmcHxFDsuPGn8x2Gpo5TnQu6shCiXLVtoDG3k88eRshjti"
-        },
-        {
-            "address": "0x7AB691aE7b3499639AefF7b49E6DB7418035812c",
-            "name": "Falling",
-            "symbol": "FXT",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmNy8fCcFrVrfvMfBxKRXm6gCyG5CnDbx2y3y6pCf8djX7"
-        },
-        {
-            "address": "0xad696407DE4a1b0e4dc30167F3E6EB2982A0b53C",
-            "name": "Find A Way Out",
-            "symbol": "FXT",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmXk6ENNWEpTNmaj6ntoovHXUbhsmNf6X8PU4b6himdPFX"
-        },
-        {
-            "address": "0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8",
-            "name": "Wrapped USD",
-            "symbol": "WUSD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmXjPmCChUCNeMSoRpSb3wKUARxbucZSQ3W5sZwMf749RX"
-        },
-        {
-            "address": "0xA4d9C768E1c6cabB127a6326c0668b49235639e8",
-            "name": "x2 WUSD",
-            "symbol": "WUSDx2",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmS377M8hhRYEMrDNuko1h5htnhHAjT5gFUHWAgB2UP765"
-        },
-        {
-            "address": "0x0473F6Ea742448ec9433b87aC410d79C08198abe",
-            "name": "x5 WUSD",
-            "symbol": "WUSDx5",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmeT8f6M4dgKWWKzeUXLRrxSVam5NbYA2yxsHgS3vbBAmF"
-        },
-        {
-            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
-            "name": "DFY  Token 3",
-            "symbol": "DEFY",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0xa8d883B1224284134949C30ecC05a677Af3eAbc7",
@@ -229,12 +165,76 @@
             "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/18.jpg"
         },
         {
-            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
-            "name": "INVALID -- DO NOT BU",
-            "symbol": "0x93ea6ec350ace7473f",
+            "address": "0xD839E4989eC7FCD34554FCD990FA1438bD3a088E",
+            "name": "Dead End",
+            "symbol": "FXT",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
+            "logoURI": "https://ipfs.io/ipfs/QmcHxFDsuPGn8x2Gpo5TnQu6shCiXLVtoDG3k88eRshjti"
+        },
+        {
+            "address": "0x7AB691aE7b3499639AefF7b49E6DB7418035812c",
+            "name": "Falling",
+            "symbol": "FXT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmNy8fCcFrVrfvMfBxKRXm6gCyG5CnDbx2y3y6pCf8djX7"
+        },
+        {
+            "address": "0xad696407DE4a1b0e4dc30167F3E6EB2982A0b53C",
+            "name": "Find A Way Out",
+            "symbol": "FXT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmXk6ENNWEpTNmaj6ntoovHXUbhsmNf6X8PU4b6himdPFX"
+        },
+        {
+            "address": "0x9E4c291b1064973fD53b90b2F117BcF43dF3E9ca",
+            "name": "EthOS Index 1",
+            "symbol": "OS1",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmWoAzMRqcK1qYrv5YJG4V4kEUzbk9x4u83jyhtwsZfoTP"
+        },
+        {
+            "address": "0xc63CAAc1ad9954AD3bC8247Ab33fF233b0DD0FcD",
+            "name": "DeFi Selection",
+            "symbol": "DeFi",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmT27UJUFk4GGUDnZHHGfu2di8ad9axHpwxg1caf9SMpFc"
+        },
+        {
+            "address": "0xD15c7Fcda27a93b9d4cD3617E09416Ec3aaA5237",
+            "name": "WIMD - Common Cards",
+            "symbol": "WCCD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmbUYRhM8TKGm7iD9mLgSVC5fcToeXaDdk8ntz6yDMJnp1"
+        },
+        {
+            "address": "0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8",
+            "name": "Wrapped USD",
+            "symbol": "WUSD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmXjPmCChUCNeMSoRpSb3wKUARxbucZSQ3W5sZwMf749RX"
+        },
+        {
+            "address": "0xA4d9C768E1c6cabB127a6326c0668b49235639e8",
+            "name": "x2 WUSD",
+            "symbol": "WUSDx2",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmS377M8hhRYEMrDNuko1h5htnhHAjT5gFUHWAgB2UP765"
+        },
+        {
+            "address": "0x0473F6Ea742448ec9433b87aC410d79C08198abe",
+            "name": "x5 WUSD",
+            "symbol": "WUSDx5",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmeT8f6M4dgKWWKzeUXLRrxSVam5NbYA2yxsHgS3vbBAmF"
         },
         {
             "address": "0x7C23Ac2E8DA915d4f422CF710f4767FAa0c332fa",
@@ -349,14 +349,6 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
-            "name": "Sandboxs ASSETs",
-            "symbol": "ASSET",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
             "address": "0x5430E56eEBA6cc24790c7387167238a2B0F5e173",
             "name": "Meme Grail Relic",
             "symbol": "MEMES",
@@ -405,268 +397,12 @@
             "logoURI": "https://images.dontbuymeme.com/artist-series/diego/static/dont-drink.jpg"
         },
         {
-            "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
-            "name": "Sam Bankman-Fried Co",
-            "symbol": "CHADSLTD",
+            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
+            "name": "Sandboxs ASSETs",
+            "symbol": "ASSET",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://api.chads.vc/img/1.gif"
-        },
-        {
-            "address": "0x52e49e2017763C39137aDa463d447adC74b9E63c",
-            "name": "Anthony Sassano Comm",
-            "symbol": "CHADSLTD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://api.chads.vc/img/3.gif"
-        },
-        {
-            "address": "0x754B12394D06A6b9a3e6A21aB9D13c8ee563388E",
-            "name": "Buidlers Tickets - B",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmWfe5ofRa5tskcbwrznou9UhBphfSHGsJGwF8FRxYs7Jf"
-        },
-        {
-            "address": "0xd1E9647C47579A52958b8352fFa155F38dDF7a98",
-            "name": "Julian The Sniper Re",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmfX3mYicnGHzzjKhedbVm3Dykx7uWXMaRG48Hzpx7sADw"
-        },
-        {
-            "address": "0x61C48C0789b7845C5de96e95F95Fb0C3e7a75447",
-            "name": "BUIDL First DFO",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmfJsxbd3N7GFXU7A3HzwfCcr5cipNVKcPRtphiat3LmzY"
-        },
-        {
-            "address": "0x0Fd8Bf220d44f3c523DE839e007E9f68858DA8fE",
-            "name": "Mario  Wario vs Lord",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmWYvUBXUGDc3MyG2atSuxQitQM3QjU7QJf4Hfnyjn2pST"
-        },
-        {
-            "address": "0x433cA9f771D4dE8D246d9eFD52b8f811be871Da5",
-            "name": "Super BUIDL Bros",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmbHUqm11LqV6Jqfo5LgAucjR5bXVB92MC4FpTH5KqzndN"
-        },
-        {
-            "address": "0xD997D89d914F018631CE01672C015d42F8D38b41",
-            "name": "NUVOS ORDO ETHEREUS",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmT6eT5TsrW4PhLRvYCxanDhYgajnpBfLHicVi9Kj7ear6"
-        },
-        {
-            "address": "0x28568B4685275B281600cF40BddB5AacF28D191b",
-            "name": "The Buidlerberg Prop",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmVj5bpsD2AjhWFYEDED2FoV2XF5yxfZ3g1hLsbNsnGvbk"
-        },
-        {
-            "address": "0xfb7f1156F63BC1990884dA15bb878d6B0bAC7FEc",
-            "name": "Doing Your Part",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmbQxhZ17y4VrxZt6Vz2XiQ3dBrxxxYBT3nWrjikxNWiUi"
-        },
-        {
-            "address": "0xF640BC933BB563C0f6582E2BA93ec7a9A3e91254",
-            "name": "More than just Farm",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmPfEUDjo6SUacHBonFTQcrLHNhrvnCvvu2gmdUYyd6rog"
-        },
-        {
-            "address": "0x1987b9A872378093b8C36730970534F3adf004EC",
-            "name": "Super Saiyan Brother",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmUR52Ea1k4NJpsvegBDLAJjqWfWHsQaWrHsLg1TsnRYp1"
-        },
-        {
-            "address": "0x1bE29208CcadeD50a5a6803aC74546792617cb85",
-            "name": "DFOmachine",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmYWm9zRJoYMaj1RxykBGL59CCJfGXZtNkVwRnfBrhPGVk"
-        },
-        {
-            "address": "0x0629F859d1a55430ae25f88Fe6A8c8E612708f55",
-            "name": "Genki Dama BUIDL",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmfYsUsYC5wfG9rJruM68hTpwNsuycKcd1cZceJYXaEM6L"
-        },
-        {
-            "address": "0xbfD49110C4D85B519ECAe3A2a9a04E39F0526C4d",
-            "name": "Space Buidlers Explo",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmPQuwLamWrTz2a7PxZYpUdZfbdaZBnKHRo2cUDw78Bo5C"
-        },
-        {
-            "address": "0xB186781403A79CCe9F77599EA71e00B0b9BfA77E",
-            "name": "New Ethereum Order A",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmWtt5t4wsxmCq96cZDojesJ7iu8L85gyQAd7fStnzPGkd"
-        },
-        {
-            "address": "0xc7b121761eBECB4f704e406e7bBb85Ef123eFcFe",
-            "name": "The Portal",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmPVfuDugB4HNaDKV5Sxh98RDA7h8ddz7TLV3h9GaJXdDH"
-        },
-        {
-            "address": "0xC23A760D04d479e7E358223C05843f79e5EeE66b",
-            "name": "BUIDLERBERG MEETING",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmZszdcb79fZd21XCvTaeYnNvK9a532UyQ5RAtoXeZxhor"
-        },
-        {
-            "address": "0x29e7B013ECC0DffEb6990665521086A0A3D249cD",
-            "name": "Alex Grey into the B",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmSoT5aScXKyK4RC852YyfMx8md9n2MgRHALNpREB8m4Qe"
-        },
-        {
-            "address": "0x552860Ab98d5D32e93Bc09Fe118eDd31dD7DAEf4",
-            "name": "Julianx Revolutions",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmbxyKmV1yZNevqcXXiX7Ep4gsEJS2E4pHHmR3cskjLT7p"
-        },
-        {
-            "address": "0xBa83E2aDf0c66f050941B2235C67662bE9A150b4",
-            "name": "Valemostro Halloween",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmS9viuQY9dPkXui6x8zmtki2JVRrNMkgEVfR6RT3jtNzp"
-        },
-        {
-            "address": "0xD2dF9E10a8725BEAd6e856065E040c1Fb0ce94a1",
-            "name": "Shut up and take my",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmPb2F3rpXm64L5EURwD1Guj2KaonbSMadaF5n21mtEqVz"
-        },
-        {
-            "address": "0x917F1c6Fc2d8Fc0dC21D81e508607482102386fA",
-            "name": "Buidler Knight",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmTD2xWujM6pz6SsevYzYfo3wbhHHVezy8UZf7xVTWnvAq"
-        },
-        {
-            "address": "0xD6a0b85192C09D225323866Edeea55e471C82f25",
-            "name": "Find the differences",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmdB4K7drBKs2pNs2QKQRaW9mkdGy8vM9UPQeU9d2VQRFs"
-        },
-        {
-            "address": "0x4e656fabdb0feE59726cdd51629e41d42A8D545a",
-            "name": "Balancer Raid",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmasmtsKni1BwRMTvjWM9dcBqQU7h5SC9JKs2V1aNq88eH"
-        },
-        {
-            "address": "0xF7Ed3Ac8dA505aD464107e23dc7D3d1eB4f51319",
-            "name": "Baby Joda and the IT",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmSC5UMiZ1jPuotYSNpBjM3DPy79uMbgEdZQaBp4Ki4bb9"
-        },
-        {
-            "address": "0x38d5C0677C8BB60698f50933FBE05821Fec2ACfb",
-            "name": "BUIDLsaur",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmPxXwLT1oHEDkNuWXfJyXMFZzVr7fchaDfHUn4MzQvuRP"
-        },
-        {
-            "address": "0x9C991401075B7765b9ff02bbEcd3661cc5d535a5",
-            "name": "SSJ Powers",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmbYHzbUPXAtRKLc2RiyXLhCw1MkJc8ncCETdKr4sJt9Ut"
-        },
-        {
-            "address": "0xfCeE891082A3e560eFBc1A6952e1Da0638a4AcCD",
-            "name": "Buidl Gang",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmfCcpyizWucn5k7zaeMUXFmtVi7GhRzDBu1gs1JwM8PS5"
-        },
-        {
-            "address": "0x0cD530AA4289110c84748351025f4C3D650e6edA",
-            "name": "Daily DFO News",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmXMaEriu1FVhwjGc6Romj58fHL7MS5kjj4s467YaqynXF"
-        },
-        {
-            "address": "0x2526BBd4b0cb7e03Cc0A4D94b06aA82bD0cFe91c",
-            "name": "DFO is sexy",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmRjnuucpoZTPb4ZU7YEV49eLNe2NAFxscitEvHPkCw3XE"
-        },
-        {
-            "address": "0xc2F09C24e81e7f9B45C5a0b3C11a63E762d9Be03",
-            "name": "Pepe wizard and the",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmRxmgu2T3eWnZvAdRWCVeCQYfBY4bNRctR4biswVTqmmD"
-        },
-        {
-            "address": "0x90c469FA7C6695b8EFbaBc34025C1b6A71490D1F",
-            "name": "Buidl Army",
-            "symbol": "BE2020",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmUAiyhFPQtbuh9Knvmunp5WZ1W1igpPHDPpeRuWb9ojAs"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0xAa843dd5fa4F9f07E2De5920dBf73D9a875C9e10",
@@ -1131,6 +867,270 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png"
+        },
+        {
+            "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
+            "name": "Sam Bankman-Fried Co",
+            "symbol": "CHADSLTD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://api.chads.vc/img/1.gif"
+        },
+        {
+            "address": "0x52e49e2017763C39137aDa463d447adC74b9E63c",
+            "name": "Anthony Sassano Comm",
+            "symbol": "CHADSLTD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://api.chads.vc/img/3.gif"
+        },
+        {
+            "address": "0x754B12394D06A6b9a3e6A21aB9D13c8ee563388E",
+            "name": "Buidlers Tickets - B",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmWfe5ofRa5tskcbwrznou9UhBphfSHGsJGwF8FRxYs7Jf"
+        },
+        {
+            "address": "0xd1E9647C47579A52958b8352fFa155F38dDF7a98",
+            "name": "Julian The Sniper Re",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmfX3mYicnGHzzjKhedbVm3Dykx7uWXMaRG48Hzpx7sADw"
+        },
+        {
+            "address": "0x61C48C0789b7845C5de96e95F95Fb0C3e7a75447",
+            "name": "BUIDL First DFO",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmfJsxbd3N7GFXU7A3HzwfCcr5cipNVKcPRtphiat3LmzY"
+        },
+        {
+            "address": "0x0Fd8Bf220d44f3c523DE839e007E9f68858DA8fE",
+            "name": "Mario  Wario vs Lord",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmWYvUBXUGDc3MyG2atSuxQitQM3QjU7QJf4Hfnyjn2pST"
+        },
+        {
+            "address": "0x433cA9f771D4dE8D246d9eFD52b8f811be871Da5",
+            "name": "Super BUIDL Bros",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmbHUqm11LqV6Jqfo5LgAucjR5bXVB92MC4FpTH5KqzndN"
+        },
+        {
+            "address": "0xD997D89d914F018631CE01672C015d42F8D38b41",
+            "name": "NUVOS ORDO ETHEREUS",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmT6eT5TsrW4PhLRvYCxanDhYgajnpBfLHicVi9Kj7ear6"
+        },
+        {
+            "address": "0x28568B4685275B281600cF40BddB5AacF28D191b",
+            "name": "The Buidlerberg Prop",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmVj5bpsD2AjhWFYEDED2FoV2XF5yxfZ3g1hLsbNsnGvbk"
+        },
+        {
+            "address": "0xfb7f1156F63BC1990884dA15bb878d6B0bAC7FEc",
+            "name": "Doing Your Part",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmbQxhZ17y4VrxZt6Vz2XiQ3dBrxxxYBT3nWrjikxNWiUi"
+        },
+        {
+            "address": "0xF640BC933BB563C0f6582E2BA93ec7a9A3e91254",
+            "name": "More than just Farm",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmPfEUDjo6SUacHBonFTQcrLHNhrvnCvvu2gmdUYyd6rog"
+        },
+        {
+            "address": "0x1987b9A872378093b8C36730970534F3adf004EC",
+            "name": "Super Saiyan Brother",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmUR52Ea1k4NJpsvegBDLAJjqWfWHsQaWrHsLg1TsnRYp1"
+        },
+        {
+            "address": "0x1bE29208CcadeD50a5a6803aC74546792617cb85",
+            "name": "DFOmachine",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmYWm9zRJoYMaj1RxykBGL59CCJfGXZtNkVwRnfBrhPGVk"
+        },
+        {
+            "address": "0x0629F859d1a55430ae25f88Fe6A8c8E612708f55",
+            "name": "Genki Dama BUIDL",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmfYsUsYC5wfG9rJruM68hTpwNsuycKcd1cZceJYXaEM6L"
+        },
+        {
+            "address": "0xbfD49110C4D85B519ECAe3A2a9a04E39F0526C4d",
+            "name": "Space Buidlers Explo",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmPQuwLamWrTz2a7PxZYpUdZfbdaZBnKHRo2cUDw78Bo5C"
+        },
+        {
+            "address": "0xB186781403A79CCe9F77599EA71e00B0b9BfA77E",
+            "name": "New Ethereum Order A",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmWtt5t4wsxmCq96cZDojesJ7iu8L85gyQAd7fStnzPGkd"
+        },
+        {
+            "address": "0xc7b121761eBECB4f704e406e7bBb85Ef123eFcFe",
+            "name": "The Portal",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmPVfuDugB4HNaDKV5Sxh98RDA7h8ddz7TLV3h9GaJXdDH"
+        },
+        {
+            "address": "0xC23A760D04d479e7E358223C05843f79e5EeE66b",
+            "name": "BUIDLERBERG MEETING",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmZszdcb79fZd21XCvTaeYnNvK9a532UyQ5RAtoXeZxhor"
+        },
+        {
+            "address": "0x29e7B013ECC0DffEb6990665521086A0A3D249cD",
+            "name": "Alex Grey into the B",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmSoT5aScXKyK4RC852YyfMx8md9n2MgRHALNpREB8m4Qe"
+        },
+        {
+            "address": "0x552860Ab98d5D32e93Bc09Fe118eDd31dD7DAEf4",
+            "name": "Julianx Revolutions",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmbxyKmV1yZNevqcXXiX7Ep4gsEJS2E4pHHmR3cskjLT7p"
+        },
+        {
+            "address": "0xBa83E2aDf0c66f050941B2235C67662bE9A150b4",
+            "name": "Valemostro Halloween",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmS9viuQY9dPkXui6x8zmtki2JVRrNMkgEVfR6RT3jtNzp"
+        },
+        {
+            "address": "0xD2dF9E10a8725BEAd6e856065E040c1Fb0ce94a1",
+            "name": "Shut up and take my",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmPb2F3rpXm64L5EURwD1Guj2KaonbSMadaF5n21mtEqVz"
+        },
+        {
+            "address": "0x917F1c6Fc2d8Fc0dC21D81e508607482102386fA",
+            "name": "Buidler Knight",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmTD2xWujM6pz6SsevYzYfo3wbhHHVezy8UZf7xVTWnvAq"
+        },
+        {
+            "address": "0xD6a0b85192C09D225323866Edeea55e471C82f25",
+            "name": "Find the differences",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmdB4K7drBKs2pNs2QKQRaW9mkdGy8vM9UPQeU9d2VQRFs"
+        },
+        {
+            "address": "0x4e656fabdb0feE59726cdd51629e41d42A8D545a",
+            "name": "Balancer Raid",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmasmtsKni1BwRMTvjWM9dcBqQU7h5SC9JKs2V1aNq88eH"
+        },
+        {
+            "address": "0xF7Ed3Ac8dA505aD464107e23dc7D3d1eB4f51319",
+            "name": "Baby Joda and the IT",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmSC5UMiZ1jPuotYSNpBjM3DPy79uMbgEdZQaBp4Ki4bb9"
+        },
+        {
+            "address": "0x38d5C0677C8BB60698f50933FBE05821Fec2ACfb",
+            "name": "BUIDLsaur",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmPxXwLT1oHEDkNuWXfJyXMFZzVr7fchaDfHUn4MzQvuRP"
+        },
+        {
+            "address": "0x9C991401075B7765b9ff02bbEcd3661cc5d535a5",
+            "name": "SSJ Powers",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmbYHzbUPXAtRKLc2RiyXLhCw1MkJc8ncCETdKr4sJt9Ut"
+        },
+        {
+            "address": "0xfCeE891082A3e560eFBc1A6952e1Da0638a4AcCD",
+            "name": "Buidl Gang",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmfCcpyizWucn5k7zaeMUXFmtVi7GhRzDBu1gs1JwM8PS5"
+        },
+        {
+            "address": "0x0cD530AA4289110c84748351025f4C3D650e6edA",
+            "name": "Daily DFO News",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmXMaEriu1FVhwjGc6Romj58fHL7MS5kjj4s467YaqynXF"
+        },
+        {
+            "address": "0x2526BBd4b0cb7e03Cc0A4D94b06aA82bD0cFe91c",
+            "name": "DFO is sexy",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmRjnuucpoZTPb4ZU7YEV49eLNe2NAFxscitEvHPkCw3XE"
+        },
+        {
+            "address": "0xc2F09C24e81e7f9B45C5a0b3C11a63E762d9Be03",
+            "name": "Pepe wizard and the",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmRxmgu2T3eWnZvAdRWCVeCQYfBY4bNRctR4biswVTqmmD"
+        },
+        {
+            "address": "0x90c469FA7C6695b8EFbaBc34025C1b6A71490D1F",
+            "name": "Buidl Army",
+            "symbol": "BE2020",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmUAiyhFPQtbuh9Knvmunp5WZ1W1igpPHDPpeRuWb9ojAs"
         }
     ],
     "version": {
@@ -1138,5 +1138,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-02-20T21:08:01.697Z"
+    "timestamp": "2021-02-20T22:09:42.844Z"
 }
