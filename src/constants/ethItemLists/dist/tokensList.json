@@ -13,14 +13,6 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
-            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
-            "name": "DFY  Token 3",
-            "symbol": "DEFY",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
             "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
             "name": "/DRM/ 1st Edition -",
             "symbol": "DRM",
@@ -29,17 +21,17 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0xa15B60d58C39ce010f5E268f028630A08Ef9B54A",
-            "name": "yeahammer",
-            "symbol": "yeah",
+            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
+            "name": "Whip of Erebos - Ani",
+            "symbol": "MTG",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x84d9c5dcD7FB94a148E161d217B21863F81e3dfB",
-            "name": "8325",
-            "symbol": "0xc7e5e9434f4a71e6db",
+            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
+            "name": "DFY  Token 3",
+            "symbol": "DEFY",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
@@ -53,20 +45,20 @@
             "logoURI": "https://card.godsunchained.com/?id=1207&q=4"
         },
         {
-            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
-            "name": "Whip of Erebos - Ani",
-            "symbol": "MTG",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
             "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
             "name": "Genetic Algorithm",
             "symbol": "SUPR",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
+        },
+        {
+            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
+            "name": "INVALID -- DO NOT BU",
+            "symbol": "0x93ea6ec350ace7473f",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
         },
         {
             "address": "0x1D6316dbbE18b6E9B75AE064aA114FE7dC208eDC",
@@ -93,12 +85,20 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
         },
         {
-            "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
-            "name": "Jet Driver",
-            "symbol": "F1DTI",
+            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
+            "name": "LAND 119 -40",
+            "symbol": "LAND",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://assets.f1deltatime.com/image/nft/2019_JetDriver_common.png"
+            "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
+        },
+        {
+            "address": "0x84d9c5dcD7FB94a148E161d217B21863F81e3dfB",
+            "name": "8325",
+            "symbol": "0xc7e5e9434f4a71e6db",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0x8467331556e58bCDE5e135efDf441Df685B41C73",
@@ -117,12 +117,12 @@
             "logoURI": "https://ipfs.io/ipfs/QmVCu7EpCwXf2w5TUsibDzLkaBtk5GtiZSguHFM4sUS8aK"
         },
         {
-            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
-            "name": "LAND 119 -40",
-            "symbol": "LAND",
+            "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
+            "name": "Jet Driver",
+            "symbol": "F1DTI",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
+            "logoURI": "https://assets.f1deltatime.com/image/nft/2019_JetDriver_common.png"
         },
         {
             "address": "0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8",
@@ -147,6 +147,14 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.io/ipfs/QmeT8f6M4dgKWWKzeUXLRrxSVam5NbYA2yxsHgS3vbBAmF"
+        },
+        {
+            "address": "0xa15B60d58C39ce010f5E268f028630A08Ef9B54A",
+            "name": "yeahammer",
+            "symbol": "yeah",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
             "address": "0xD839E4989eC7FCD34554FCD990FA1438bD3a088E",
@@ -315,14 +323,6 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.io/ipfs/QmPzhhPK1o39aJBk4V2M9dg2XxSp2S9UCcAbTPvuVCPj4C"
-        },
-        {
-            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
-            "name": "INVALID -- DO NOT BU",
-            "symbol": "0x93ea6ec350ace7473f",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
         },
         {
             "address": "0x32e4623Ed080085479a31e727b1C005A2CA5A850",
@@ -1170,5 +1170,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-02-22T13:07:28.398Z"
+    "timestamp": "2021-02-22T14:09:01.551Z"
 }
