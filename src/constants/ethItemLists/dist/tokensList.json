@@ -5,20 +5,20 @@
     "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/logo.png",
     "tokens": [
         {
-            "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
-            "name": "/DRM/ 1st Edition -",
-            "symbol": "DRM",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
             "address": "0x94BF495C4E71CD9BC07a8172E2058E423baBdB19",
             "name": "MyCryptoHeroesHero",
             "symbol": "MCHH",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
+        },
+        {
+            "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
+            "name": "/DRM/ 1st Edition -",
+            "symbol": "DRM",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
@@ -37,14 +37,6 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
-            "name": "Genetic Algorithm",
-            "symbol": "SUPR",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
-        },
-        {
             "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
             "name": "DFY  Token 3",
             "symbol": "DEFY",
@@ -53,12 +45,20 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
-            "name": "Dionysian Drunk",
-            "symbol": "CARD",
+            "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
+            "name": "Genetic Algorithm",
+            "symbol": "SUPR",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://card.godsunchained.com/?id=1207&q=4"
+            "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
+        },
+        {
+            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
+            "name": "LAND 119 -40",
+            "symbol": "LAND",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
         },
         {
             "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
@@ -77,22 +77,6 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
-            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
-            "name": "INVALID -- DO NOT BU",
-            "symbol": "0x93ea6ec350ace7473f",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
-        },
-        {
-            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
-            "name": "LAND 119 -40",
-            "symbol": "LAND",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
-        },
-        {
             "address": "0x8467331556e58bCDE5e135efDf441Df685B41C73",
             "name": "Lucky the DFOGhost20",
             "symbol": "ETRA",
@@ -107,6 +91,70 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.io/ipfs/QmVCu7EpCwXf2w5TUsibDzLkaBtk5GtiZSguHFM4sUS8aK"
+        },
+        {
+            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
+            "name": "INVALID -- DO NOT BU",
+            "symbol": "0x93ea6ec350ace7473f",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
+        },
+        {
+            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
+            "name": "Dionysian Drunk",
+            "symbol": "CARD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://card.godsunchained.com/?id=1207&q=4"
+        },
+        {
+            "address": "0xD839E4989eC7FCD34554FCD990FA1438bD3a088E",
+            "name": "Dead End",
+            "symbol": "FXT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmcHxFDsuPGn8x2Gpo5TnQu6shCiXLVtoDG3k88eRshjti"
+        },
+        {
+            "address": "0x7AB691aE7b3499639AefF7b49E6DB7418035812c",
+            "name": "Falling",
+            "symbol": "FXT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmNy8fCcFrVrfvMfBxKRXm6gCyG5CnDbx2y3y6pCf8djX7"
+        },
+        {
+            "address": "0xad696407DE4a1b0e4dc30167F3E6EB2982A0b53C",
+            "name": "Find A Way Out",
+            "symbol": "FXT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmXk6ENNWEpTNmaj6ntoovHXUbhsmNf6X8PU4b6himdPFX"
+        },
+        {
+            "address": "0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8",
+            "name": "Wrapped USD",
+            "symbol": "WUSD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmXjPmCChUCNeMSoRpSb3wKUARxbucZSQ3W5sZwMf749RX"
+        },
+        {
+            "address": "0xA4d9C768E1c6cabB127a6326c0668b49235639e8",
+            "name": "x2 WUSD",
+            "symbol": "WUSDx2",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmS377M8hhRYEMrDNuko1h5htnhHAjT5gFUHWAgB2UP765"
+        },
+        {
+            "address": "0x0473F6Ea742448ec9433b87aC410d79C08198abe",
+            "name": "x5 WUSD",
+            "symbol": "WUSDx5",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmeT8f6M4dgKWWKzeUXLRrxSVam5NbYA2yxsHgS3vbBAmF"
         },
         {
             "address": "0x1D6316dbbE18b6E9B75AE064aA114FE7dC208eDC",
@@ -173,54 +221,6 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"
         },
         {
-            "address": "0xD839E4989eC7FCD34554FCD990FA1438bD3a088E",
-            "name": "Dead End",
-            "symbol": "FXT",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmcHxFDsuPGn8x2Gpo5TnQu6shCiXLVtoDG3k88eRshjti"
-        },
-        {
-            "address": "0x7AB691aE7b3499639AefF7b49E6DB7418035812c",
-            "name": "Falling",
-            "symbol": "FXT",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmNy8fCcFrVrfvMfBxKRXm6gCyG5CnDbx2y3y6pCf8djX7"
-        },
-        {
-            "address": "0xad696407DE4a1b0e4dc30167F3E6EB2982A0b53C",
-            "name": "Find A Way Out",
-            "symbol": "FXT",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmXk6ENNWEpTNmaj6ntoovHXUbhsmNf6X8PU4b6himdPFX"
-        },
-        {
-            "address": "0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8",
-            "name": "Wrapped USD",
-            "symbol": "WUSD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmXjPmCChUCNeMSoRpSb3wKUARxbucZSQ3W5sZwMf749RX"
-        },
-        {
-            "address": "0xA4d9C768E1c6cabB127a6326c0668b49235639e8",
-            "name": "x2 WUSD",
-            "symbol": "WUSDx2",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmS377M8hhRYEMrDNuko1h5htnhHAjT5gFUHWAgB2UP765"
-        },
-        {
-            "address": "0x0473F6Ea742448ec9433b87aC410d79C08198abe",
-            "name": "x5 WUSD",
-            "symbol": "WUSDx5",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmeT8f6M4dgKWWKzeUXLRrxSVam5NbYA2yxsHgS3vbBAmF"
-        },
-        {
             "address": "0x9E4c291b1064973fD53b90b2F117BcF43dF3E9ca",
             "name": "EthOS Index 1",
             "symbol": "OS1",
@@ -259,46 +259,6 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.io/ipfs/QmZB1tHXWqrF42DmibNKGsoLKSSTukqKiQTXbKzAfwdEkt"
-        },
-        {
-            "address": "0xa8d883B1224284134949C30ecC05a677Af3eAbc7",
-            "name": "Chef Nomi",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/6.jpg"
-        },
-        {
-            "address": "0x33e554d0f8957A5bC14DCbf033E6C450E20aefA0",
-            "name": "BlueKirbyeth",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/10.jpg"
-        },
-        {
-            "address": "0xcd6056d83E918BD9037Af463e1436fC91919C23b",
-            "name": "Monsoonie",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/12.jpg"
-        },
-        {
-            "address": "0xFEfFBB1DC28346Ae94c1115420407Ff6e997c3E2",
-            "name": "ChainLinkGodeth",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/16.jpg"
-        },
-        {
-            "address": "0x68C25417bA30b8B3475752AB05E5B8baB77428F5",
-            "name": "Degen Spartan",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/18.jpg"
         },
         {
             "address": "0x7C23Ac2E8DA915d4f422CF710f4767FAa0c332fa",
@@ -357,6 +317,102 @@
             "logoURI": "https://ipfs.io/ipfs/QmPzhhPK1o39aJBk4V2M9dg2XxSp2S9UCcAbTPvuVCPj4C"
         },
         {
+            "address": "0xa8d883B1224284134949C30ecC05a677Af3eAbc7",
+            "name": "Chef Nomi",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/6.jpg"
+        },
+        {
+            "address": "0x33e554d0f8957A5bC14DCbf033E6C450E20aefA0",
+            "name": "BlueKirbyeth",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/10.jpg"
+        },
+        {
+            "address": "0xcd6056d83E918BD9037Af463e1436fC91919C23b",
+            "name": "Monsoonie",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/12.jpg"
+        },
+        {
+            "address": "0xFEfFBB1DC28346Ae94c1115420407Ff6e997c3E2",
+            "name": "ChainLinkGodeth",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/16.jpg"
+        },
+        {
+            "address": "0x68C25417bA30b8B3475752AB05E5B8baB77428F5",
+            "name": "Degen Spartan",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/18.jpg"
+        },
+        {
+            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
+            "name": "Pepemander",
+            "symbol": "PEPEMON",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
+        },
+        {
+            "address": "0x5430E56eEBA6cc24790c7387167238a2B0F5e173",
+            "name": "Meme Grail Relic",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/genesis/meme-grail-relic.png"
+        },
+        {
+            "address": "0x7ebf9FBf53B3F94EA4Ee0df9b64149Fb10D81743",
+            "name": "Sergey Nazarov Commo",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/genesis/sergey-nazarov-common.png"
+        },
+        {
+            "address": "0x82739705EE805273Ebd2667172D084d8ebF98AF9",
+            "name": "Changpeng Zhao CZ Co",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/genesis/cz-common.png"
+        },
+        {
+            "address": "0x1Da760C35461cF6ab2bE37A819bEf5a676642e21",
+            "name": "Andre Cronje Rare",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/genesis/andre-rare.jpg"
+        },
+        {
+            "address": "0x694CAFFC28EaF9b110B509B6b09c3EDC82bBAFCd",
+            "name": "NFT Thief Relic",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/genesis/relic-nft-thief.jpg"
+        },
+        {
+            "address": "0xc0Aa1d719B8d55F98701afa37A98D8efFa5C10cD",
+            "name": "Dont Drink",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/artist-series/diego/static/dont-drink.jpg"
+        },
+        {
             "address": "0x32e4623Ed080085479a31e727b1C005A2CA5A850",
             "name": "LUCK CARDS - Limited",
             "symbol": "RARI",
@@ -413,12 +469,12 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
-            "name": "Pepemander",
-            "symbol": "PEPEMON",
+            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
+            "name": "Sandboxs ASSETs",
+            "symbol": "ASSET",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0x754B12394D06A6b9a3e6A21aB9D13c8ee563388E",
@@ -667,62 +723,6 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.io/ipfs/QmUAiyhFPQtbuh9Knvmunp5WZ1W1igpPHDPpeRuWb9ojAs"
-        },
-        {
-            "address": "0x5430E56eEBA6cc24790c7387167238a2B0F5e173",
-            "name": "Meme Grail Relic",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/genesis/meme-grail-relic.png"
-        },
-        {
-            "address": "0x7ebf9FBf53B3F94EA4Ee0df9b64149Fb10D81743",
-            "name": "Sergey Nazarov Commo",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/genesis/sergey-nazarov-common.png"
-        },
-        {
-            "address": "0x82739705EE805273Ebd2667172D084d8ebF98AF9",
-            "name": "Changpeng Zhao CZ Co",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/genesis/cz-common.png"
-        },
-        {
-            "address": "0x1Da760C35461cF6ab2bE37A819bEf5a676642e21",
-            "name": "Andre Cronje Rare",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/genesis/andre-rare.jpg"
-        },
-        {
-            "address": "0x694CAFFC28EaF9b110B509B6b09c3EDC82bBAFCd",
-            "name": "NFT Thief Relic",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/genesis/relic-nft-thief.jpg"
-        },
-        {
-            "address": "0xc0Aa1d719B8d55F98701afa37A98D8efFa5C10cD",
-            "name": "Dont Drink",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/artist-series/diego/static/dont-drink.jpg"
-        },
-        {
-            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
-            "name": "Sandboxs ASSETs",
-            "symbol": "ASSET",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0xAa843dd5fa4F9f07E2De5920dBf73D9a875C9e10",
@@ -1210,5 +1210,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-02-28T05:09:20.952Z"
+    "timestamp": "2021-02-28T06:10:23.890Z"
 }
