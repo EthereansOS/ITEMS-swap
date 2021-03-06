@@ -5,25 +5,17 @@
     "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/logo.png",
     "tokens": [
         {
-            "address": "0x94BF495C4E71CD9BC07a8172E2058E423baBdB19",
-            "name": "MyCryptoHeroesHero",
-            "symbol": "MCHH",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
-        },
-        {
-            "address": "0x84d9c5dcD7FB94a148E161d217B21863F81e3dfB",
-            "name": "8325",
-            "symbol": "0xc7e5e9434f4a71e6db",
+            "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
+            "name": "/DRM/ 1st Edition -",
+            "symbol": "DRM",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0xa15B60d58C39ce010f5E268f028630A08Ef9B54A",
-            "name": "yeahammer",
-            "symbol": "yeah",
+            "address": "0x94BF495C4E71CD9BC07a8172E2058E423baBdB19",
+            "name": "MyCryptoHeroesHero",
+            "symbol": "MCHH",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
@@ -37,17 +29,17 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
+            "address": "0xa15B60d58C39ce010f5E268f028630A08Ef9B54A",
+            "name": "yeahammer",
+            "symbol": "yeah",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
+        },
+        {
             "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
             "name": "DFY  Token 3",
             "symbol": "DEFY",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
-            "name": "/DRM/ 1st Edition -",
-            "symbol": "DRM",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
@@ -61,14 +53,6 @@
             "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
         },
         {
-            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
-            "name": "LAND 119 -40",
-            "symbol": "LAND",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
-        },
-        {
             "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
             "name": "Jet Driver",
             "symbol": "F1DTI",
@@ -77,12 +61,20 @@
             "logoURI": "https://assets.f1deltatime.com/image/nft/2019_JetDriver_common.png"
         },
         {
-            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
-            "name": "INVALID -- DO NOT BU",
-            "symbol": "0x93ea6ec350ace7473f",
+            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
+            "name": "Dionysian Drunk",
+            "symbol": "CARD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
+            "logoURI": "https://card.godsunchained.com/?id=1207&q=4"
+        },
+        {
+            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
+            "name": "LAND 119 -40",
+            "symbol": "LAND",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
         },
         {
             "address": "0x8467331556e58bCDE5e135efDf441Df685B41C73",
@@ -101,28 +93,12 @@
             "logoURI": "https://ipfs.io/ipfs/QmVCu7EpCwXf2w5TUsibDzLkaBtk5GtiZSguHFM4sUS8aK"
         },
         {
-            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
-            "name": "Dionysian Drunk",
-            "symbol": "CARD",
+            "address": "0x84d9c5dcD7FB94a148E161d217B21863F81e3dfB",
+            "name": "8325",
+            "symbol": "0xc7e5e9434f4a71e6db",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://card.godsunchained.com/?id=1207&q=4"
-        },
-        {
-            "address": "0xf47dAc44C808cb541978dF13FC367Db648a7BD3A",
-            "name": "ComBot1",
-            "symbol": "COMBOT",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmV55DjD5h7ju4CLWmXRVmrJCmyudee3vFV15JvqqedVRR"
-        },
-        {
-            "address": "0x8aeeD26252f7Ba0B605236CA27BAB50CEbEd6f2F",
-            "name": "ComBot2",
-            "symbol": "COMBOT",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmTELpLSxFQHk5pa8VdaHqeA7Na2B6f2vgkWFHxhSsNFdX"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0x1D6316dbbE18b6E9B75AE064aA114FE7dC208eDC",
@@ -189,12 +165,20 @@
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"
         },
         {
-            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
-            "name": "Pepemander",
-            "symbol": "PEPEMON",
+            "address": "0xf47dAc44C808cb541978dF13FC367Db648a7BD3A",
+            "name": "ComBot1",
+            "symbol": "COMBOT",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
+            "logoURI": "https://ipfs.io/ipfs/QmV55DjD5h7ju4CLWmXRVmrJCmyudee3vFV15JvqqedVRR"
+        },
+        {
+            "address": "0x8aeeD26252f7Ba0B605236CA27BAB50CEbEd6f2F",
+            "name": "ComBot2",
+            "symbol": "COMBOT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmTELpLSxFQHk5pa8VdaHqeA7Na2B6f2vgkWFHxhSsNFdX"
         },
         {
             "address": "0xD839E4989eC7FCD34554FCD990FA1438bD3a088E",
@@ -325,6 +309,14 @@
             "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/18.jpg"
         },
         {
+            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
+            "name": "INVALID -- DO NOT BU",
+            "symbol": "0x93ea6ec350ace7473f",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
+        },
+        {
             "address": "0x7C23Ac2E8DA915d4f422CF710f4767FAa0c332fa",
             "name": "Magician Cat",
             "symbol": "WIMD",
@@ -381,70 +373,6 @@
             "logoURI": "https://ipfs.io/ipfs/QmPzhhPK1o39aJBk4V2M9dg2XxSp2S9UCcAbTPvuVCPj4C"
         },
         {
-            "address": "0x32e4623Ed080085479a31e727b1C005A2CA5A850",
-            "name": "LUCK CARDS - Limited",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0xdcF16D7254e30BD7a3cD625066B841c44F44110d",
-            "name": "Sergey Nazarov Portr",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x66Af9569DB344d05eC1Dd1777c8604c98a71784c",
-            "name": "Andre Cronje - Yearn",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x345eCB9cfD6A30c567696dd7BA69275ee9434527",
-            "name": "Vitalik Buterin - Et",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0xe1ca5478C06e121581a6d41E0dA50097E8AE9bA7",
-            "name": "Another World x Vybl",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0xE4bD01A182048e1E1738Ec489Ec0dAE5FC1B9b13",
-            "name": "Smile",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x0362EB0CbB99175a8148C57B87f0d11B5AF74714",
-            "name": "Rag-Doll",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
-            "name": "Sandboxs ASSETs",
-            "symbol": "ASSET",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
             "address": "0x5430E56eEBA6cc24790c7387167238a2B0F5e173",
             "name": "Meme Grail Relic",
             "symbol": "MEMES",
@@ -491,6 +419,14 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://images.dontbuymeme.com/artist-series/diego/static/dont-drink.jpg"
+        },
+        {
+            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
+            "name": "Pepemander",
+            "symbol": "PEPEMON",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
         },
         {
             "address": "0x754B12394D06A6b9a3e6A21aB9D13c8ee563388E",
@@ -741,20 +677,12 @@
             "logoURI": "https://ipfs.io/ipfs/QmUAiyhFPQtbuh9Knvmunp5WZ1W1igpPHDPpeRuWb9ojAs"
         },
         {
-            "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
-            "name": "Sam Bankman-Fried Co",
-            "symbol": "CHADSLTD",
+            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
+            "name": "Sandboxs ASSETs",
+            "symbol": "ASSET",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://api.chads.vc/img/1.gif"
-        },
-        {
-            "address": "0x52e49e2017763C39137aDa463d447adC74b9E63c",
-            "name": "Anthony Sassano Comm",
-            "symbol": "CHADSLTD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://api.chads.vc/img/3.gif"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0xAa843dd5fa4F9f07E2De5920dBf73D9a875C9e10",
@@ -1219,6 +1147,78 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png"
+        },
+        {
+            "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
+            "name": "Sam Bankman-Fried Co",
+            "symbol": "CHADSLTD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://api.chads.vc/img/1.gif"
+        },
+        {
+            "address": "0x52e49e2017763C39137aDa463d447adC74b9E63c",
+            "name": "Anthony Sassano Comm",
+            "symbol": "CHADSLTD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://api.chads.vc/img/3.gif"
+        },
+        {
+            "address": "0x32e4623Ed080085479a31e727b1C005A2CA5A850",
+            "name": "LUCK CARDS - Limited",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0xdcF16D7254e30BD7a3cD625066B841c44F44110d",
+            "name": "Sergey Nazarov Portr",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0x66Af9569DB344d05eC1Dd1777c8604c98a71784c",
+            "name": "Andre Cronje - Yearn",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0x345eCB9cfD6A30c567696dd7BA69275ee9434527",
+            "name": "Rarible",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0xe1ca5478C06e121581a6d41E0dA50097E8AE9bA7",
+            "name": "Another World x Vybl",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0xE4bD01A182048e1E1738Ec489Ec0dAE5FC1B9b13",
+            "name": "Smile",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0x0362EB0CbB99175a8148C57B87f0d11B5AF74714",
+            "name": "Rag-Doll",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         }
     ],
     "version": {
@@ -1226,5 +1226,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-03-06T15:09:08.347Z"
+    "timestamp": "2021-03-06T16:14:46.808Z"
 }
