@@ -13,44 +13,12 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
-            "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
-            "name": "/DRM/ 1st Edition -",
-            "symbol": "DRM",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
-            "name": "Whip of Erebos - Ani",
-            "symbol": "MTG",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
             "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
             "name": "DFY  Token 3",
             "symbol": "DEFY",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
-            "name": "Jet Driver",
-            "symbol": "F1DTI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://assets.f1deltatime.com/image/nft/2019_JetDriver_common.png"
-        },
-        {
-            "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
-            "name": "Genetic Algorithm",
-            "symbol": "SUPR",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
         },
         {
             "address": "0x2faD09Bf48DB242043456eC8020BbA88f32D4427",
@@ -69,6 +37,30 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
+            "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
+            "name": "Genetic Algorithm",
+            "symbol": "SUPR",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
+        },
+        {
+            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
+            "name": "Dionysian Drunk",
+            "symbol": "CARD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://card.godsunchained.com/?id=1207&q=4"
+        },
+        {
+            "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
+            "name": "Jet Driver",
+            "symbol": "F1DTI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://assets.f1deltatime.com/image/nft/2019_JetDriver_common.png"
+        },
+        {
             "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
             "name": "LAND 119 -40",
             "symbol": "LAND",
@@ -85,36 +77,28 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
-            "name": "Pepemander",
+            "address": "0x81BA946907038FE51333f929Bfda636d56cef267",
+            "name": "Peezing",
             "symbol": "PEPEMON",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
+            "logoURI": "https://pepemon.finance/cards/gen1/peezing.gif"
         },
         {
-            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
-            "name": "Dionysian Drunk",
-            "symbol": "CARD",
+            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
+            "name": "Whip of Erebos - Ani",
+            "symbol": "MTG",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://card.godsunchained.com/?id=1207&q=4"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0xf47dAc44C808cb541978dF13FC367Db648a7BD3A",
-            "name": "ComBot1",
-            "symbol": "COMBOT",
+            "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
+            "name": "/DRM/ 1st Edition -",
+            "symbol": "DRM",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmV55DjD5h7ju4CLWmXRVmrJCmyudee3vFV15JvqqedVRR"
-        },
-        {
-            "address": "0x8aeeD26252f7Ba0B605236CA27BAB50CEbEd6f2F",
-            "name": "ComBot2",
-            "symbol": "COMBOT",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmTELpLSxFQHk5pa8VdaHqeA7Na2B6f2vgkWFHxhSsNFdX"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0x8467331556e58bCDE5e135efDf441Df685B41C73",
@@ -133,12 +117,20 @@
             "logoURI": "https://ipfs.io/ipfs/QmVCu7EpCwXf2w5TUsibDzLkaBtk5GtiZSguHFM4sUS8aK"
         },
         {
-            "address": "0x81BA946907038FE51333f929Bfda636d56cef267",
-            "name": "Peezing",
-            "symbol": "PEPEMON",
+            "address": "0xf47dAc44C808cb541978dF13FC367Db648a7BD3A",
+            "name": "ComBot1",
+            "symbol": "COMBOT",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://pepemon.finance/cards/gen1/peezing.gif"
+            "logoURI": "https://ipfs.io/ipfs/QmV55DjD5h7ju4CLWmXRVmrJCmyudee3vFV15JvqqedVRR"
+        },
+        {
+            "address": "0x8aeeD26252f7Ba0B605236CA27BAB50CEbEd6f2F",
+            "name": "ComBot2",
+            "symbol": "COMBOT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmTELpLSxFQHk5pa8VdaHqeA7Na2B6f2vgkWFHxhSsNFdX"
         },
         {
             "address": "0xD839E4989eC7FCD34554FCD990FA1438bD3a088E",
@@ -189,52 +181,20 @@
             "logoURI": "https://ipfs.io/ipfs/QmeT8f6M4dgKWWKzeUXLRrxSVam5NbYA2yxsHgS3vbBAmF"
         },
         {
-            "address": "0x9E4c291b1064973fD53b90b2F117BcF43dF3E9ca",
-            "name": "EthOS Index 1",
-            "symbol": "OS1",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmWoAzMRqcK1qYrv5YJG4V4kEUzbk9x4u83jyhtwsZfoTP"
-        },
-        {
-            "address": "0xc63CAAc1ad9954AD3bC8247Ab33fF233b0DD0FcD",
-            "name": "DeFi Selection",
-            "symbol": "DeFi",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmT27UJUFk4GGUDnZHHGfu2di8ad9axHpwxg1caf9SMpFc"
-        },
-        {
-            "address": "0xD15c7Fcda27a93b9d4cD3617E09416Ec3aaA5237",
-            "name": "WIMD - Common Cards",
-            "symbol": "WCCD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmbUYRhM8TKGm7iD9mLgSVC5fcToeXaDdk8ntz6yDMJnp1"
-        },
-        {
-            "address": "0xE4e56Ca4109dF3e22B82004FAf8879Db1d61f73F",
-            "name": "Kitchen",
-            "symbol": "Muffins",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmZKDZdCgntwyuHCbtdwqkRJ8dhp8Y5evsQfxDW7RsT3ag"
-        },
-        {
-            "address": "0xe241E6a05de98D17f3805C3Ce9f872ad8B9A40F5",
-            "name": "EthOS - Supply Weigh",
-            "symbol": "EthOSSWI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmZB1tHXWqrF42DmibNKGsoLKSSTukqKiQTXbKzAfwdEkt"
-        },
-        {
             "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
             "name": "INVALID -- DO NOT BU",
             "symbol": "0x93ea6ec350ace7473f",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
+        },
+        {
+            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
+            "name": "Pepemander",
+            "symbol": "PEPEMON",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
         },
         {
             "address": "0xa8d883B1224284134949C30ecC05a677Af3eAbc7",
@@ -277,84 +237,44 @@
             "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/18.jpg"
         },
         {
-            "address": "0x1D6316dbbE18b6E9B75AE064aA114FE7dC208eDC",
-            "name": "EthereumItem",
-            "symbol": "IETH",
+            "address": "0x9E4c291b1064973fD53b90b2F117BcF43dF3E9ca",
+            "name": "EthOS Index 1",
+            "symbol": "OS1",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W20-item.png"
+            "logoURI": "https://ipfs.io/ipfs/QmWoAzMRqcK1qYrv5YJG4V4kEUzbk9x4u83jyhtwsZfoTP"
         },
         {
-            "address": "0xE51a7641A2D62119458B38e074367D9bFA8a3916",
-            "name": "Materia item",
-            "symbol": "iGIL",
+            "address": "0xc63CAAc1ad9954AD3bC8247Ab33fF233b0DD0FcD",
+            "name": "DeFi Selection",
+            "symbol": "DeFi",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W20-item.png"
+            "logoURI": "https://ipfs.io/ipfs/QmT27UJUFk4GGUDnZHHGfu2di8ad9axHpwxg1caf9SMpFc"
         },
         {
-            "address": "0x7a3428F1CBA2756aB9a6D672311ca6C8DcE65C6B",
-            "name": "USD Coin item",
-            "symbol": "iUSDC",
+            "address": "0xD15c7Fcda27a93b9d4cD3617E09416Ec3aaA5237",
+            "name": "WIMD - Common Cards",
+            "symbol": "WCCD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+            "logoURI": "https://ipfs.io/ipfs/QmbUYRhM8TKGm7iD9mLgSVC5fcToeXaDdk8ntz6yDMJnp1"
         },
         {
-            "address": "0x4d69a1d482ff9b89600c1DD9e535538957Cd8E29",
-            "name": "Dai Stablecoin item",
-            "symbol": "iDAI",
+            "address": "0xE4e56Ca4109dF3e22B82004FAf8879Db1d61f73F",
+            "name": "Kitchen",
+            "symbol": "Muffins",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+            "logoURI": "https://ipfs.io/ipfs/QmZKDZdCgntwyuHCbtdwqkRJ8dhp8Y5evsQfxDW7RsT3ag"
         },
         {
-            "address": "0x4FA2d28cEc65f86A843Bd1806Dc88930554b6756",
-            "name": "Wrapped BTC item",
-            "symbol": "iWBTC",
+            "address": "0xe241E6a05de98D17f3805C3Ce9f872ad8B9A40F5",
+            "name": "EthOS - Supply Weigh",
+            "symbol": "EthOSSWI",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
-        },
-        {
-            "address": "0xf2B1F54d233F265d396d678D4E293E1B668a2433",
-            "name": "dfohub item",
-            "symbol": "ibuidl",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7b123f53421b1bF8533339BFBdc7C98aA94163db/logo.png"
-        },
-        {
-            "address": "0x1073A6C48B80ebf714200FCB6d6d2dc57bFdad09",
-            "name": "ethart item",
-            "symbol": "iarte",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x34612903Db071e888a4dADcaA416d3EE263a87b9/logo.png"
-        },
-        {
-            "address": "0xd629724798F1F7FB3413FD5AcB2a7710e32A6c0b",
-            "name": "UniFi item",
-            "symbol": "iUniFi",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"
-        },
-        {
-            "address": "0xA9F8fc6aE0d026E0583F1f139aa6666f62A0fea7",
-            "name": "NERD item",
-            "symbol": "iNERD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W20-item.png"
-        },
-        {
-            "address": "0x9BdA4e3FDCb255052F663E85443bB398661221A6",
-            "name": "Strudel BTC item",
-            "symbol": "iVBTC",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W20-item.png"
+            "logoURI": "https://ipfs.io/ipfs/QmZB1tHXWqrF42DmibNKGsoLKSSTukqKiQTXbKzAfwdEkt"
         },
         {
             "address": "0x7C23Ac2E8DA915d4f422CF710f4767FAa0c332fa",
@@ -475,6 +395,150 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0x5430E56eEBA6cc24790c7387167238a2B0F5e173",
+            "name": "Meme Grail Relic",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/genesis/meme-grail-relic.png"
+        },
+        {
+            "address": "0x7ebf9FBf53B3F94EA4Ee0df9b64149Fb10D81743",
+            "name": "Sergey Nazarov Commo",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/genesis/sergey-nazarov-common.png"
+        },
+        {
+            "address": "0x82739705EE805273Ebd2667172D084d8ebF98AF9",
+            "name": "Changpeng Zhao CZ Co",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/genesis/cz-common.png"
+        },
+        {
+            "address": "0x1Da760C35461cF6ab2bE37A819bEf5a676642e21",
+            "name": "Andre Cronje Rare",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/genesis/andre-rare.jpg"
+        },
+        {
+            "address": "0x694CAFFC28EaF9b110B509B6b09c3EDC82bBAFCd",
+            "name": "NFT Thief Relic",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/genesis/relic-nft-thief.jpg"
+        },
+        {
+            "address": "0xc0Aa1d719B8d55F98701afa37A98D8efFa5C10cD",
+            "name": "Dont Drink",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://images.dontbuymeme.com/artist-series/diego/static/dont-drink.jpg"
+        },
+        {
+            "address": "0x1D6316dbbE18b6E9B75AE064aA114FE7dC208eDC",
+            "name": "EthereumItem",
+            "symbol": "IETH",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W20-item.png"
+        },
+        {
+            "address": "0xE51a7641A2D62119458B38e074367D9bFA8a3916",
+            "name": "Materia item",
+            "symbol": "iGIL",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W20-item.png"
+        },
+        {
+            "address": "0x7a3428F1CBA2756aB9a6D672311ca6C8DcE65C6B",
+            "name": "USD Coin item",
+            "symbol": "iUSDC",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png"
+        },
+        {
+            "address": "0x4d69a1d482ff9b89600c1DD9e535538957Cd8E29",
+            "name": "Dai Stablecoin item",
+            "symbol": "iDAI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x6B175474E89094C44Da98b954EedeAC495271d0F/logo.png"
+        },
+        {
+            "address": "0x4FA2d28cEc65f86A843Bd1806Dc88930554b6756",
+            "name": "Wrapped BTC item",
+            "symbol": "iWBTC",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png"
+        },
+        {
+            "address": "0xf2B1F54d233F265d396d678D4E293E1B668a2433",
+            "name": "dfohub item",
+            "symbol": "ibuidl",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x7b123f53421b1bF8533339BFBdc7C98aA94163db/logo.png"
+        },
+        {
+            "address": "0x1073A6C48B80ebf714200FCB6d6d2dc57bFdad09",
+            "name": "ethart item",
+            "symbol": "iarte",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x34612903Db071e888a4dADcaA416d3EE263a87b9/logo.png"
+        },
+        {
+            "address": "0xd629724798F1F7FB3413FD5AcB2a7710e32A6c0b",
+            "name": "UniFi item",
+            "symbol": "iUniFi",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5/logo.png"
+        },
+        {
+            "address": "0xA9F8fc6aE0d026E0583F1f139aa6666f62A0fea7",
+            "name": "NERD item",
+            "symbol": "iNERD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W20-item.png"
+        },
+        {
+            "address": "0x9BdA4e3FDCb255052F663E85443bB398661221A6",
+            "name": "Strudel BTC item",
+            "symbol": "iVBTC",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W20-item.png"
+        },
+        {
+            "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
+            "name": "Sam Bankman-Fried Co",
+            "symbol": "CHADSLTD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://api.chads.vc/img/1.gif"
+        },
+        {
+            "address": "0x52e49e2017763C39137aDa463d447adC74b9E63c",
+            "name": "Anthony Sassano Comm",
+            "symbol": "CHADSLTD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://api.chads.vc/img/3.gif"
         },
         {
             "address": "0x754B12394D06A6b9a3e6A21aB9D13c8ee563388E",
@@ -723,70 +787,6 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.io/ipfs/QmUAiyhFPQtbuh9Knvmunp5WZ1W1igpPHDPpeRuWb9ojAs"
-        },
-        {
-            "address": "0x5430E56eEBA6cc24790c7387167238a2B0F5e173",
-            "name": "Meme Grail Relic",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/genesis/meme-grail-relic.png"
-        },
-        {
-            "address": "0x7ebf9FBf53B3F94EA4Ee0df9b64149Fb10D81743",
-            "name": "Sergey Nazarov Commo",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/genesis/sergey-nazarov-common.png"
-        },
-        {
-            "address": "0x82739705EE805273Ebd2667172D084d8ebF98AF9",
-            "name": "Changpeng Zhao CZ Co",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/genesis/cz-common.png"
-        },
-        {
-            "address": "0x1Da760C35461cF6ab2bE37A819bEf5a676642e21",
-            "name": "Andre Cronje Rare",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/genesis/andre-rare.jpg"
-        },
-        {
-            "address": "0x694CAFFC28EaF9b110B509B6b09c3EDC82bBAFCd",
-            "name": "NFT Thief Relic",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/genesis/relic-nft-thief.jpg"
-        },
-        {
-            "address": "0xc0Aa1d719B8d55F98701afa37A98D8efFa5C10cD",
-            "name": "Dont Drink",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://images.dontbuymeme.com/artist-series/diego/static/dont-drink.jpg"
-        },
-        {
-            "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
-            "name": "Sam Bankman-Fried Co",
-            "symbol": "CHADSLTD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://api.chads.vc/img/1.gif"
-        },
-        {
-            "address": "0x52e49e2017763C39137aDa463d447adC74b9E63c",
-            "name": "Anthony Sassano Comm",
-            "symbol": "CHADSLTD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://api.chads.vc/img/3.gif"
         },
         {
             "address": "0xAa843dd5fa4F9f07E2De5920dBf73D9a875C9e10",
@@ -1258,5 +1258,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-03-12T21:08:27.431Z"
+    "timestamp": "2021-03-12T22:10:25.271Z"
 }
