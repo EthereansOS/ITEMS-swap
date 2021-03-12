@@ -5,22 +5,6 @@
     "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/logo.png",
     "tokens": [
         {
-            "address": "0x94BF495C4E71CD9BC07a8172E2058E423baBdB19",
-            "name": "MyCryptoHeroesHero",
-            "symbol": "MCHH",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
-        },
-        {
-            "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
-            "name": "/DRM/ 1st Edition -",
-            "symbol": "DRM",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
             "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
             "name": "DFY  Token 3",
             "symbol": "DEFY",
@@ -29,17 +13,17 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
+            "address": "0x94BF495C4E71CD9BC07a8172E2058E423baBdB19",
+            "name": "MyCryptoHeroesHero",
+            "symbol": "MCHH",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
+        },
+        {
             "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
             "name": "Whip of Erebos - Ani",
             "symbol": "MTG",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x2faD09Bf48DB242043456eC8020BbA88f32D4427",
-            "name": "Desert Moon Outpost",
-            "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
@@ -53,12 +37,28 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
+            "address": "0x2faD09Bf48DB242043456eC8020BbA88f32D4427",
+            "name": "Desert Moon Outpost",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
             "address": "0xa15B60d58C39ce010f5E268f028630A08Ef9B54A",
             "name": "yeahammer",
             "symbol": "yeah",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
+        },
+        {
+            "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
+            "name": "dontrugme",
+            "symbol": "DRM",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
@@ -77,14 +77,6 @@
             "logoURI": "https://card.godsunchained.com/?id=1207&q=4"
         },
         {
-            "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
-            "name": "Jet Driver",
-            "symbol": "F1DTI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://assets.f1deltatime.com/image/nft/2019_JetDriver_common.png"
-        },
-        {
             "address": "0x8467331556e58bCDE5e135efDf441Df685B41C73",
             "name": "Lucky the DFOGhost20",
             "symbol": "ETRA",
@@ -101,14 +93,6 @@
             "logoURI": "https://ipfs.io/ipfs/QmVCu7EpCwXf2w5TUsibDzLkaBtk5GtiZSguHFM4sUS8aK"
         },
         {
-            "address": "0x81BA946907038FE51333f929Bfda636d56cef267",
-            "name": "Peezing",
-            "symbol": "PEPEMON",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://pepemon.finance/cards/gen1/peezing.gif"
-        },
-        {
             "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
             "name": "LAND 119 -40",
             "symbol": "LAND",
@@ -117,12 +101,44 @@
             "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
         },
         {
+            "address": "0xD839E4989eC7FCD34554FCD990FA1438bD3a088E",
+            "name": "Dead End",
+            "symbol": "FXT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmcHxFDsuPGn8x2Gpo5TnQu6shCiXLVtoDG3k88eRshjti"
+        },
+        {
+            "address": "0x7AB691aE7b3499639AefF7b49E6DB7418035812c",
+            "name": "Falling",
+            "symbol": "FXT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0xad696407DE4a1b0e4dc30167F3E6EB2982A0b53C",
+            "name": "Find A Way Out",
+            "symbol": "FXT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
+            "name": "Jet Driver",
+            "symbol": "F1DTI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://assets.f1deltatime.com/image/nft/2019_JetDriver_common.png"
+        },
+        {
             "address": "0xf47dAc44C808cb541978dF13FC367Db648a7BD3A",
             "name": "ComBot1",
             "symbol": "COMBOT",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmV55DjD5h7ju4CLWmXRVmrJCmyudee3vFV15JvqqedVRR"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0x8aeeD26252f7Ba0B605236CA27BAB50CEbEd6f2F",
@@ -130,7 +146,7 @@
             "symbol": "COMBOT",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmTELpLSxFQHk5pa8VdaHqeA7Na2B6f2vgkWFHxhSsNFdX"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8",
@@ -138,7 +154,7 @@
             "symbol": "WUSD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmXjPmCChUCNeMSoRpSb3wKUARxbucZSQ3W5sZwMf749RX"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0xA4d9C768E1c6cabB127a6326c0668b49235639e8",
@@ -157,28 +173,60 @@
             "logoURI": "https://ipfs.io/ipfs/QmeT8f6M4dgKWWKzeUXLRrxSVam5NbYA2yxsHgS3vbBAmF"
         },
         {
-            "address": "0xD839E4989eC7FCD34554FCD990FA1438bD3a088E",
-            "name": "Dead End",
-            "symbol": "FXT",
+            "address": "0x81BA946907038FE51333f929Bfda636d56cef267",
+            "name": "Peezing",
+            "symbol": "PEPEMON",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmcHxFDsuPGn8x2Gpo5TnQu6shCiXLVtoDG3k88eRshjti"
+            "logoURI": "https://pepemon.finance/cards/gen1/peezing.gif"
         },
         {
-            "address": "0x7AB691aE7b3499639AefF7b49E6DB7418035812c",
-            "name": "Falling",
-            "symbol": "FXT",
+            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
+            "name": "Pepemander",
+            "symbol": "PEPEMON",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmNy8fCcFrVrfvMfBxKRXm6gCyG5CnDbx2y3y6pCf8djX7"
+            "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
         },
         {
-            "address": "0xad696407DE4a1b0e4dc30167F3E6EB2982A0b53C",
-            "name": "Find A Way Out",
-            "symbol": "FXT",
+            "address": "0x9E4c291b1064973fD53b90b2F117BcF43dF3E9ca",
+            "name": "EthOS Index 1",
+            "symbol": "OS1",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmXk6ENNWEpTNmaj6ntoovHXUbhsmNf6X8PU4b6himdPFX"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0xc63CAAc1ad9954AD3bC8247Ab33fF233b0DD0FcD",
+            "name": "DeFi Selection",
+            "symbol": "DeFi",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0xD15c7Fcda27a93b9d4cD3617E09416Ec3aaA5237",
+            "name": "WIMD - Common Cards",
+            "symbol": "WCCD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0xE4e56Ca4109dF3e22B82004FAf8879Db1d61f73F",
+            "name": "Kitchen",
+            "symbol": "Muffins",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0xe241E6a05de98D17f3805C3Ce9f872ad8B9A40F5",
+            "name": "EthOS - Supply Weigh",
+            "symbol": "EthOSSWI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0x1D6316dbbE18b6E9B75AE064aA114FE7dC208eDC",
@@ -261,62 +309,6 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W20-item.png"
         },
         {
-            "address": "0x9E4c291b1064973fD53b90b2F117BcF43dF3E9ca",
-            "name": "EthOS Index 1",
-            "symbol": "OS1",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmWoAzMRqcK1qYrv5YJG4V4kEUzbk9x4u83jyhtwsZfoTP"
-        },
-        {
-            "address": "0xc63CAAc1ad9954AD3bC8247Ab33fF233b0DD0FcD",
-            "name": "DeFi Selection",
-            "symbol": "DeFi",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmT27UJUFk4GGUDnZHHGfu2di8ad9axHpwxg1caf9SMpFc"
-        },
-        {
-            "address": "0xD15c7Fcda27a93b9d4cD3617E09416Ec3aaA5237",
-            "name": "WIMD - Common Cards",
-            "symbol": "WCCD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmbUYRhM8TKGm7iD9mLgSVC5fcToeXaDdk8ntz6yDMJnp1"
-        },
-        {
-            "address": "0xE4e56Ca4109dF3e22B82004FAf8879Db1d61f73F",
-            "name": "Kitchen",
-            "symbol": "Muffins",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmZKDZdCgntwyuHCbtdwqkRJ8dhp8Y5evsQfxDW7RsT3ag"
-        },
-        {
-            "address": "0xe241E6a05de98D17f3805C3Ce9f872ad8B9A40F5",
-            "name": "EthOS - Supply Weigh",
-            "symbol": "EthOSSWI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmZB1tHXWqrF42DmibNKGsoLKSSTukqKiQTXbKzAfwdEkt"
-        },
-        {
-            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
-            "name": "Pepemander",
-            "symbol": "PEPEMON",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
-        },
-        {
-            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
-            "name": "INVALID -- DO NOT BU",
-            "symbol": "0x93ea6ec350ace7473f",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
-        },
-        {
             "address": "0xa8d883B1224284134949C30ecC05a677Af3eAbc7",
             "name": "Chef Nomi",
             "symbol": "RMU",
@@ -357,12 +349,20 @@
             "logoURI": "https://rope.lol/images/cards/Varess_Generation_One/18.jpg"
         },
         {
+            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
+            "name": "INVALID -- DO NOT BU",
+            "symbol": "0x93ea6ec350ace7473f",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
+        },
+        {
             "address": "0x7C23Ac2E8DA915d4f422CF710f4767FAa0c332fa",
             "name": "Magician Cat",
             "symbol": "WIMD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmVBBUiixDzz2ByqsQZwJVvcMmBc9n7nki3q46Yxq22Ppq"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0xA70C8667cCFB63D6b98C2A050c94b7Bf2085dC55",
@@ -370,7 +370,7 @@
             "symbol": "WIMD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmNaoH5eStRyoYswCxE5CsXzx5yb7KyX36ThAgyv3uSQpT"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0xE63983b5FAdE429eC052d1b365826C4Bc5fCB198",
@@ -394,7 +394,7 @@
             "symbol": "WIMD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmRmtjJDHAuiQi2B6pVvWnviXxDgri8m4HJjv7tj2STuo6"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0x22e6559F495F97Af51fF56719CdFF80F65a0B93A",
@@ -469,14 +469,6 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
-            "name": "Sandboxs ASSETs",
-            "symbol": "ASSET",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
             "address": "0x5430E56eEBA6cc24790c7387167238a2B0F5e173",
             "name": "Meme Grail Relic",
             "symbol": "MEMES",
@@ -525,6 +517,14 @@
             "logoURI": "https://images.dontbuymeme.com/artist-series/diego/static/dont-drink.jpg"
         },
         {
+            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
+            "name": "Sandboxs ASSETs",
+            "symbol": "ASSET",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
             "address": "0x754B12394D06A6b9a3e6A21aB9D13c8ee563388E",
             "name": "Buidlers Tickets - B",
             "symbol": "BE2020",
@@ -554,7 +554,7 @@
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmWYvUBXUGDc3MyG2atSuxQitQM3QjU7QJf4Hfnyjn2pST"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0x433cA9f771D4dE8D246d9eFD52b8f811be871Da5",
@@ -562,7 +562,7 @@
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmbHUqm11LqV6Jqfo5LgAucjR5bXVB92MC4FpTH5KqzndN"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0xD997D89d914F018631CE01672C015d42F8D38b41",
@@ -771,6 +771,22 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.io/ipfs/QmUAiyhFPQtbuh9Knvmunp5WZ1W1igpPHDPpeRuWb9ojAs"
+        },
+        {
+            "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
+            "name": "Sam Bankman-Fried Co",
+            "symbol": "CHADSLTD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://api.chads.vc/img/1.gif"
+        },
+        {
+            "address": "0x52e49e2017763C39137aDa463d447adC74b9E63c",
+            "name": "Anthony Sassano Comm",
+            "symbol": "CHADSLTD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://api.chads.vc/img/3.gif"
         },
         {
             "address": "0xAa843dd5fa4F9f07E2De5920dBf73D9a875C9e10",
@@ -1235,22 +1251,6 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png"
-        },
-        {
-            "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
-            "name": "Sam Bankman-Fried Co",
-            "symbol": "CHADSLTD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://api.chads.vc/img/1.gif"
-        },
-        {
-            "address": "0x52e49e2017763C39137aDa463d447adC74b9E63c",
-            "name": "Anthony Sassano Comm",
-            "symbol": "CHADSLTD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://api.chads.vc/img/3.gif"
         }
     ],
     "version": {
@@ -1258,5 +1258,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-03-12T07:08:28.540Z"
+    "timestamp": "2021-03-12T08:12:03.095Z"
 }
