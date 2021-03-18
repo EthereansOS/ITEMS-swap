@@ -67,7 +67,7 @@ async function elaborateCollection(collection, callback) {
     }
     const cleanCollection = {
         name: window
-            .shortenWord(collection.name.replace(/[^a-zA-Z0-9+\-%/ ]/gi, '').trim(), window.context.tokenListWordLimit, true)
+            .shortenWord(collection.name.replace(/[^a-zA-Z0-9+/ ]/gi, '').trim(), window.context.tokenListWordLimit, true)
             .trim(),
         keywords: [],
         tags: {},
@@ -87,10 +87,10 @@ async function elaborateCollection(collection, callback) {
         var token = {
             address: rawItem.address,
             name: window
-                .shortenWord(rawItem.name.replace(/[^a-zA-Z0-9+\-%/ ]/gi, '').trim(), window.context.tokenListWordLimit, true)
+                .shortenWord(rawItem.name.replace(/[^a-zA-Z0-9+/ ]/gi, '').trim(), window.context.tokenListWordLimit, true)
                 .trim(),
             symbol: window
-                .shortenWord(rawItem.symbol.replace(/[^a-zA-Z0-9+\-%/ ]/gi, '').trim(), window.context.tokenListWordLimit, true)
+                .shortenWord(rawItem.symbol.replace(/[^a-zA-Z0-9+/ ]/gi, '').trim(), window.context.tokenListWordLimit, true)
                 .trim(),
             decimals: window.asNumber(rawItem.decimals),
             chainId: window.asNumber(window.networkId)
