@@ -79,6 +79,7 @@ async function elaborateCollection(collection, callback) {
         },
         timestamp: new Date().toISOString()
     }
+    cleanCollection.name = cleanCollection.name || " ";
     cleanCollection.logoURI = window.formatLinkForExpose(await getLogoURI(collection));
     for (const rawItem of Object.values(collection.items)) {
         if (exceptFor.indexOf(window.web3.utils.toChecksumAddress(rawItem.address)) !== -1) {
@@ -95,6 +96,8 @@ async function elaborateCollection(collection, callback) {
             decimals: window.asNumber(rawItem.decimals),
             chainId: window.asNumber(window.networkId)
         }
+        token.name = token.name || " ";
+        token.symbol = token.symbol || " ";
         token.logoURI = window.formatLinkForExpose(await getLogoURI(rawItem));
         cleanCollection.tokens.push(token)
     }
