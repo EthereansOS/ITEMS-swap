@@ -15,7 +15,7 @@
   "collectionLogoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/logo.png",
   "deploySearchStart": "11092976",
   "deploySearchStartRopsten": "8900000",
-  "requestTimeout" : 7000,
+  "requestTimeout" : 15000,
   "blockSearchLimit": 50000,
   "tokenListWordLimit": 20,
   "ethItemOrchestratorAddress": "0x86Ab19d36c38aa81f092eAb4b1a8a4B553612465",
