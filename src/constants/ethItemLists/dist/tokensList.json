@@ -13,6 +13,14 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
+            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
+            "name": "DFY  Token 3",
+            "symbol": "DEFY",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
             "address": "0xF630743B47030737CA030a8441714eBFf143534d",
             "name": "Alchemist Crucible v",
             "symbol": "CRUCIBLEV1",
@@ -37,8 +45,24 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x6ffB1Ca5938BB680ed02Ef348d0B8AD406da1435",
-            "name": "Penguin Party OG Mem",
+            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
+            "name": "Whip of Erebos  Anim",
+            "symbol": "MTG",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
+            "name": "/DRM/ 1st Edition  F",
+            "symbol": "DRM",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0x2faD09Bf48DB242043456eC8020BbA88f32D4427",
+            "name": "Desert Moon Outpost",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
@@ -53,52 +77,12 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x2faD09Bf48DB242043456eC8020BbA88f32D4427",
-            "name": "Desert Moon Outpost",
+            "address": "0x6ffB1Ca5938BB680ed02Ef348d0B8AD406da1435",
+            "name": "Penguin Party OG Mem",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
-            "name": "/DRM/ 1st Edition  F",
-            "symbol": "DRM",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
-            "name": "DFY  Token 3",
-            "symbol": "DEFY",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
-            "name": "Whip of Erebos  Anim",
-            "symbol": "MTG",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0xa15B60d58C39ce010f5E268f028630A08Ef9B54A",
-            "name": "yeahammer",
-            "symbol": "yeah",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
-        },
-        {
-            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
-            "name": "Dionysian Drunk",
-            "symbol": "CARD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://card.godsunchained.com/?id=1207&q=4"
         },
         {
             "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
@@ -109,12 +93,36 @@
             "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
         },
         {
+            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
+            "name": "Dionysian Drunk",
+            "symbol": "CARD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://card.godsunchained.com/?id=1207&q=4"
+        },
+        {
             "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
             "name": "INVALID  DO NOT BUY",
             "symbol": "0x93ea6ec350ace7473f",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
+        },
+        {
+            "address": "0x64378Ec4BA1c89946b37636a358271B48B81062d",
+            "name": "Farming LP",
+            "symbol": "fLP",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0x75fd64357B57687D12053b248B74d224dA82a731",
+            "name": "Farming LP",
+            "symbol": "fLP",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
@@ -125,22 +133,6 @@
             "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
         },
         {
-            "address": "0x64378Ec4BA1c89946b37636a358271B48B81062d",
-            "name": "Farming LP",
-            "symbol": "fLP",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/Qmec5J1qui78ui9exoJmGdkYeyvvc8F45y86Wz2TfaXzhS"
-        },
-        {
-            "address": "0x75fd64357B57687D12053b248B74d224dA82a731",
-            "name": "Farming LP",
-            "symbol": "fLP",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/Qmec5J1qui78ui9exoJmGdkYeyvvc8F45y86Wz2TfaXzhS"
-        },
-        {
             "address": "0xa2B6567A269C0eCd883B9387f64bE34e8BF98829",
             "name": "Farming LP",
             "symbol": "fLP",
@@ -149,28 +141,28 @@
             "logoURI": "https://ipfs.io/ipfs/Qmec5J1qui78ui9exoJmGdkYeyvvc8F45y86Wz2TfaXzhS"
         },
         {
-            "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
-            "name": "Jet Driver",
-            "symbol": "F1DTI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://assets.f1deltatime.com/image/nft/2019_JetDriver_common.png"
-        },
-        {
             "address": "0x8467331556e58bCDE5e135efDf441Df685B41C73",
             "name": "Lucky the DFOGhost20",
             "symbol": "ETRA",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmYAWwXv1CWHZ2UGvsCXCWtLhJtfb8PBwWPzUsXa8yBbdz"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
             "address": "0x5f3A8D362386b225B0CF577e90ab3e149DE1CC71",
-            "name": "FRZ took ETHART",
+            "name": "ethArt",
             "symbol": "ETRA",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmVCu7EpCwXf2w5TUsibDzLkaBtk5GtiZSguHFM4sUS8aK"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
+        },
+        {
+            "address": "0xa15B60d58C39ce010f5E268f028630A08Ef9B54A",
+            "name": "yeahammer",
+            "symbol": "yeah",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
             "address": "0x9f8EE20fF6226e5865326102567d49ebD329250E",
@@ -179,6 +171,38 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://api.ppw.digital/images/MantraDAO.png"
+        },
+        {
+            "address": "0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8",
+            "name": "Wrapped USD",
+            "symbol": "WUSD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0xA4d9C768E1c6cabB127a6326c0668b49235639e8",
+            "name": "2x Wrapped USD",
+            "symbol": "2xUSD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0x0473F6Ea742448ec9433b87aC410d79C08198abe",
+            "name": "x5 WUSD",
+            "symbol": "WUSDx5",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
+            "name": "Jet Driver",
+            "symbol": "F1DTI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://assets.f1deltatime.com/image/nft/2019_JetDriver_common.png"
         },
         {
             "address": "0xf47dAc44C808cb541978dF13FC367Db648a7BD3A",
@@ -202,7 +226,7 @@
             "symbol": "FXT",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+            "logoURI": "https://ipfs.io/ipfs/QmcHxFDsuPGn8x2Gpo5TnQu6shCiXLVtoDG3k88eRshjti"
         },
         {
             "address": "0x7AB691aE7b3499639AefF7b49E6DB7418035812c",
@@ -210,36 +234,12 @@
             "symbol": "FXT",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+            "logoURI": "https://ipfs.io/ipfs/QmNy8fCcFrVrfvMfBxKRXm6gCyG5CnDbx2y3y6pCf8djX7"
         },
         {
             "address": "0xad696407DE4a1b0e4dc30167F3E6EB2982A0b53C",
             "name": "Find A Way Out",
             "symbol": "FXT",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
-        },
-        {
-            "address": "0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8",
-            "name": "Wrapped USD",
-            "symbol": "WUSD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmXjPmCChUCNeMSoRpSb3wKUARxbucZSQ3W5sZwMf749RX"
-        },
-        {
-            "address": "0xA4d9C768E1c6cabB127a6326c0668b49235639e8",
-            "name": "x2 WUSD",
-            "symbol": "WUSDx2",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
-        },
-        {
-            "address": "0x0473F6Ea742448ec9433b87aC410d79C08198abe",
-            "name": "5x Wrapped USD",
-            "symbol": "5xUSD",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
@@ -349,62 +349,6 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W20-item.png"
         },
         {
-            "address": "0x32e4623Ed080085479a31e727b1C005A2CA5A850",
-            "name": "LUCK CARDS  Limited",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0xdcF16D7254e30BD7a3cD625066B841c44F44110d",
-            "name": "Sergey Nazarov Portr",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x66Af9569DB344d05eC1Dd1777c8604c98a71784c",
-            "name": "Andre Cronje  YearnF",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x345eCB9cfD6A30c567696dd7BA69275ee9434527",
-            "name": "Vitalik Buterin  Eth",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0xe1ca5478C06e121581a6d41E0dA50097E8AE9bA7",
-            "name": "Another World x Vybl",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0xE4bD01A182048e1E1738Ec489Ec0dAE5FC1B9b13",
-            "name": "Smile",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x0362EB0CbB99175a8148C57B87f0d11B5AF74714",
-            "name": "RagDoll",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
             "address": "0x9E4c291b1064973fD53b90b2F117BcF43dF3E9ca",
             "name": "EthOS Index 1",
             "symbol": "OS1",
@@ -434,7 +378,7 @@
             "symbol": "Muffins",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmZKDZdCgntwyuHCbtdwqkRJ8dhp8Y5evsQfxDW7RsT3ag"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0xe241E6a05de98D17f3805C3Ce9f872ad8B9A40F5",
@@ -442,7 +386,7 @@
             "symbol": "EthOSSWI",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmZB1tHXWqrF42DmibNKGsoLKSSTukqKiQTXbKzAfwdEkt"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0x9a517D77d38812F329E9c35A6E6f5caD178f294c",
@@ -450,7 +394,7 @@
             "symbol": "STR",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmNZb2azgNSx6UUdT3RwKqXVshCKXuQWYcUy6KuyjmK2Nu"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0x78162457Fc9b4aA6161aA892B6590340b938a5Dd",
@@ -475,14 +419,6 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.io/ipfs/QmRFyYx6XazzhfiiGUEQAkdY5A1ZjpiASvpAwj8axzWGHC"
-        },
-        {
-            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
-            "name": "Sandboxs ASSETs",
-            "symbol": "ASSET",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0xa8d883B1224284134949C30ecC05a677Af3eAbc7",
@@ -546,7 +482,7 @@
             "symbol": "WIMD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmUGMkpUv8tGjogUkocnRyZ8WcsmwEbpyXLGERPMKPRsmX"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0x9b16e70797276Ae1bE23874961D1E6a9698e1EC6",
@@ -554,7 +490,7 @@
             "symbol": "WIMD",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmfCbaMU3QyeyzNx65eRZMZHevLHXB3pw1FgNiyispLJ46"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0xc2c5667f69E881C83Fc4692f7A08a22370B4cc41",
@@ -579,6 +515,70 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.io/ipfs/QmPzhhPK1o39aJBk4V2M9dg2XxSp2S9UCcAbTPvuVCPj4C"
+        },
+        {
+            "address": "0x32e4623Ed080085479a31e727b1C005A2CA5A850",
+            "name": "LUCK CARDS  Limited",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0xdcF16D7254e30BD7a3cD625066B841c44F44110d",
+            "name": "Sergey Nazarov Portr",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0x66Af9569DB344d05eC1Dd1777c8604c98a71784c",
+            "name": "Andre Cronje  YearnF",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0x345eCB9cfD6A30c567696dd7BA69275ee9434527",
+            "name": "Vitalik Buterin  Eth",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0xe1ca5478C06e121581a6d41E0dA50097E8AE9bA7",
+            "name": "Another World x Vybl",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0xE4bD01A182048e1E1738Ec489Ec0dAE5FC1B9b13",
+            "name": "Smile",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0x0362EB0CbB99175a8148C57B87f0d11B5AF74714",
+            "name": "RagDoll",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
+            "name": "Sandboxs ASSETs",
+            "symbol": "ASSET",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0x5430E56eEBA6cc24790c7387167238a2B0F5e173",
@@ -658,7 +658,7 @@
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmfX3mYicnGHzzjKhedbVm3Dykx7uWXMaRG48Hzpx7sADw"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0x61C48C0789b7845C5de96e95F95Fb0C3e7a75447",
@@ -666,7 +666,7 @@
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+            "logoURI": "https://ipfs.io/ipfs/QmfJsxbd3N7GFXU7A3HzwfCcr5cipNVKcPRtphiat3LmzY"
         },
         {
             "address": "0x0Fd8Bf220d44f3c523DE839e007E9f68858DA8fE",
@@ -674,7 +674,7 @@
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmWYvUBXUGDc3MyG2atSuxQitQM3QjU7QJf4Hfnyjn2pST"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0x433cA9f771D4dE8D246d9eFD52b8f811be871Da5",
@@ -1362,5 +1362,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-03-21T16:20:50.016Z"
+    "timestamp": "2021-03-21T17:36:10.721Z"
 }
