@@ -45,17 +45,9 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
-            "address": "0xce349785Ec597E03a5a3Baab6d6119C646127a79",
-            "name": "Desert Moon Outpost",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x2faD09Bf48DB242043456eC8020BbA88f32D4427",
-            "name": "Desert Moon Outpost",
-            "symbol": "RARI",
+            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
+            "name": "Whip of Erebos  Anim",
+            "symbol": "MTG",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
@@ -69,9 +61,17 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
-            "name": "Whip of Erebos  Anim",
-            "symbol": "MTG",
+            "address": "0x6ffB1Ca5938BB680ed02Ef348d0B8AD406da1435",
+            "name": "Penguin Party OG Mem",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0xce349785Ec597E03a5a3Baab6d6119C646127a79",
+            "name": "Desert Moon Outpost",
+            "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
@@ -85,12 +85,12 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
-            "address": "0x6ffB1Ca5938BB680ed02Ef348d0B8AD406da1435",
-            "name": "Penguin Party OG Mem",
-            "symbol": "RARI",
+            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
+            "name": "LAND 119 40",
+            "symbol": "LAND",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+            "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
         },
         {
             "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
@@ -101,12 +101,12 @@
             "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
         },
         {
-            "address": "0x9f8EE20fF6226e5865326102567d49ebD329250E",
-            "name": "MANTRA DAO Transpare",
-            "symbol": "PPBS",
+            "address": "0x64378Ec4BA1c89946b37636a358271B48B81062d",
+            "name": "Farming LP",
+            "symbol": "fLP",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://api.ppw.digital/images/MantraDAO.png"
+            "logoURI": "https://ipfs.io/ipfs/Qmec5J1qui78ui9exoJmGdkYeyvvc8F45y86Wz2TfaXzhS"
         },
         {
             "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
@@ -117,28 +117,20 @@
             "logoURI": "https://assets.f1deltatime.com/image/nft/2019_JetDriver_common.png"
         },
         {
-            "address": "0x64378Ec4BA1c89946b37636a358271B48B81062d",
-            "name": "Farming LP",
-            "symbol": "fLP",
+            "address": "0x2faD09Bf48DB242043456eC8020BbA88f32D4427",
+            "name": "Desert Moon Outpost",
+            "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/Qmec5J1qui78ui9exoJmGdkYeyvvc8F45y86Wz2TfaXzhS"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
-            "name": "INVALID  DO NOT BUY",
-            "symbol": "0x93ea6ec350ace7473f",
+            "address": "0x9f8EE20fF6226e5865326102567d49ebD329250E",
+            "name": "MANTRA DAO Transpare",
+            "symbol": "PPBS",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
-        },
-        {
-            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
-            "name": "LAND 119 40",
-            "symbol": "LAND",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://www.sandbox.game/img/18_Land/land.png"
+            "logoURI": "https://api.ppw.digital/images/MantraDAO.png"
         },
         {
             "address": "0xa2B6567A269C0eCd883B9387f64bE34e8BF98829",
@@ -146,15 +138,7 @@
             "symbol": "fLP",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/Qmec5J1qui78ui9exoJmGdkYeyvvc8F45y86Wz2TfaXzhS"
-        },
-        {
-            "address": "0x75fd64357B57687D12053b248B74d224dA82a731",
-            "name": "Farming LP",
-            "symbol": "fLP",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/Qmec5J1qui78ui9exoJmGdkYeyvvc8F45y86Wz2TfaXzhS"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0xf47dAc44C808cb541978dF13FC367Db648a7BD3A",
@@ -170,7 +154,15 @@
             "symbol": "COMBOT",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmTELpLSxFQHk5pa8VdaHqeA7Na2B6f2vgkWFHxhSsNFdX"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0x75fd64357B57687D12053b248B74d224dA82a731",
+            "name": "Farming LP",
+            "symbol": "fLP",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/Qmec5J1qui78ui9exoJmGdkYeyvvc8F45y86Wz2TfaXzhS"
         },
         {
             "address": "0x8467331556e58bCDE5e135efDf441Df685B41C73",
@@ -178,7 +170,7 @@
             "symbol": "ETRA",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmYAWwXv1CWHZ2UGvsCXCWtLhJtfb8PBwWPzUsXa8yBbdz"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
             "address": "0x5f3A8D362386b225B0CF577e90ab3e149DE1CC71",
@@ -186,7 +178,7 @@
             "symbol": "ETRA",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmVCu7EpCwXf2w5TUsibDzLkaBtk5GtiZSguHFM4sUS8aK"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
             "address": "0xD839E4989eC7FCD34554FCD990FA1438bD3a088E",
@@ -202,7 +194,7 @@
             "symbol": "FXT",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmNy8fCcFrVrfvMfBxKRXm6gCyG5CnDbx2y3y6pCf8djX7"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0xad696407DE4a1b0e4dc30167F3E6EB2982A0b53C",
@@ -210,7 +202,15 @@
             "symbol": "FXT",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmXk6ENNWEpTNmaj6ntoovHXUbhsmNf6X8PU4b6himdPFX"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0x81BA946907038FE51333f929Bfda636d56cef267",
+            "name": "Peezing",
+            "symbol": "PEPEMON",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://pepemon.finance/cards/gen1/peezing.gif"
         },
         {
             "address": "0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8",
@@ -226,7 +226,7 @@
             "symbol": "WUSDx2",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmS377M8hhRYEMrDNuko1h5htnhHAjT5gFUHWAgB2UP765"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0x0473F6Ea742448ec9433b87aC410d79C08198abe",
@@ -235,6 +235,22 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.io/ipfs/QmeT8f6M4dgKWWKzeUXLRrxSVam5NbYA2yxsHgS3vbBAmF"
+        },
+        {
+            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
+            "name": "Pepemander",
+            "symbol": "PEPEMON",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
+        },
+        {
+            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
+            "name": "INVALID  DO NOT BUY",
+            "symbol": "0x93ea6ec350ace7473f",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://aavegotchi.com/images/tickets/ticket-mythical.svg"
         },
         {
             "address": "0xa8d883B1224284134949C30ecC05a677Af3eAbc7",
@@ -373,6 +389,62 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W20-item.png"
         },
         {
+            "address": "0x7C23Ac2E8DA915d4f422CF710f4767FAa0c332fa",
+            "name": "Magician Cat",
+            "symbol": "WIMD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmVBBUiixDzz2ByqsQZwJVvcMmBc9n7nki3q46Yxq22Ppq"
+        },
+        {
+            "address": "0xA70C8667cCFB63D6b98C2A050c94b7Bf2085dC55",
+            "name": "Magician Unicorn",
+            "symbol": "WIMD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0xE63983b5FAdE429eC052d1b365826C4Bc5fCB198",
+            "name": "Penguin Fancy Shoes",
+            "symbol": "WIMD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0x9b16e70797276Ae1bE23874961D1E6a9698e1EC6",
+            "name": "Penguin Unicorn",
+            "symbol": "WIMD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmfCbaMU3QyeyzNx65eRZMZHevLHXB3pw1FgNiyispLJ46"
+        },
+        {
+            "address": "0xc2c5667f69E881C83Fc4692f7A08a22370B4cc41",
+            "name": "Unicorn Cat",
+            "symbol": "WIMD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmRmtjJDHAuiQi2B6pVvWnviXxDgri8m4HJjv7tj2STuo6"
+        },
+        {
+            "address": "0x22e6559F495F97Af51fF56719CdFF80F65a0B93A",
+            "name": "Unicorn Dragon",
+            "symbol": "WIMD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmUDaGQZyNts6FAfYWzhjFzGTjWALzuZcQY91bDKBmVWur"
+        },
+        {
+            "address": "0x88B95322b5E93B891D83031F2f55Ca238D5e6417",
+            "name": "Unicorn Ghost",
+            "symbol": "WIMD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmPzhhPK1o39aJBk4V2M9dg2XxSp2S9UCcAbTPvuVCPj4C"
+        },
+        {
             "address": "0x9E4c291b1064973fD53b90b2F117BcF43dF3E9ca",
             "name": "EthOS Index 1",
             "symbol": "OS1",
@@ -402,7 +474,7 @@
             "symbol": "Muffins",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmZKDZdCgntwyuHCbtdwqkRJ8dhp8Y5evsQfxDW7RsT3ag"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0xe241E6a05de98D17f3805C3Ce9f872ad8B9A40F5",
@@ -509,78 +581,6 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
-            "address": "0x7C23Ac2E8DA915d4f422CF710f4767FAa0c332fa",
-            "name": "Magician Cat",
-            "symbol": "WIMD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmVBBUiixDzz2ByqsQZwJVvcMmBc9n7nki3q46Yxq22Ppq"
-        },
-        {
-            "address": "0xA70C8667cCFB63D6b98C2A050c94b7Bf2085dC55",
-            "name": "Magician Unicorn",
-            "symbol": "WIMD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmNaoH5eStRyoYswCxE5CsXzx5yb7KyX36ThAgyv3uSQpT"
-        },
-        {
-            "address": "0xE63983b5FAdE429eC052d1b365826C4Bc5fCB198",
-            "name": "Penguin Fancy Shoes",
-            "symbol": "WIMD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmUGMkpUv8tGjogUkocnRyZ8WcsmwEbpyXLGERPMKPRsmX"
-        },
-        {
-            "address": "0x9b16e70797276Ae1bE23874961D1E6a9698e1EC6",
-            "name": "Penguin Unicorn",
-            "symbol": "WIMD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmfCbaMU3QyeyzNx65eRZMZHevLHXB3pw1FgNiyispLJ46"
-        },
-        {
-            "address": "0xc2c5667f69E881C83Fc4692f7A08a22370B4cc41",
-            "name": "Unicorn Cat",
-            "symbol": "WIMD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmRmtjJDHAuiQi2B6pVvWnviXxDgri8m4HJjv7tj2STuo6"
-        },
-        {
-            "address": "0x22e6559F495F97Af51fF56719CdFF80F65a0B93A",
-            "name": "Unicorn Dragon",
-            "symbol": "WIMD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmUDaGQZyNts6FAfYWzhjFzGTjWALzuZcQY91bDKBmVWur"
-        },
-        {
-            "address": "0x88B95322b5E93B891D83031F2f55Ca238D5e6417",
-            "name": "Unicorn Ghost",
-            "symbol": "WIMD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmPzhhPK1o39aJBk4V2M9dg2XxSp2S9UCcAbTPvuVCPj4C"
-        },
-        {
-            "address": "0x81BA946907038FE51333f929Bfda636d56cef267",
-            "name": "Peezing",
-            "symbol": "PEPEMON",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://pepemon.finance/cards/gen1/peezing.gif"
-        },
-        {
-            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
-            "name": "Pepemander",
-            "symbol": "PEPEMON",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://pepemon.finance/cards/gen1/pepemander.gif"
-        },
-        {
             "address": "0x5430E56eEBA6cc24790c7387167238a2B0F5e173",
             "name": "Meme Grail Relic",
             "symbol": "MEMES",
@@ -674,7 +674,7 @@
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmWYvUBXUGDc3MyG2atSuxQitQM3QjU7QJf4Hfnyjn2pST"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0x433cA9f771D4dE8D246d9eFD52b8f811be871Da5",
@@ -1370,5 +1370,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-03-23T06:10:55.735Z"
+    "timestamp": "2021-03-23T07:09:28.635Z"
 }
