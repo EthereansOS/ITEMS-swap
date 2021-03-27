@@ -91,13 +91,13 @@ async function elaborateCollection(collection, callback) {
                 .shortenWord(rawItem.name.replace(/[^a-zA-Z0-9+/ ]/gi, '').trim(), window.context.tokenListWordLimit, true)
                 .trim(),
             symbol: window
-                .shortenWord(rawItem.symbol.replace(/[^a-zA-Z0-9+/ ]/gi, '').trim(), window.context.tokenListWordLimit, true)
+                .shortenWord(rawItem.symbol.replace(/[^a-zA-Z0-9+/]/gi, '').trim(), window.context.tokenListWordLimit, true)
                 .trim(),
             decimals: window.asNumber(rawItem.decimals),
             chainId: window.asNumber(window.networkId)
         }
         token.name = token.name || "-";
-        token.symbol = token.symbol || "-";
+        token.symbol = token.symbol.split(' ').join('') || "-";
         token.logoURI = window.formatLinkForExpose(await getLogoURI(rawItem));
         cleanCollection.tokens.push(token)
     }
