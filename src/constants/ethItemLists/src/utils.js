@@ -1564,11 +1564,11 @@ window.formatMoney = function formatMoney(value, decPlaces, thouSeparator, decSe
 
 window.AJAXRequest = function AJAXRequest(link) {
   return new Promise(function(ok, ko) {
-    var timeoutCall = setTimeout(function() {
-      ko("Timeout")
-    }, window.context.requestTimeout || 7000);
+    const timeoutCall = setTimeout(function() {
+      ko('Timeout')
+    }, window.context.requestTimeout || 7000)
     request(link, {}, (err, res, body) => {
-      clearTimeout(timeoutCall);
+      clearTimeout(timeoutCall)
       if (err || (res.statusCode !== 200 && res.statusCode !== 201)) {
         return ko(err || res.statusCode)
       }
