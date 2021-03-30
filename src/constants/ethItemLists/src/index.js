@@ -154,8 +154,8 @@ function dumpBase64(element) {
   ) {
     return element.image
   }
-  ipfs = ipfs || await IPFS.create()
-  return new Promise(function(ok) {
+  return new Promise(async function(ok) {
+    ipfs = ipfs || await IPFS.create()
     const request = require('request').defaults({ encoding: null })
     request.get(element.image, function(error, response, body) {
       if (!error && response.statusCode == 200) {
