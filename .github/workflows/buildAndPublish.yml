@@ -20,6 +20,9 @@ jobs:
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/checkout@v2
+      with:
+        lfs: true
+        token: ${{ secrets.COMMIT_AUTH_TOKEN }}
 
     - name: Environment Preparation
       uses: actions/setup-node@v1
@@ -43,10 +46,6 @@ jobs:
         npm run start
 
     - name: Commit changes
-      uses: actions/checkout@v2
-      with:
-        lfs: true
-        token: ${{ secrets.COMMIT_AUTH_TOKEN }}
       run: |
           git config user.name King Julian
           git config user.email dfohubsucks@protonmail.com
