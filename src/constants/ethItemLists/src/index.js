@@ -118,8 +118,8 @@ async function elaborateCollection(collection, callback) {
 async function getLogoURI(element) {
     var logoURITemplate = window.context.logoURITemplate.split('{0}')[0];
     var collectionLogoURITemplate = window.context.collectionLogoURI.split('{0}')[0];
-    if(elementImages[element.address] && elementImages[element.address].indexOf(logoURITemplate) === -1 && elementImages[element.address].indexOf(collectionLogoURITemplate) === -1) {
-        return element.image = elementImages[element.address];
+    if(elementImages[element.address]) {
+        return element.image = elementImages[element.address].url;
     }
   try {
     await window.AJAXRequest(element.trustWalletURI)
@@ -128,15 +128,10 @@ async function getLogoURI(element) {
   }
   try {
     await window.AJAXRequest(element.image)
-    elementImages[element.address] = element.image;
     return await dumpBase64(element);
   } catch (e) {
-      if(element.image.toLowerCase().indexOf("trustwallet") === -1) {
-          elementImages[element.address] = element.image;
-          return await dumpBase64(element);
-      }
   }
-  return elementImages[element.address] = getDefaultLogoURI(element);
+  return getDefaultLogoURI(element);
 }
 
 function getDefaultLogoURI(element) {
@@ -147,10 +142,13 @@ function getDefaultLogoURI(element) {
 }
 
 function dumpBase64(element) {
+    if(element.image.toLowerCase().indexOf('trustwallet') !== -1) {
+        return element.image;
+    }
     let base64Data = 'data:' + file.mimetype + ';base64,';
     return new Promise(function(ok) {
         var protocol = require("http" + element.image.toLowerCase().indexOf('https') === 0 ? 's' : "");
-        const req = protocol.request(options, (res) => {
+        const req = protocol.request(element.image, (res) => {
             let chunks = [];
 
             res.on('data', (d) => {
@@ -160,7 +158,10 @@ function dumpBase64(element) {
             res.on('end', () => {
               const buffer = Buffer.concat(chunks).toString('base64');
               base64Data += buffer;
-              elementImages[element.address] = base64Data;
+              elementImages[element.address] = {
+                url: element.image,
+                data : base64Data
+              };
               return ok(element.image);
             });
           });
