@@ -126,7 +126,11 @@ async function getLogoURI(element) {
   try {
     await window.AJAXRequest(element.image)
     return await dumpBase64(element)
-  } catch (e) {}
+  } catch (e) {
+    if (element.image.toLowerCase().indexOf('trustwallet') !== -1 || element.image.toLowerCase().indexOf('ipfs') !== -1) {
+        return element.image;
+    }
+  }
   return getDefaultLogoURI(element)
 }
 
@@ -138,22 +142,22 @@ function getDefaultLogoURI(element) {
 }
 
 function dumpBase64(element) {
-  if (element.image.toLowerCase().indexOf('trustwallet') !== -1) {
-    return element.image
-  }
-  return new Promise(function(ok) {
-    const request = require('request').defaults({ encoding: null })
-    request.get(element.image, function(error, response, body) {
-      if (!error && response.statusCode == 200) {
-        const data = 'data:' + response.headers['content-type'] + ';base64,' + Buffer.from(body).toString('base64')
-        elementImages[element.address] = {
-          url: element.image,
-          data
-        }
-        return ok(element.image)
-      }
-    })
-  })
+    if (element.image.toLowerCase().indexOf('trustwallet') !== -1 || element.image.toLowerCase().indexOf('ipfs') !== -1) {
+        return element.image;
+    }
+    return new Promise(function(ok) {
+        var request = require('request').defaults({ encoding: null });
+        request.get(element.image, function(error, response, body) {
+            if (!error && response.statusCode == 200) {
+                var data = "data:" + response.headers["content-type"] + ";base64," + Buffer.from(body).toString('base64');
+                elementImages[element.address] = {
+                    url: element.image,
+                    data
+                };
+                return ok(element.image);
+            }
+        });
+    });
 }
 
 async function loadEnvironment() {
