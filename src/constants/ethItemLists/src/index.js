@@ -127,11 +127,8 @@ async function getLogoURI(element) {
     await window.AJAXRequest(element.image)
     return await dumpBase64(element)
   } catch (e) {
-    if (
-      element.image.toLowerCase().indexOf('trustwallet') !== -1 ||
-      element.image.toLowerCase().indexOf('ipfs') !== -1
-    ) {
-      return element.image
+    if (element.image && element.image.toLowerCase().indexOf('trustwallet') !== -1 || element.image.toLowerCase().indexOf('ipfs') !== -1) {
+        return element.image;
     }
   }
   return getDefaultLogoURI(element)
