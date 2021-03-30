@@ -2,6 +2,9 @@ require('dotenv').config()
 require('./utils')
 const fs = require('fs')
 const path = require('path')
+const IPFS = require('ipfs-core')
+
+var ipfs;
 
 window.context.blockchainConnectionString =
   window.context.blockchainConnectionString || process.env.BLOCKCHAIN_CONNECTION_STRING
@@ -117,7 +120,7 @@ async function elaborateCollection(collection, callback) {
 
 async function getLogoURI(element) {
   if (elementImages[element.address]) {
-    return (element.image = elementImages[element.address].url)
+    return (element.image = elementImages[element.address])
   }
   try {
     await window.AJAXRequest(element.trustWalletURI)
@@ -151,16 +154,14 @@ function dumpBase64(element) {
   ) {
     return element.image
   }
+  ipfs = ipfs || await IPFS.create()
   return new Promise(function(ok) {
     const request = require('request').defaults({ encoding: null })
     request.get(element.image, function(error, response, body) {
       if (!error && response.statusCode == 200) {
         const data = 'data:' + response.headers['content-type'] + ';base64,' + Buffer.from(body).toString('base64')
-        elementImages[element.address] = {
-          url: element.image,
-          data
-        }
-        return ok(element.image)
+        const { cid } = await ipfs.add(data)
+        return ok(elementImages[element.address] = "https://ipfs.io/ipfs/" + cid)
       }
     })
   })
