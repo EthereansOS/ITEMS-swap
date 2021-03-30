@@ -4,7 +4,7 @@ const fs = require('fs')
 const path = require('path')
 const IPFS = require('ipfs-core')
 
-let ipfs;
+let ipfs
 
 window.context.blockchainConnectionString =
   window.context.blockchainConnectionString || process.env.BLOCKCHAIN_CONNECTION_STRING
@@ -155,13 +155,13 @@ function dumpBase64(element) {
     return element.image
   }
   return new Promise(async function(ok) {
-    ipfs = ipfs || await IPFS.create()
+    ipfs = ipfs || (await IPFS.create())
     const request = require('request').defaults({ encoding: null })
     request.get(element.image, async function(error, response, body) {
       if (!error && response.statusCode == 200) {
         const data = 'data:' + response.headers['content-type'] + ';base64,' + Buffer.from(body).toString('base64')
         const { cid } = await ipfs.add(data)
-        return ok(elementImages[element.address] = "https://ipfs.io/ipfs/" + cid)
+        return ok((elementImages[element.address] = 'https://ipfs.io/ipfs/' + cid))
       }
     })
   })
