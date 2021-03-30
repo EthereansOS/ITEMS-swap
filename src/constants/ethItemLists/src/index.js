@@ -154,13 +154,18 @@ function dumpBase64(element) {
     return element.image
   }
   return new Promise(async function(ok) {
+    const timeoutCall = setTimeout(function() {
+        return ok(getDefaultLogoURI(element))
+    }, window.context.requestTimeout || 7000)
     const request = require('request').defaults({ encoding: null })
     request.get(element.image, async function(error, response, body) {
+      clearTimeout(timeoutCall);
       if (!error && response.statusCode == 200) {
         const data = 'data:' + response.headers['content-type'] + ';base64,' + Buffer.from(body).toString('base64')
         const { cid } = await ipfs.add(data)
         return ok((elementImages[element.address] = 'https://ipfs.io/ipfs/' + cid))
       }
+      return ok(getDefaultLogoURI(element))
     })
   })
 }
