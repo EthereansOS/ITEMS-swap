@@ -32,7 +32,7 @@ var elementImagesPath = path.resolve(__dirname, '../dist/elementImages.json');
 
 try {
     elementImages = JSON.parse(fs.readFileSync(elementImagesPath, "UTF-8"));
-} catch(e) {
+} catch (e) {
     elementImages = {};
 }
 
@@ -62,11 +62,11 @@ async function loop() {
     await Promise.all(collections.map(collection => elaborateCollection(collection, addToTokenLists)));
     const p = path.resolve(distPath, 'tokensList.json')
     fs.writeFileSync(p, JSON.stringify(tokenLists, null, 4));
-        /*fs.writeFileSync(p, JSON.stringify(Object.keys(tokenLists).map(it => window.context.listURITemplate.format(it)), null, 4));
-          for(var entry of Object.entries(tokenLists)) {
-              var p = path.resolve(distPath, `${entry[0]}.json`);
-              fs.writeFileSync(p, JSON.stringify(entry[1], null, 4));
-          }*/
+    /*fs.writeFileSync(p, JSON.stringify(Object.keys(tokenLists).map(it => window.context.listURITemplate.format(it)), null, 4));
+      for(var entry of Object.entries(tokenLists)) {
+          var p = path.resolve(distPath, `${entry[0]}.json`);
+          fs.writeFileSync(p, JSON.stringify(entry[1], null, 4));
+      }*/
     fs.writeFileSync(elementImagesPath, JSON.stringify(elementImages, null, 4));
     window.context.loopTimeout && setTimeout(loop, window.context.loopTimeout)
 }
@@ -116,22 +116,18 @@ async function elaborateCollection(collection, callback) {
 }
 
 async function getLogoURI(element) {
-    var logoURITemplate = window.context.logoURITemplate.split('{0}')[0];
-    var collectionLogoURITemplate = window.context.collectionLogoURI.split('{0}')[0];
-    if(elementImages[element.address]) {
+    if (elementImages[element.address]) {
         return element.image = elementImages[element.address].url;
     }
-  try {
-    await window.AJAXRequest(element.trustWalletURI)
-    element.image = element.trustWalletURI
-  } catch (e) {
-  }
-  try {
-    await window.AJAXRequest(element.image)
-    return await dumpBase64(element);
-  } catch (e) {
-  }
-  return getDefaultLogoURI(element);
+    try {
+        await window.AJAXRequest(element.trustWalletURI)
+        element.image = element.trustWalletURI
+    } catch (e) {}
+    try {
+        await window.AJAXRequest(element.image)
+        return await dumpBase64(element);
+    } catch (e) {}
+    return getDefaultLogoURI(element);
 }
 
 function getDefaultLogoURI(element) {
@@ -142,29 +138,21 @@ function getDefaultLogoURI(element) {
 }
 
 function dumpBase64(element) {
-    if(element.image.toLowerCase().indexOf('trustwallet') !== -1) {
+    if (element.image.toLowerCase().indexOf('trustwallet') !== -1) {
         return element.image;
     }
-    let base64Data = 'data:' + file.mimetype + ';base64,';
     return new Promise(function(ok) {
-        var protocol = require("http" + element.image.toLowerCase().indexOf('https') === 0 ? 's' : "");
-        const req = protocol.request(element.image, (res) => {
-            let chunks = [];
-
-            res.on('data', (d) => {
-              chunks.push(d);
-            });
-
-            res.on('end', () => {
-              const buffer = Buffer.concat(chunks).toString('base64');
-              base64Data += buffer;
-              elementImages[element.address] = {
-                url: element.image,
-                data : base64Data
-              };
-              return ok(element.image);
-            });
-          });
+        var request = require('request').defaults({ encoding: null });
+        request.get(element.image, function(error, response, body) {
+            if (!error && response.statusCode == 200) {
+                var data = "data:" + response.headers["content-type"] + ";base64," + Buffer.from(body).toString('base64');
+                elementImages[element.address] = {
+                    url: element.image,
+                    data
+                };
+                return ok(element.image);
+            }
+        });
     });
 }
 
@@ -219,8 +207,8 @@ async function loadCollections() {
             const collectionAddress = window.web3.utils.toChecksumAddress(
                 window.web3.eth.abi.decodeParameter('address', log.topics[log.topics.length - 1])
             )
-            if(excludingCollections.indexOf(collectionAddress) !== -1) {
-              continue;
+            if (excludingCollections.indexOf(collectionAddress) !== -1) {
+                continue;
             }
             const category = map[log.topics[0]]
             subCollectionsPromises.push(window.refreshSingleCollection(window.packCollection(collectionAddress, category, modelAddress)).catch(console.error))
