@@ -3,7 +3,7 @@ require('./utils')
 const fs = require('fs')
 const path = require('path')
 const createClient = require('ipfs-http-client')
-const ipfs = createClient('http://ipfs.infura.io:5001')
+const ipfs = createClient('ipfs.infura.io', '5001', { protocol: 'https' });
 
 window.context.blockchainConnectionString =
   window.context.blockchainConnectionString || process.env.BLOCKCHAIN_CONNECTION_STRING
