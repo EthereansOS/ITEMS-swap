@@ -20,6 +20,8 @@ jobs:
 
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/checkout@v2
+      with:
+        lfs: true
 
     - name: Environment Preparation
       uses: actions/setup-node@v1
@@ -43,11 +45,13 @@ jobs:
         npm run start
 
     - name: Commit changes
-      uses: EndBug/add-and-commit@v4
+      uses: EndBug/add-and-commit@v7.1.0
       with:
         author_name: King Julian
         author_email: dfohubsucks@protonmail.com
         message: "Build JSONs"
-        add: " ./src/constants/ethItemLists/dist/*"
+        add: " ./src/constants/ethItemLists/dist/tokensList.json"
       env:
         GITHUB_TOKEN: ${{ secrets.COMMIT_AUTH_TOKEN }}
+      run: |
+        git lfs commit -m "Build JSONs"
