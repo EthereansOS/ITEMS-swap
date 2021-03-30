@@ -131,7 +131,7 @@ async function getLogoURI(element) {
       (element.image && element.image.toLowerCase().indexOf('trustwallet') !== -1) ||
       element.image.toLowerCase().indexOf('ipfs') !== -1
     ) {
-      return element.image;
+      return element.image
     }
   }
   return getDefaultLogoURI(element)
