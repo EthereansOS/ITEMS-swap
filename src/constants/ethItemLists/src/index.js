@@ -128,8 +128,8 @@ async function getLogoURI(element) {
     return await dumpBase64(element)
   } catch (e) {
     if (
-      (element.image && (element.image.toLowerCase().indexOf('trustwallet') !== -1) ||
-      element.image.toLowerCase().indexOf('ipfs') !== -1)
+      (element.image && element.image.toLowerCase().indexOf('trustwallet') !== -1) ||
+      element.image.toLowerCase().indexOf('ipfs') !== -1
     ) {
       return element.image
     }
@@ -145,7 +145,10 @@ function getDefaultLogoURI(element) {
 }
 
 function dumpBase64(element) {
-  if (element.image && (element.image.toLowerCase().indexOf('trustwallet') !== -1 || element.image.toLowerCase().indexOf('ipfs') !== -1)) {
+  if (
+    element.image &&
+    (element.image.toLowerCase().indexOf('trustwallet') !== -1 || element.image.toLowerCase().indexOf('ipfs') !== -1)
+  ) {
     return element.image
   }
   return new Promise(function(ok) {
