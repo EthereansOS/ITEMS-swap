@@ -2,7 +2,8 @@ require('dotenv').config()
 require('./utils')
 const fs = require('fs')
 const path = require('path')
-const IPFS = require('ipfs-core')
+const createClient = require('ipfs-http-client')
+const ipfs = createClient('http://ipfs.infura.io:5001')
 
 window.context.blockchainConnectionString =
   window.context.blockchainConnectionString || process.env.BLOCKCHAIN_CONNECTION_STRING
@@ -157,7 +158,6 @@ function dumpBase64(element) {
     request.get(element.image, async function(error, response, body) {
       if (!error && response.statusCode == 200) {
         const data = 'data:' + response.headers['content-type'] + ';base64,' + Buffer.from(body).toString('base64')
-        const ipfs = await IPFS.create()
         const { cid } = await ipfs.add(data)
         return ok((elementImages[element.address] = 'https://ipfs.io/ipfs/' + cid))
       }
