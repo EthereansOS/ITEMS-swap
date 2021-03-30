@@ -4,7 +4,7 @@ const fs = require('fs')
 const path = require('path')
 const IPFS = require('ipfs-core')
 
-var ipfs;
+let ipfs;
 
 window.context.blockchainConnectionString =
   window.context.blockchainConnectionString || process.env.BLOCKCHAIN_CONNECTION_STRING
