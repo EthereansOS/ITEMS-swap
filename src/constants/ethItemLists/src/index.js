@@ -26,6 +26,16 @@ async function start() {
     await loop()
 }
 
+var elementImages = {};
+
+var elementImagesPath = path.resolve(__dirname, '../dist/elementImages.json');
+
+try {
+    elementImages = JSON.parse(fs.readFileSync(elementImagesPath, "UTF-8"));
+} catch(e) {
+    elementImages = {};
+}
+
 async function loop() {
     const distPath = path.resolve(__dirname, '../dist')
     cleanPath(distPath)
@@ -51,12 +61,13 @@ async function loop() {
     }
     await Promise.all(collections.map(collection => elaborateCollection(collection, addToTokenLists)));
     const p = path.resolve(distPath, 'tokensList.json')
-    fs.writeFileSync(p, JSON.stringify(tokenLists, null, 4))
+    fs.writeFileSync(p, JSON.stringify(tokenLists, null, 4));
         /*fs.writeFileSync(p, JSON.stringify(Object.keys(tokenLists).map(it => window.context.listURITemplate.format(it)), null, 4));
           for(var entry of Object.entries(tokenLists)) {
               var p = path.resolve(distPath, `${entry[0]}.json`);
               fs.writeFileSync(p, JSON.stringify(entry[1], null, 4));
           }*/
+    fs.writeFileSync(elementImagesPath, JSON.stringify(elementImages, null, 4));
     window.context.loopTimeout && setTimeout(loop, window.context.loopTimeout)
 }
 
@@ -105,6 +116,11 @@ async function elaborateCollection(collection, callback) {
 }
 
 async function getLogoURI(element) {
+    var logoURITemplate = window.context.logoURITemplate.split('{0}')[0];
+    var collectionLogoURITemplate = window.context.collectionLogoURI.split('{0}')[0];
+    if(elementImages[element.address] && elementImages[element.address].indexOf(logoURITemplate) === -1 && elementImages[element.address].indexOf(collectionLogoURITemplate) === -1) {
+        return element.image = elementImages[element.address];
+    }
   try {
     await window.AJAXRequest(element.trustWalletURI)
     element.image = element.trustWalletURI
@@ -112,10 +128,15 @@ async function getLogoURI(element) {
   }
   try {
     await window.AJAXRequest(element.image)
-    return element.image
+    elementImages[element.address] = element.image;
+    return await dumpBase64(element);
   } catch (e) {
+      if(element.image.toLowerCase().indexOf("trustwallet") === -1) {
+          elementImages[element.address] = element.image;
+          return await dumpBase64(element);
+      }
   }
-  return getDefaultLogoURI(element);
+  return elementImages[element.address] = getDefaultLogoURI(element);
 }
 
 function getDefaultLogoURI(element) {
@@ -123,6 +144,27 @@ function getDefaultLogoURI(element) {
         element.category || element.collection.category,
         element.collection ? 'item' : 'collection'
     )
+}
+
+function dumpBase64(element) {
+    let base64Data = 'data:' + file.mimetype + ';base64,';
+    return new Promise(function(ok) {
+        var protocol = require("http" + element.image.toLowerCase().indexOf('https') === 0 ? 's' : "");
+        const req = protocol.request(options, (res) => {
+            let chunks = [];
+
+            res.on('data', (d) => {
+              chunks.push(d);
+            });
+
+            res.on('end', () => {
+              const buffer = Buffer.concat(chunks).toString('base64');
+              base64Data += buffer;
+              elementImages[element.address] = base64Data;
+              return ok(element.image);
+            });
+          });
+    });
 }
 
 async function loadEnvironment() {
