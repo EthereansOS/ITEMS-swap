@@ -168,7 +168,7 @@ function dumpBase64(element) {
           console.log('https://ipfs.io/ipfs/' + cid)
           await window.sleep(5000)
           return ok((elementImages[element.address] = 'https://ipfs.io/ipfs/' + cid))
-        } catch(e) {
+        } catch (e) {
           return ko(e)
         }
       }
