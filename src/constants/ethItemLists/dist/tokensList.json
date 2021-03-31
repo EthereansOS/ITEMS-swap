@@ -5,12 +5,12 @@
     "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/logo.png",
     "tokens": [
         {
-            "address": "0x6cD8F31C5C94E62938c48a5302EDA2Eb1F02dD64",
-            "name": "NFY Staking NFT v2",
-            "symbol": "NFYNFTv2",
+            "address": "0xe94FcBBeEFd7E3e83be833380286A013D4efF11B",
+            "name": "OpenSea Shared Store",
+            "symbol": "OPENSTORE",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
+            "logoURI": "https://ipfs.io/ipfs/QmWhMwGBjihmgY1v7XXMjFeMAJpqNXGCWTUEyWpxRVo4Ja"
         },
         {
             "address": "0x94BF495C4E71CD9BC07a8172E2058E423baBdB19",
@@ -21,57 +21,25 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
-            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
-            "name": "DFY",
-            "symbol": "DEFY",
+            "address": "0x6cD8F31C5C94E62938c48a5302EDA2Eb1F02dD64",
+            "name": "NFY Staking NFT v2",
+            "symbol": "NFYNFTv2",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
         },
         {
-            "address": "0xe94FcBBeEFd7E3e83be833380286A013D4efF11B",
+            "address": "0x9fdE4f7Ea04EA879d29682b009e6833A039A66De",
             "name": "OpenSea Shared Store",
             "symbol": "OPENSTORE",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmWhMwGBjihmgY1v7XXMjFeMAJpqNXGCWTUEyWpxRVo4Ja"
-        },
-        {
-            "address": "0xa2B6567A269C0eCd883B9387f64bE34e8BF98829",
-            "name": "Farming LP 0xadafb7e",
-            "symbol": "fLP",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
-        },
-        {
-            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
-            "name": "Gods Unchained Cards",
-            "symbol": "CARD",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmYhGsFVUNZG2bbkKC3HN8iNZci2exNxbJYNDKvwPrXiEs"
-        },
-        {
-            "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
-            "name": "dontrugme",
-            "symbol": "DRM",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+            "logoURI": "https://ipfs.io/ipfs/QmcC7AhgpivEL8BcmHmqnpdu5DW2xtdTFafxZSZjoE85JW"
         },
         {
             "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
             "name": "Sandboxs ASSETs",
             "symbol": "ASSET",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
-        },
-        {
-            "address": "0x84d9c5dcD7FB94a148E161d217B21863F81e3dfB",
-            "name": "8325",
-            "symbol": "0xc7e5e9434f4a71e6db",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
@@ -85,24 +53,16 @@
             "logoURI": "https://ipfs.io/ipfs/QmU7QpM52GoLCRH9fHQZELgkWYdjELout6Qr8vkPz5movq"
         },
         {
-            "address": "0x9fdE4f7Ea04EA879d29682b009e6833A039A66De",
-            "name": "Angled News",
-            "symbol": "OPENSTORE",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmcC7AhgpivEL8BcmHmqnpdu5DW2xtdTFafxZSZjoE85JW"
-        },
-        {
-            "address": "0xeC05BfE665589902d72374060C03add5be4fE0Be",
-            "name": "H3 Crew AB  Super Si",
-            "symbol": "OPENSTORE",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmWwfYhoVGg8S3U7jqMG7f5E1wSgvjChXcS88J6sQqxLLh"
-        },
-        {
             "address": "0x75fd64357B57687D12053b248B74d224dA82a731",
             "name": "Farming LP 0xb0fb35c",
+            "symbol": "fLP",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0x64378Ec4BA1c89946b37636a358271B48B81062d",
+            "name": "Farming LP 0x04840ea",
             "symbol": "fLP",
             "decimals": 18,
             "chainId": 1,
@@ -117,36 +77,12 @@
             "logoURI": "https://ipfs.io/ipfs/QmU9vaE7tB2gdPN67FeeC3K5is5BKnfJVM8nRBK6jVBkU3"
         },
         {
-            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
-            "name": "PepemonFactory",
-            "symbol": "PEPEMON",
+            "address": "0xeC05BfE665589902d72374060C03add5be4fE0Be",
+            "name": "H3 Crew AB  Super Si",
+            "symbol": "OPENSTORE",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmYtfZhdVn5u1DP3UFVdj33bo4D7WD97nD1fMfaTZfYeim"
-        },
-        {
-            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
-            "name": "Sandboxs LANDs",
-            "symbol": "LAND",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmYQ8FkRz1vZc42jxYhAtEKtDRhqV8TujvvDYNuh7HAVFG"
-        },
-        {
-            "address": "0x842D880DcD62aAcB4Fc13a17A5a2B57E87b5e8DB",
-            "name": "Nerd Fungible Trust",
-            "symbol": "NFT",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
-        },
-        {
-            "address": "0x64378Ec4BA1c89946b37636a358271B48B81062d",
-            "name": "Farming LP 0x04840ea",
-            "symbol": "fLP",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+            "logoURI": "https://ipfs.io/ipfs/QmWwfYhoVGg8S3U7jqMG7f5E1wSgvjChXcS88J6sQqxLLh"
         },
         {
             "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
@@ -157,12 +93,84 @@
             "logoURI": "https://ipfs.io/ipfs/QmfVLoTRx96pboNNDYSae6vJ2csRHEPCjnykTiikoKHEAG"
         },
         {
+            "address": "0x3C80A96C929d228786ea16a296516d3a545c500F",
+            "name": "DFY",
+            "symbol": "DEFY",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
+            "name": "Sandboxs LANDs",
+            "symbol": "LAND",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmYQ8FkRz1vZc42jxYhAtEKtDRhqV8TujvvDYNuh7HAVFG"
+        },
+        {
             "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
             "name": "F1 Delta Time Invent",
             "symbol": "F1DTI",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.io/ipfs/Qmf5FSPFm4D2AWnZ2UUph9qo9bZvMh2cMg2Fifq5aZPJSn"
+        },
+        {
+            "address": "0x84d9c5dcD7FB94a148E161d217B21863F81e3dfB",
+            "name": "8325",
+            "symbol": "0xc7e5e9434f4a71e6db",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
+            "name": "Dionysian Drunk",
+            "symbol": "CARD",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmYhGsFVUNZG2bbkKC3HN8iNZci2exNxbJYNDKvwPrXiEs"
+        },
+        {
+            "address": "0xa2B6567A269C0eCd883B9387f64bE34e8BF98829",
+            "name": "Farming LP 0xadafb7e",
+            "symbol": "fLP",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
+            "name": "Magic The Gathering",
+            "symbol": "MTG",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
+        },
+        {
+            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
+            "name": "PepemonFactory",
+            "symbol": "PEPEMON",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmYtfZhdVn5u1DP3UFVdj33bo4D7WD97nD1fMfaTZfYeim"
+        },
+        {
+            "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
+            "name": "/DRM/ 1st Edition  F",
+            "symbol": "DRM",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://gateway.ipfs.io/ipfs/Qma96MU8u92MNurY5uurF7H5ssxdLdP2cDumHfL2uabYsk"
+        },
+        {
+            "address": "0x842D880DcD62aAcB4Fc13a17A5a2B57E87b5e8DB",
+            "name": "Nerd Fungible Trust",
+            "symbol": "NFT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
@@ -179,14 +187,6 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://ipfs.io/ipfs/QmUVdmmFd3pbVBbYpJc5grJgaumgKtNjY9n78X4kp2FrdX"
-        },
-        {
-            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
-            "name": "Magic The Gathering",
-            "symbol": "MTG",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W1155-item.png"
         },
         {
             "address": "0x8467331556e58bCDE5e135efDf441Df685B41C73",
@@ -221,6 +221,46 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
+            "address": "0xD839E4989eC7FCD34554FCD990FA1438bD3a088E",
+            "name": "Dead End",
+            "symbol": "FXT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0x7AB691aE7b3499639AefF7b49E6DB7418035812c",
+            "name": "Falling",
+            "symbol": "FXT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0xad696407DE4a1b0e4dc30167F3E6EB2982A0b53C",
+            "name": "Find A Way Out",
+            "symbol": "FXT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+        },
+        {
+            "address": "0xa15B60d58C39ce010f5E268f028630A08Ef9B54A",
+            "name": "yeahammer",
+            "symbol": "yeah",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
+        },
+        {
+            "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
+            "name": "Genetic Algorithm",
+            "symbol": "SUPR",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
+        },
+        {
             "address": "0x7C974104DF9dd7fb91205ab3D66d15AFf1049DE8",
             "name": "Wrapped USD",
             "symbol": "WUSD",
@@ -245,36 +285,36 @@
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
-            "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
-            "name": "Genetic Algorithm",
-            "symbol": "SUPR",
+            "address": "0x7652Ca8f4c8989f91b90c5b1D5119D682638Ca50",
+            "name": "OpenSea Shared Store",
+            "symbol": "OPENSTORE",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.pixura.io/ipfs/QmdUT7ji2YsiYNKSPy54oUJ89Yt1bH7BGgACE4o1VXqrtC/IMG_5680.JPG"
+            "logoURI": "https://ipfs.io/ipfs/QmSZjBrk2xpwvjptq7AkrUiVqvLLygHif8wGQJSR7Mgf94"
         },
         {
-            "address": "0xD839E4989eC7FCD34554FCD990FA1438bD3a088E",
-            "name": "Dead End",
-            "symbol": "FXT",
+            "address": "0x7500178a322F943f4e65AC77Fc0193BC6678d25b",
+            "name": "OpenSea Shared Store",
+            "symbol": "OPENSTORE",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+            "logoURI": "https://ipfs.io/ipfs/QmfJdn9JrReswx1fSHeJhVJZrcuGEoN7UYJQVUqeUiLt71"
         },
         {
-            "address": "0x7AB691aE7b3499639AefF7b49E6DB7418035812c",
-            "name": "Falling",
-            "symbol": "FXT",
+            "address": "0xD9B8F92b4a355136D7325bFC3e092B12514B8255",
+            "name": "OpenSea Shared Store",
+            "symbol": "OPENSTORE",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+            "logoURI": "https://ipfs.io/ipfs/QmST6zisqUEG5TtSv7LvtStR1qxPB8wh21294EyMjbmMEB"
         },
         {
-            "address": "0xad696407DE4a1b0e4dc30167F3E6EB2982A0b53C",
-            "name": "Find A Way Out",
-            "symbol": "FXT",
+            "address": "0xC75a8345A3cee6e82FB05af4d356A2B36B585fE6",
+            "name": "OpenSea Shared Store",
+            "symbol": "OPENSTORE",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
+            "logoURI": "https://ipfs.io/ipfs/QmRMeVXNKjse1PsWjegKf48jYu9LC2gZNZDCDyzv63DBz8"
         },
         {
             "address": "0xa8d883B1224284134949C30ecC05a677Af3eAbc7",
@@ -317,63 +357,7 @@
             "logoURI": "https://ipfs.io/ipfs/QmZSQxVNN1ya4g8KTvUdiWKZpqCtciD8UhtD4Dq7E4bnPg"
         },
         {
-            "address": "0x7652Ca8f4c8989f91b90c5b1D5119D682638Ca50",
-            "name": "OpenSea Shared Store",
-            "symbol": "OPENSTORE",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmSZjBrk2xpwvjptq7AkrUiVqvLLygHif8wGQJSR7Mgf94"
-        },
-        {
-            "address": "0x7500178a322F943f4e65AC77Fc0193BC6678d25b",
-            "name": "OpenSea Shared Store",
-            "symbol": "OPENSTORE",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmfJdn9JrReswx1fSHeJhVJZrcuGEoN7UYJQVUqeUiLt71"
-        },
-        {
-            "address": "0xD9B8F92b4a355136D7325bFC3e092B12514B8255",
-            "name": "OpenSea Shared Store",
-            "symbol": "OPENSTORE",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmST6zisqUEG5TtSv7LvtStR1qxPB8wh21294EyMjbmMEB"
-        },
-        {
-            "address": "0xC75a8345A3cee6e82FB05af4d356A2B36B585fE6",
-            "name": "OpenSea Shared Store",
-            "symbol": "OPENSTORE",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmRMeVXNKjse1PsWjegKf48jYu9LC2gZNZDCDyzv63DBz8"
-        },
-        {
-            "address": "0x6ffB1Ca5938BB680ed02Ef348d0B8AD406da1435",
-            "name": "Penguin Party OG Mem",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmTGBcVy44Af6Ctz2srSNMpohLKWuaJQiRSWu5gGAV8GLX/image.gif"
-        },
-        {
-            "address": "0x601eCDf7896f860eB70F91cAE2f61352358B2D4a",
-            "name": "Desert Moon Outpost",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmPNprg57wJVTDozadYP96BKo76vy2N4xNCPV5e4qrEHvF/image.gif"
-        },
-        {
-            "address": "0xa15B60d58C39ce010f5E268f028630A08Ef9B54A",
-            "name": "yeahammer",
-            "symbol": "yeah",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
-        },
-        {
-            "address": "0x2faD09Bf48DB242043456eC8020BbA88f32D4427",
+            "address": "0xce349785Ec597E03a5a3Baab6d6119C646127a79",
             "name": "Desert Moon Outpost",
             "symbol": "RARI",
             "decimals": 18,
@@ -389,12 +373,12 @@
             "logoURI": "https://gateway.ipfs.io/ipfs/QmS3AYpB2wqsZTw56FfbiyujgDugo2DjsbNebbWga4sfPy/image.gif"
         },
         {
-            "address": "0xce349785Ec597E03a5a3Baab6d6119C646127a79",
-            "name": "Desert Moon Outpost",
+            "address": "0x6ffB1Ca5938BB680ed02Ef348d0B8AD406da1435",
+            "name": "Penguin Party OG Mem",
             "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmPNprg57wJVTDozadYP96BKo76vy2N4xNCPV5e4qrEHvF/image.gif"
+            "logoURI": "https://gateway.ipfs.io/ipfs/QmTGBcVy44Af6Ctz2srSNMpohLKWuaJQiRSWu5gGAV8GLX/image.gif"
         },
         {
             "address": "0x1026289e335b8462F418804A4F51Ba739bd76E54",
@@ -403,6 +387,70 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://gateway.ipfs.io/ipfs/QmXExgB9xTJGW8KrFJjA1ud36k3pFvrK6ZZwD8chM3zyJh/image.png"
+        },
+        {
+            "address": "0x601eCDf7896f860eB70F91cAE2f61352358B2D4a",
+            "name": "Desert Moon Outpost",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://gateway.ipfs.io/ipfs/QmPNprg57wJVTDozadYP96BKo76vy2N4xNCPV5e4qrEHvF/image.gif"
+        },
+        {
+            "address": "0x2faD09Bf48DB242043456eC8020BbA88f32D4427",
+            "name": "Desert Moon Outpost",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://gateway.ipfs.io/ipfs/QmPNprg57wJVTDozadYP96BKo76vy2N4xNCPV5e4qrEHvF/image.gif"
+        },
+        {
+            "address": "0x5430E56eEBA6cc24790c7387167238a2B0F5e173",
+            "name": "Meme Ltd",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmesGRGtJ76Z19qBdbi6Tp3VVzN1c3B9jSBU99cxnjxatt"
+        },
+        {
+            "address": "0x7ebf9FBf53B3F94EA4Ee0df9b64149Fb10D81743",
+            "name": "Meme Ltd",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmZoGFNWWTyyWs2wHBv8yQ36xRJ1Kfb3YreCGsW6Yy2CWe"
+        },
+        {
+            "address": "0x82739705EE805273Ebd2667172D084d8ebF98AF9",
+            "name": "Meme Ltd",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmbWthu3jquTH5RNvMJ1LiQoaCkC2oeCK7Ae3RF6qtcqFZ"
+        },
+        {
+            "address": "0x1Da760C35461cF6ab2bE37A819bEf5a676642e21",
+            "name": "Meme Ltd",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmS3a7mr5iA4q53Cj9DMnp8oQZEu7dThQh7TpznTFDdkXo"
+        },
+        {
+            "address": "0x694CAFFC28EaF9b110B509B6b09c3EDC82bBAFCd",
+            "name": "Meme Ltd",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmTwXmP9Ry59VTFD8FMyEJMFLMof2Af8FoSRmS4TZPaHE2"
+        },
+        {
+            "address": "0xc0Aa1d719B8d55F98701afa37A98D8efFa5C10cD",
+            "name": "Meme Ltd",
+            "symbol": "MEMES",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://ipfs.io/ipfs/QmSSWgSYcmTfrCGzYq8yDQRz92iaR2wtLFnhL7Z73eATLf"
         },
         {
             "address": "0xF630743B47030737CA030a8441714eBFf143534d",
@@ -459,54 +507,6 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/W721-item.png"
-        },
-        {
-            "address": "0x5430E56eEBA6cc24790c7387167238a2B0F5e173",
-            "name": "Meme Ltd",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmesGRGtJ76Z19qBdbi6Tp3VVzN1c3B9jSBU99cxnjxatt"
-        },
-        {
-            "address": "0x7ebf9FBf53B3F94EA4Ee0df9b64149Fb10D81743",
-            "name": "Meme Ltd",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmZoGFNWWTyyWs2wHBv8yQ36xRJ1Kfb3YreCGsW6Yy2CWe"
-        },
-        {
-            "address": "0x82739705EE805273Ebd2667172D084d8ebF98AF9",
-            "name": "Meme Ltd",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmbWthu3jquTH5RNvMJ1LiQoaCkC2oeCK7Ae3RF6qtcqFZ"
-        },
-        {
-            "address": "0x1Da760C35461cF6ab2bE37A819bEf5a676642e21",
-            "name": "Meme Ltd",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmS3a7mr5iA4q53Cj9DMnp8oQZEu7dThQh7TpznTFDdkXo"
-        },
-        {
-            "address": "0x694CAFFC28EaF9b110B509B6b09c3EDC82bBAFCd",
-            "name": "Meme Ltd",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmTwXmP9Ry59VTFD8FMyEJMFLMof2Af8FoSRmS4TZPaHE2"
-        },
-        {
-            "address": "0xc0Aa1d719B8d55F98701afa37A98D8efFa5C10cD",
-            "name": "Meme Ltd",
-            "symbol": "MEMES",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmSSWgSYcmTfrCGzYq8yDQRz92iaR2wtLFnhL7Z73eATLf"
         },
         {
             "address": "0x7C23Ac2E8DA915d4f422CF710f4767FAa0c332fa",
@@ -930,7 +930,7 @@
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmWtt5t4wsxmCq96cZDojesJ7iu8L85gyQAd7fStnzPGkd"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0xc7b121761eBECB4f704e406e7bBb85Ef123eFcFe",
@@ -962,7 +962,7 @@
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmbxyKmV1yZNevqcXXiX7Ep4gsEJS2E4pHHmR3cskjLT7p"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0xBa83E2aDf0c66f050941B2235C67662bE9A150b4",
@@ -970,7 +970,7 @@
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmS9viuQY9dPkXui6x8zmtki2JVRrNMkgEVfR6RT3jtNzp"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0xD2dF9E10a8725BEAd6e856065E040c1Fb0ce94a1",
@@ -986,7 +986,7 @@
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmTD2xWujM6pz6SsevYzYfo3wbhHHVezy8UZf7xVTWnvAq"
+            "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/Native-item.png"
         },
         {
             "address": "0xD6a0b85192C09D225323866Edeea55e471C82f25",
@@ -1538,5 +1538,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-03-31T17:38:39.504Z"
+    "timestamp": "2021-03-31T18:24:06.887Z"
 }
