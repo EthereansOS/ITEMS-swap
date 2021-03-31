@@ -154,7 +154,8 @@ function dumpBase64(element) {
     return element.image
   }
   return new Promise(async function(ok) {
-    const timeoutCall = setTimeout(function() {
+    const timeoutCall = setTimeout(async function() {
+      await window.sleep(7000);
       return ok(getDefaultLogoURI(element))
     }, window.context.requestTimeout || 7000)
     const request = require('request').defaults({ encoding: null })
@@ -164,6 +165,8 @@ function dumpBase64(element) {
       if (!error && response.statusCode == 200) {
         const data = 'data:' + response.headers['content-type'] + ';base64,' + Buffer.from(body).toString('base64')
         const { cid } = await ipfs.add(data)
+        console.log('https://ipfs.io/ipfs/' + cid);
+        await window.sleep(7000);
         return ok((elementImages[element.address] = 'https://ipfs.io/ipfs/' + cid))
       }
       return ok(getDefaultLogoURI(element))
