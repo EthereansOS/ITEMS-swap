@@ -2627,8 +2627,14 @@ window.tryRetrieveMetadata = async function tryRetrieveMetadata(item) {
     item.metadataLink = item.objectId
       ? await window.blockchainCall(item.contract.methods.uri, item.objectId)
       : await window.blockchainCall(item.contract.methods.uri)
+    item.objectId && (item.metadataLink = item.metadataLink.split('0x{id}').join(item.objectId));
+    item.metadataLink = window.metadatas[item.address] || item.metadataLink;
     if (item.metadataLink !== '') {
       item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
+      if(item.metadataLink.toLowerCase().indexOf("ipfs") === -1) {
+        const { cid } = await window.ipfs.add(JSON.stringify(item.metadata))
+        window.metadatas[item.address] = 'https://ipfs.io/ipfs/' + cid;
+      }
       if (typeof item.metadata !== 'string') {
         Object.entries(item.metadata).forEach(it => (item[it[0]] = it[1]))
         item.name = item.item_name || item.name
@@ -2710,7 +2716,7 @@ window.loadCollectionItems = async function loadCollectionItems(collectionAddres
     var address
     try {
       objectId = web3.eth.abi.decodeParameter('uint256', log.topics[1])
-      address = web3.eth.abi.decodeParameter('address', log.topics[1])
+      address = web3.eth.abi.decodeParameter('address', log.topics[2])
     } catch (e) {
       objectId = web3.eth.abi.decodeParameters(['uint256', 'address', 'uint256'], log.data)[0]
       address = web3.eth.abi.decodeParameters(['uint256', 'address', 'uint256'], log.data)[1]

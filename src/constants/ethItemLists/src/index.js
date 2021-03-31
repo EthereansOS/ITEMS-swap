@@ -3,7 +3,7 @@ require('./utils')
 const fs = require('fs')
 const path = require('path')
 const createClient = require('ipfs-http-client')
-const ipfs = createClient({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' })
+window.ipfs = createClient({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' })
 
 window.context.blockchainConnectionString =
   window.context.blockchainConnectionString || process.env.BLOCKCHAIN_CONNECTION_STRING
@@ -31,11 +31,18 @@ async function start() {
 let elementImages = {}
 
 const elementImagesPath = path.resolve(__dirname, '../dist/elementImages.json')
+const metadatasPath = path.resolve(__dirname, '../dist/metadatas.json')
 
 try {
   elementImages = JSON.parse(fs.readFileSync(elementImagesPath, 'UTF-8'))
 } catch (e) {
   elementImages = {}
+}
+
+try {
+  window.metadatas = JSON.parse(fs.readFileSync(metadatasPath, 'UTF-8'))
+} catch (e) {
+  window.metadatas = {}
 }
 
 async function loop() {
@@ -70,6 +77,7 @@ async function loop() {
           fs.writeFileSync(p, JSON.stringify(entry[1], null, 4));
       }*/
   fs.writeFileSync(elementImagesPath, JSON.stringify(elementImages, null, 4))
+  fs.writeFileSync(metadatasPath, JSON.stringify(window.metadatas, null, 4))
   window.context.loopTimeout && setTimeout(loop, window.context.loopTimeout)
 }
 
@@ -163,7 +171,7 @@ function uploadToIPFS(element) {
       clearTimeout(timeoutCall)
       if (!error && response.statusCode == 200) {
         try {
-          const { cid } = await ipfs.add(body)
+          const { cid } = await window.ipfs.add(body)
           await window.sleep(5000)
           return ok((elementImages[element.address] = 'https://ipfs.io/ipfs/' + cid))
         } catch (e) {
