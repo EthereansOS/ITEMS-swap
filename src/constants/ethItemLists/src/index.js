@@ -3,7 +3,7 @@ require('./utils')
 const fs = require('fs')
 const path = require('path')
 const createClient = require('ipfs-http-client')
-const ipfs = createClient({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' /*, apiPath: '/ipfs/api/v0'*/ })
+const ipfs = createClient({ host: 'ipfs.infura.io', port: 5001, protocol: 'https' })
 
 window.context.blockchainConnectionString =
   window.context.blockchainConnectionString || process.env.BLOCKCHAIN_CONNECTION_STRING
@@ -153,21 +153,24 @@ function dumpBase64(element) {
   ) {
     return element.image
   }
-  return new Promise(async function(ok) {
+  return new Promise(async function(ok, ko) {
     const timeoutCall = setTimeout(async function() {
       await window.sleep(7000)
       return ok(getDefaultLogoURI(element))
     }, window.context.requestTimeout || 7000)
     const request = require('request').defaults({ encoding: null })
-    console.log(element.address, element.image)
     request.get(element.image, async function(error, response, body) {
       clearTimeout(timeoutCall)
       if (!error && response.statusCode == 200) {
-        const data = 'data:' + response.headers['content-type'] + ';base64,' + Buffer.from(body).toString('base64')
-        const { cid } = await ipfs.add(data)
-        console.log('https://ipfs.io/ipfs/' + cid)
-        await window.sleep(7000)
-        return ok((elementImages[element.address] = 'https://ipfs.io/ipfs/' + cid))
+        //const data = 'data:' + response.headers['content-type'] + ';base64,' + Buffer.from(body).toString('base64')
+        try {
+          const { cid } = await ipfs.add(body)
+          console.log('https://ipfs.io/ipfs/' + cid)
+          await window.sleep(5000)
+          return ok((elementImages[element.address] = 'https://ipfs.io/ipfs/' + cid))
+        } catch(e) {
+          return ko(e)
+        }
       }
       return ok(getDefaultLogoURI(element))
     })
