@@ -158,6 +158,7 @@ function dumpBase64(element) {
       return ok(getDefaultLogoURI(element))
     }, window.context.requestTimeout || 7000)
     const request = require('request').defaults({ encoding: null })
+    console.log(element.address, element.image);
     request.get(element.image, async function(error, response, body) {
       clearTimeout(timeoutCall)
       if (!error && response.statusCode == 200) {
