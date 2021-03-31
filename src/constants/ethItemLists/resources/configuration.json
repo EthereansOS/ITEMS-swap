@@ -13,6 +13,7 @@
   "listURITemplate": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/dist/{0}.json",
   "logoURITemplate": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/{0}-{1}.png",
   "collectionLogoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/logo.png",
+  "itemsContextURL" : "https://raw.githubusercontent.com/b-u-i-d-l/ETHITEM/main/data/context.json",
   "deploySearchStart": "11092976",
   "deploySearchStartRopsten": "8900000",
   "requestTimeout": 60000,
@@ -25,7 +26,6 @@
   "ipfsUrlTemplates": ["ipfs://ipfs/", "ipfs://"],
   "ipfsUrlChanger": "https://gateway.ipfs.io/ipfs/",
   "exceptFor": ["0x56458AB3Bedb04F4754C973c173ce5c37740E8d1", "0x93b45be03fdc98909589eaf4e1e5d5a282f96c75"],
-  "excludingCollections": ["0x93b45be03fdc98909589eaf4e1e5d5a282f96c75"],
   "additionalFactories": [],
   "additionalFactoriesRopsten": [],
   "IERC20ABI": [

@@ -127,7 +127,7 @@ async function getLogoURI(element) {
   } catch (e) {}
   try {
     await window.AJAXRequest(element.image)
-    return await dumpBase64(element)
+    return await uploadToIPFS(element)
   } catch (e) {
     if (
       element.image &&
@@ -146,7 +146,7 @@ function getDefaultLogoURI(element) {
   )
 }
 
-function dumpBase64(element) {
+function uploadToIPFS(element) {
   if (
     element.image &&
     (element.image.toLowerCase().indexOf('trustwallet') !== -1 || element.image.toLowerCase().indexOf('ipfs') !== -1)
@@ -162,10 +162,8 @@ function dumpBase64(element) {
     request.get(element.image, async function(error, response, body) {
       clearTimeout(timeoutCall)
       if (!error && response.statusCode == 200) {
-        //const data = 'data:' + response.headers['content-type'] + ';base64,' + Buffer.from(body).toString('base64')
         try {
           const { cid } = await ipfs.add(body)
-          console.log('https://ipfs.io/ipfs/' + cid)
           await window.sleep(5000)
           return ok((elementImages[element.address] = 'https://ipfs.io/ipfs/' + cid))
         } catch (e) {
@@ -205,9 +203,19 @@ async function loadEnvironment() {
 }
 
 async function loadCollections() {
-  const excludingCollections = (window.context.excludingCollections || []).map(it =>
+  var itemContext = await window.AJAXRequest(window.context.itemsContextURL);
+  window.excludingCollections = (itemContext.excludingCollections || []).map(it =>
     window.web3.utils.toChecksumAddress(it)
   )
+  try {
+    window.excludingCollections.push(...itemContext.pandorasBox.map(it => window.web3.utils.toChecksumAddress(it)).filter(it => window.excludingCollections.indexOf(it) === -1))
+  } catch(e) {
+  }
+  try {
+    var pandorasBox = await window.AJAXRequest(itemContext.pandorasBoxURL);
+    window.excludingCollections.push(...pandorasBox.map(it => window.web3.utils.toChecksumAddress(it)).filter(it => window.excludingCollections.indexOf(it) === -1))
+  } catch(e) {
+  }
   const map = {}
   Object.entries(window.context.ethItemFactoryEvents).forEach(it => (map[window.web3.utils.sha3(it[0])] = it[1]))
   const topics = [Object.keys(map)]
@@ -230,7 +238,7 @@ async function loadCollections() {
       const collectionAddress = window.web3.utils.toChecksumAddress(
         window.web3.eth.abi.decodeParameter('address', log.topics[log.topics.length - 1])
       )
-      if (excludingCollections.indexOf(collectionAddress) !== -1) {
+      if (window.excludingCollections.indexOf(collectionAddress) !== -1) {
         continue
       }
       const category = map[log.topics[0]]

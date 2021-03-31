@@ -2707,12 +2707,15 @@ window.loadCollectionItems = async function loadCollectionItems(collectionAddres
   const collectionObjectIds = {}
   for (const log of logs) {
     var objectId
+    var address
     try {
       objectId = web3.eth.abi.decodeParameter('uint256', log.topics[1])
+      address = web3.eth.abi.decodeParameter('address', log.topics[1])
     } catch (e) {
       objectId = web3.eth.abi.decodeParameters(['uint256', 'address', 'uint256'], log.data)[0]
+      address = web3.eth.abi.decodeParameters(['uint256', 'address', 'uint256'], log.data)[1]
     }
-    collectionObjectIds[objectId] = true
+    window.excludingCollections.indexOf(window.web3.utils.toChecksumAddress(address)) === -1 && (collectionObjectIds[objectId] = true)
   }
   return Object.keys(collectionObjectIds)
 }
