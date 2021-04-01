@@ -13,36 +13,12 @@
             "logoURI": ""
         },
         {
-            "address": "0x81BA946907038FE51333f929Bfda636d56cef267",
-            "name": "PepemonFactory",
-            "symbol": "PEPEMON",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmU9vaE7tB2gdPN67FeeC3K5is5BKnfJVM8nRBK6jVBkU3"
-        },
-        {
-            "address": "0x9fdE4f7Ea04EA879d29682b009e6833A039A66De",
-            "name": "OpenSea Shared Store",
-            "symbol": "OPENSTORE",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmcC7AhgpivEL8BcmHmqnpdu5DW2xtdTFafxZSZjoE85JW"
-        },
-        {
             "address": "0x9f8EE20fF6226e5865326102567d49ebD329250E",
             "name": "PolkaPets Base Set",
             "symbol": "PPBS",
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://gateway.ipfs.io/ipfs/QmU7QpM52GoLCRH9fHQZELgkWYdjELout6Qr8vkPz5movq"
-        },
-        {
-            "address": "0x75fd64357B57687D12053b248B74d224dA82a731",
-            "name": "Farming LP 0xb0fb35c",
-            "symbol": "fLP",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": ""
         },
         {
             "address": "0xeC05BfE665589902d72374060C03add5be4fE0Be",
@@ -53,6 +29,14 @@
             "logoURI": "https://gateway.ipfs.io/ipfs/QmWwfYhoVGg8S3U7jqMG7f5E1wSgvjChXcS88J6sQqxLLh"
         },
         {
+            "address": "0x75fd64357B57687D12053b248B74d224dA82a731",
+            "name": "Farming LP 0xb0fb35c",
+            "symbol": "fLP",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
+        },
+        {
             "address": "0x64378Ec4BA1c89946b37636a358271B48B81062d",
             "name": "Farming LP 0x04840ea",
             "symbol": "fLP",
@@ -61,36 +45,20 @@
             "logoURI": ""
         },
         {
-            "address": "0x842D880DcD62aAcB4Fc13a17A5a2B57E87b5e8DB",
-            "name": "Nerd Fungible Trust",
-            "symbol": "NFT",
+            "address": "0x81BA946907038FE51333f929Bfda636d56cef267",
+            "name": "PepemonFactory",
+            "symbol": "PEPEMON",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmUcYNgFzZuFbfhvbH39h5b6kn8EvYuehWMk3Wcem3c56K"
+            "logoURI": "https://gateway.ipfs.io/ipfs/QmU9vaE7tB2gdPN67FeeC3K5is5BKnfJVM8nRBK6jVBkU3"
         },
         {
-            "address": "0xa2B6567A269C0eCd883B9387f64bE34e8BF98829",
-            "name": "Farming LP 0xadafb7e",
-            "symbol": "fLP",
+            "address": "0x6ffB1Ca5938BB680ed02Ef348d0B8AD406da1435",
+            "name": "Rarible",
+            "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
             "logoURI": ""
-        },
-        {
-            "address": "0xe94FcBBeEFd7E3e83be833380286A013D4efF11B",
-            "name": "ATH Clean Cut Chico",
-            "symbol": "OPENSTORE",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmWhMwGBjihmgY1v7XXMjFeMAJpqNXGCWTUEyWpxRVo4Ja"
-        },
-        {
-            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
-            "name": "4",
-            "symbol": "0x93ea6ec350ace7473f",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmfVLoTRx96pboNNDYSae6vJ2csRHEPCjnykTiikoKHEAG"
         },
         {
             "address": "0x5E223EB0811081b4B40b52030a841cD9982De67F",
@@ -109,28 +77,92 @@
             "logoURI": ""
         },
         {
-            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
-            "name": "Sandboxs LANDs",
-            "symbol": "LAND",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmYQ8FkRz1vZc42jxYhAtEKtDRhqV8TujvvDYNuh7HAVFG"
-        },
-        {
-            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
-            "name": "Sandboxs ASSETs",
-            "symbol": "ASSET",
+            "address": "0x601eCDf7896f860eB70F91cAE2f61352358B2D4a",
+            "name": "Rarible",
+            "symbol": "RARI",
             "decimals": 18,
             "chainId": 1,
             "logoURI": ""
         },
         {
-            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
-            "name": "PepemonFactory",
-            "symbol": "PEPEMON",
+            "address": "0x9fdE4f7Ea04EA879d29682b009e6833A039A66De",
+            "name": "Angled News",
+            "symbol": "OPENSTORE",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmYtfZhdVn5u1DP3UFVdj33bo4D7WD97nD1fMfaTZfYeim"
+            "logoURI": "https://gateway.ipfs.io/ipfs/QmcC7AhgpivEL8BcmHmqnpdu5DW2xtdTFafxZSZjoE85JW"
+        },
+        {
+            "address": "0xce349785Ec597E03a5a3Baab6d6119C646127a79",
+            "name": "Rarible",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
+        },
+        {
+            "address": "0xa2B6567A269C0eCd883B9387f64bE34e8BF98829",
+            "name": "Farming LP 0xadafb7e",
+            "symbol": "fLP",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
+        },
+        {
+            "address": "0x842D880DcD62aAcB4Fc13a17A5a2B57E87b5e8DB",
+            "name": "Nerd Fungible Trust",
+            "symbol": "NFT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
+        },
+        {
+            "address": "0xeCa1D54A5a1Ab6426e1a23857d283044543108F2",
+            "name": "4",
+            "symbol": "0x93ea6ec350ace7473f",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://gateway.ipfs.io/ipfs/QmfVLoTRx96pboNNDYSae6vJ2csRHEPCjnykTiikoKHEAG"
+        },
+        {
+            "address": "0x1026289e335b8462F418804A4F51Ba739bd76E54",
+            "name": "Rarible",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
+        },
+        {
+            "address": "0xe94FcBBeEFd7E3e83be833380286A013D4efF11B",
+            "name": "ATH Clean Cut Chico",
+            "symbol": "OPENSTORE",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://gateway.ipfs.io/ipfs/QmWhMwGBjihmgY1v7XXMjFeMAJpqNXGCWTUEyWpxRVo4Ja"
+        },
+        {
+            "address": "0x4eECeEcad0B781F05d702160E8a0855880a78Ef7",
+            "name": "Rarible",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
+        },
+        {
+            "address": "0x2faD09Bf48DB242043456eC8020BbA88f32D4427",
+            "name": "Desert Moon Outpost",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://gateway.ipfs.io/ipfs/QmPNprg57wJVTDozadYP96BKo76vy2N4xNCPV5e4qrEHvF/image.gif"
+        },
+        {
+            "address": "0x84d9c5dcD7FB94a148E161d217B21863F81e3dfB",
+            "name": "8325",
+            "symbol": "0xc7e5e9434f4a71e6db",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
         },
         {
             "address": "0x94BF495C4E71CD9BC07a8172E2058E423baBdB19",
@@ -141,12 +173,12 @@
             "logoURI": ""
         },
         {
-            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
-            "name": "Magic The Gathering",
-            "symbol": "MTG",
+            "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
+            "name": "SuperRare",
+            "symbol": "SUPR",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": ""
+            "logoURI": "https://gateway.ipfs.io/ipfs/QmfFMc9FYi7P5TEZWqwJ2mBirqJUD1gPqm8iLsANYCqJwX"
         },
         {
             "address": "0xa15B60d58C39ce010f5E268f028630A08Ef9B54A",
@@ -157,12 +189,20 @@
             "logoURI": ""
         },
         {
-            "address": "0x84d9c5dcD7FB94a148E161d217B21863F81e3dfB",
-            "name": "8325",
-            "symbol": "0xc7e5e9434f4a71e6db",
+            "address": "0x90931B29541648626e31ED0B521CaC81093FC0BE",
+            "name": "Sandboxs ASSETs",
+            "symbol": "ASSET",
             "decimals": 18,
             "chainId": 1,
             "logoURI": ""
+        },
+        {
+            "address": "0x24B18AD4320dc0d4E04b0C0ba4b1EB2D3DCD146A",
+            "name": "Sandboxs LANDs",
+            "symbol": "LAND",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://gateway.ipfs.io/ipfs/QmYQ8FkRz1vZc42jxYhAtEKtDRhqV8TujvvDYNuh7HAVFG"
         },
         {
             "address": "0x17CE90fF3f041851b031CF5F84F6e57Cc55A1419",
@@ -176,6 +216,22 @@
             "address": "0xEc012fb952b9118a346531E45f718612529c7D17",
             "name": "dontrugme",
             "symbol": "DRM",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
+        },
+        {
+            "address": "0xf47dAc44C808cb541978dF13FC367Db648a7BD3A",
+            "name": "ComBot1",
+            "symbol": "COMBOT",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
+        },
+        {
+            "address": "0x8aeeD26252f7Ba0B605236CA27BAB50CEbEd6f2F",
+            "name": "ComBot2",
+            "symbol": "COMBOT",
             "decimals": 18,
             "chainId": 1,
             "logoURI": ""
@@ -197,20 +253,20 @@
             "logoURI": ""
         },
         {
-            "address": "0xf47dAc44C808cb541978dF13FC367Db648a7BD3A",
-            "name": "ComBot1",
-            "symbol": "COMBOT",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmV55DjD5h7ju4CLWmXRVmrJCmyudee3vFV15JvqqedVRR"
-        },
-        {
-            "address": "0x8aeeD26252f7Ba0B605236CA27BAB50CEbEd6f2F",
-            "name": "ComBot2",
-            "symbol": "COMBOT",
+            "address": "0x2123342C54F44A91029cAc095EBdd82D8aF98880",
+            "name": "Magic The Gathering",
+            "symbol": "MTG",
             "decimals": 18,
             "chainId": 1,
             "logoURI": ""
+        },
+        {
+            "address": "0xE4Cc376d6136cC757302dE0e210d21D06aAb30ff",
+            "name": "PepemonFactory",
+            "symbol": "PEPEMON",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://gateway.ipfs.io/ipfs/QmYtfZhdVn5u1DP3UFVdj33bo4D7WD97nD1fMfaTZfYeim"
         },
         {
             "address": "0x0424E074ad869FF147c953154B0BD5cFCEbC06F5",
@@ -278,7 +334,7 @@
         },
         {
             "address": "0x7652Ca8f4c8989f91b90c5b1D5119D682638Ca50",
-            "name": "Ettrian Zinmaer // H",
+            "name": "OpenSea Shared Store",
             "symbol": "OPENSTORE",
             "decimals": 18,
             "chainId": 1,
@@ -365,46 +421,6 @@
             "logoURI": ""
         },
         {
-            "address": "0xa8d883B1224284134949C30ecC05a677Af3eAbc7",
-            "name": "Rope Makers United",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmboDLrCBaiA573ewbQDvPJDkySwG8Ur8KSHT794vswkh5"
-        },
-        {
-            "address": "0x33e554d0f8957A5bC14DCbf033E6C450E20aefA0",
-            "name": "Rope Makers United",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmVjJrV7RKj45qKnp87Kj4QG3eYRX7exvXCQEDeEdeNQbc"
-        },
-        {
-            "address": "0xcd6056d83E918BD9037Af463e1436fC91919C23b",
-            "name": "Rope Makers United",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": ""
-        },
-        {
-            "address": "0xFEfFBB1DC28346Ae94c1115420407Ff6e997c3E2",
-            "name": "Rope Makers United",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmZXnWRVd7fn4wqbnDoLxywBob9QjDpEC8mP2QvT6vtPrN"
-        },
-        {
-            "address": "0x68C25417bA30b8B3475752AB05E5B8baB77428F5",
-            "name": "Rope Makers United",
-            "symbol": "RMU",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmZSQxVNN1ya4g8KTvUdiWKZpqCtciD8UhtD4Dq7E4bnPg"
-        },
-        {
             "address": "0x5430E56eEBA6cc24790c7387167238a2B0F5e173",
             "name": "Meme Ltd",
             "symbol": "MEMES",
@@ -451,6 +467,102 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://gateway.ipfs.io/ipfs/QmSSWgSYcmTfrCGzYq8yDQRz92iaR2wtLFnhL7Z73eATLf"
+        },
+        {
+            "address": "0xa8d883B1224284134949C30ecC05a677Af3eAbc7",
+            "name": "Rope Makers United",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://gateway.ipfs.io/ipfs/QmboDLrCBaiA573ewbQDvPJDkySwG8Ur8KSHT794vswkh5"
+        },
+        {
+            "address": "0x33e554d0f8957A5bC14DCbf033E6C450E20aefA0",
+            "name": "Rope Makers United",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://gateway.ipfs.io/ipfs/QmVjJrV7RKj45qKnp87Kj4QG3eYRX7exvXCQEDeEdeNQbc"
+        },
+        {
+            "address": "0xcd6056d83E918BD9037Af463e1436fC91919C23b",
+            "name": "Rope Makers United",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
+        },
+        {
+            "address": "0xFEfFBB1DC28346Ae94c1115420407Ff6e997c3E2",
+            "name": "Rope Makers United",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://gateway.ipfs.io/ipfs/QmZXnWRVd7fn4wqbnDoLxywBob9QjDpEC8mP2QvT6vtPrN"
+        },
+        {
+            "address": "0x68C25417bA30b8B3475752AB05E5B8baB77428F5",
+            "name": "Rope Makers United",
+            "symbol": "RMU",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": "https://gateway.ipfs.io/ipfs/QmZSQxVNN1ya4g8KTvUdiWKZpqCtciD8UhtD4Dq7E4bnPg"
+        },
+        {
+            "address": "0x32e4623Ed080085479a31e727b1C005A2CA5A850",
+            "name": "Rarible",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
+        },
+        {
+            "address": "0xdcF16D7254e30BD7a3cD625066B841c44F44110d",
+            "name": "Rarible",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
+        },
+        {
+            "address": "0x66Af9569DB344d05eC1Dd1777c8604c98a71784c",
+            "name": "Rarible",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
+        },
+        {
+            "address": "0x345eCB9cfD6A30c567696dd7BA69275ee9434527",
+            "name": "Rarible",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
+        },
+        {
+            "address": "0xe1ca5478C06e121581a6d41E0dA50097E8AE9bA7",
+            "name": "Rarible",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
+        },
+        {
+            "address": "0xE4bD01A182048e1E1738Ec489Ec0dAE5FC1B9b13",
+            "name": "Rarible",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
+        },
+        {
+            "address": "0x0362EB0CbB99175a8148C57B87f0d11B5AF74714",
+            "name": "Rarible",
+            "symbol": "RARI",
+            "decimals": 18,
+            "chainId": 1,
+            "logoURI": ""
         },
         {
             "address": "0x7C23Ac2E8DA915d4f422CF710f4767FAa0c332fa",
@@ -605,38 +717,6 @@
             "logoURI": ""
         },
         {
-            "address": "0x601eCDf7896f860eB70F91cAE2f61352358B2D4a",
-            "name": "Desert Moon Outpost",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmPNprg57wJVTDozadYP96BKo76vy2N4xNCPV5e4qrEHvF/image.gif"
-        },
-        {
-            "address": "0x4eECeEcad0B781F05d702160E8a0855880a78Ef7",
-            "name": "Elons expedition lim",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmS3AYpB2wqsZTw56FfbiyujgDugo2DjsbNebbWga4sfPy/image.gif"
-        },
-        {
-            "address": "0x2faD09Bf48DB242043456eC8020BbA88f32D4427",
-            "name": "Desert Moon Outpost",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmPNprg57wJVTDozadYP96BKo76vy2N4xNCPV5e4qrEHvF/image.gif"
-        },
-        {
-            "address": "0xce349785Ec597E03a5a3Baab6d6119C646127a79",
-            "name": "Desert Moon Outpost",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmPNprg57wJVTDozadYP96BKo76vy2N4xNCPV5e4qrEHvF/image.gif"
-        },
-        {
             "address": "0x1D6316dbbE18b6E9B75AE064aA114FE7dC208eDC",
             "name": "EthereumItem",
             "symbol": "IETH",
@@ -739,22 +819,6 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": ""
-        },
-        {
-            "address": "0x1026289e335b8462F418804A4F51Ba739bd76E54",
-            "name": "Evo Auxilium  SHATTE",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmXExgB9xTJGW8KrFJjA1ud36k3pFvrK6ZZwD8chM3zyJh/image.png"
-        },
-        {
-            "address": "0x6ffB1Ca5938BB680ed02Ef348d0B8AD406da1435",
-            "name": "Penguin Party OG Mem",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmTGBcVy44Af6Ctz2srSNMpohLKWuaJQiRSWu5gGAV8GLX/image.gif"
         },
         {
             "address": "0x754B12394D06A6b9a3e6A21aB9D13c8ee563388E",
@@ -946,7 +1010,7 @@
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmSC5UMiZ1jPuotYSNpBjM3DPy79uMbgEdZQaBp4Ki4bb9"
+            "logoURI": ""
         },
         {
             "address": "0x38d5C0677C8BB60698f50933FBE05821Fec2ACfb",
@@ -978,15 +1042,15 @@
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmXMaEriu1FVhwjGc6Romj58fHL7MS5kjj4s467YaqynXF"
+            "logoURI": ""
         },
         {
             "address": "0x2526BBd4b0cb7e03Cc0A4D94b06aA82bD0cFe91c",
-            "name": "DFO is sexy",
+            "name": "Michele1989",
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmRjnuucpoZTPb4ZU7YEV49eLNe2NAFxscitEvHPkCw3XE"
+            "logoURI": ""
         },
         {
             "address": "0xc2F09C24e81e7f9B45C5a0b3C11a63E762d9Be03",
@@ -994,7 +1058,7 @@
             "symbol": "BE2020",
             "decimals": 18,
             "chainId": 1,
-            "logoURI": "https://ipfs.io/ipfs/QmRxmgu2T3eWnZvAdRWCVeCQYfBY4bNRctR4biswVTqmmD"
+            "logoURI": ""
         },
         {
             "address": "0x90c469FA7C6695b8EFbaBc34025C1b6A71490D1F",
@@ -1467,70 +1531,6 @@
             "decimals": 18,
             "chainId": 1,
             "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984/logo.png"
-        },
-        {
-            "address": "0x0614aE8BB7802D965c1265aEe00A850C689b6bB1",
-            "name": "Genetic Algorithm",
-            "symbol": "SUPR",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmfFMc9FYi7P5TEZWqwJ2mBirqJUD1gPqm8iLsANYCqJwX"
-        },
-        {
-            "address": "0x32e4623Ed080085479a31e727b1C005A2CA5A850",
-            "name": "LUCK CARDS  Limited",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmSVJTEDWfrn91boiQvX7JPMpD3vDkuLrQobPhrwufJaMC"
-        },
-        {
-            "address": "0xdcF16D7254e30BD7a3cD625066B841c44F44110d",
-            "name": "Sergey Nazarov Portr",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmSq2SAEFHGd3DmGALZYdRmQv9CAN3jgYp6zrhYfRHtWkS"
-        },
-        {
-            "address": "0x66Af9569DB344d05eC1Dd1777c8604c98a71784c",
-            "name": "Andre Cronje  YearnF",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmaApa26mobiBa5t8m9oTqtsuxCv6vTYUY4Cfwb8qCJpua"
-        },
-        {
-            "address": "0x345eCB9cfD6A30c567696dd7BA69275ee9434527",
-            "name": "Vitalik Buterin  Eth",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmTpD7UYphbbWWpPovVkome441Rz6MXsBtTuXfdCSzvTxw"
-        },
-        {
-            "address": "0xe1ca5478C06e121581a6d41E0dA50097E8AE9bA7",
-            "name": "Another World x Vybl",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmWZjXBTDGqk8C6cBFuDToquH8Hx8q2suFQfZXNUSWAzpR/image.gif"
-        },
-        {
-            "address": "0xE4bD01A182048e1E1738Ec489Ec0dAE5FC1B9b13",
-            "name": "Smile",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmWpsNUJnGtFQQ9ywPdKjYPaarBv5Ng5jLHtubK2WzkpXg/image.gif"
-        },
-        {
-            "address": "0x0362EB0CbB99175a8148C57B87f0d11B5AF74714",
-            "name": "RagDoll",
-            "symbol": "RARI",
-            "decimals": 18,
-            "chainId": 1,
-            "logoURI": "https://gateway.ipfs.io/ipfs/QmfTf1b7Yfk5LRb82KwVPGocKBYw1STuansAvwktTUG1RV/image.gif"
         }
     ],
     "version": {
@@ -1538,5 +1538,5 @@
         "minor": 0,
         "patch": 0
     },
-    "timestamp": "2021-04-01T09:49:27.920Z"
+    "timestamp": "2021-04-01T10:10:37.490Z"
 }
