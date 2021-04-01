@@ -33,17 +33,8 @@ let elementImages = {}
 const elementImagesPath = path.resolve(__dirname, '../dist/elementImages.json')
 const metadatasPath = path.resolve(__dirname, '../dist/metadatas.json')
 
-try {
-  elementImages = JSON.parse(fs.readFileSync(elementImagesPath, 'UTF-8'))
-} catch (e) {
-  elementImages = {}
-}
-
-try {
-  window.metadatas = JSON.parse(fs.readFileSync(metadatasPath, 'UTF-8'))
-} catch (e) {
-  window.metadatas = {}
-}
+elementImages = {}
+window.metadatas = {}
 
 async function loop() {
   const distPath = path.resolve(__dirname, '../dist')
@@ -133,6 +124,12 @@ async function getLogoURI(element) {
     await window.AJAXRequest(element.trustWalletURI)
     element.image = element.trustWalletURI
   } catch (e) {}
+  if (
+    element.image &&
+    (element.image.toLowerCase().indexOf('trustwallet') !== -1 || element.image.toLowerCase().indexOf('ipfs') !== -1)
+  ) {
+    return element.image
+  }
   try {
     await window.AJAXRequest(element.image)
     return await uploadToIPFS(element)
