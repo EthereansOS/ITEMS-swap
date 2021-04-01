@@ -124,14 +124,14 @@ async function getLogoURI(element) {
     element.image &&
     (element.image.toLowerCase().indexOf('trustwallet') !== -1 || element.image.toLowerCase().indexOf('ipfs') !== -1)
   ) {
-    console.log("Default", window.formatLink(element.image));
+    console.log("Default", element.address, window.formatLink(element.image));
     return element.image = window.formatLink(element.image)
   }
   try {
     await window.AJAXRequest(element.image)
     return await uploadToIPFS(element)
   } catch (e) {
-    console.error(e)
+    element.objectId && console.error(e)
   }
   console.log("Catteeva", element.address, element.image);
   return getDefaultLogoURI(element)

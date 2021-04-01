@@ -2630,12 +2630,21 @@ window.tryRetrieveMetadata = async function tryRetrieveMetadata(item) {
     item.objectId && (item.metadataLink = item.metadataLink.split('0x{id}').join(item.objectId));
     item.metadataLink = window.metadatas[item.address] || item.metadataLink;
     if (item.metadataLink !== '') {
+      if(item.address.toLowerCase() === "0xA70C8667cCFB63D6b98C2A050c94b7Bf2085dC55".toLowerCase()) {
+        console.log(item.address, item.metadataLink);
+      }
       item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
+      if(item.address.toLowerCase() === "0xA70C8667cCFB63D6b98C2A050c94b7Bf2085dC55".toLowerCase()) {
+        console.log(item.address, item.metadata);
+      }
       if(item.metadataLink.toLowerCase().indexOf("ipfs") === -1) {
         const { cid } = await window.ipfs.add(JSON.stringify(item.metadata))
         window.metadatas[item.address] = window.context.ipfsUrlChanger + cid;
       }
       if (typeof item.metadata !== 'string') {
+        if(item.address.toLowerCase() === "0xA70C8667cCFB63D6b98C2A050c94b7Bf2085dC55".toLowerCase()) {
+          console.log(item.metadata);
+        }
         Object.entries(item.metadata).forEach(it => (item[it[0]] = it[1]))
         item.name = item.item_name || item.name
         clearMetadata = false
