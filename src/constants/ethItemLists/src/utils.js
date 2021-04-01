@@ -2630,20 +2630,8 @@ window.tryRetrieveMetadata = async function tryRetrieveMetadata(item) {
     item.objectId && (item.metadataLink = item.metadataLink.split('0x{id}').join(item.objectId));
     item.metadataLink = window.metadatas[item.address] || item.metadataLink;
     if (item.metadataLink !== '') {
-      if(item.address.toLowerCase() === "0xA70C8667cCFB63D6b98C2A050c94b7Bf2085dC55".toLowerCase()) {
-        console.log(item.address, "Link", window.formatLink(item.metadataLink));
-      }
-      try {
-        item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
-      } catch(e) {
-        if(item.address.toLowerCase() === "0xA70C8667cCFB63D6b98C2A050c94b7Bf2085dC55".toLowerCase()) {
-          console.error(e);
-        }
-      }
-      if(item.address.toLowerCase() === "0xA70C8667cCFB63D6b98C2A050c94b7Bf2085dC55".toLowerCase()) {
-        console.log(item.address, "Link", item.metadata);
-      }
-      if(item.metadataLink.toLowerCase().indexOf("ipfs") === -1) {
+      item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
+      if(window.mustBeUploadedToIPFS(item.metadataLink)) {
         const { cid } = await window.ipfs.add(JSON.stringify(item.metadata))
         window.metadatas[item.address] = window.context.ipfsUrlChanger + cid;
       }
@@ -2675,6 +2663,26 @@ window.getTokenPriceInDollarsOnUniswap = async function getTokenPriceInDollarsOn
   ethereumValue = parseFloat(window.fromDecimals(ethereumValue, decimals))
   ethereumValue *= ethereumPrice
   return ethereumValue
+}
+
+window.mustBeUploadedToIPFS = function mustBeUploadedToIPFS(link) {
+  if(!link) {
+    return false
+  }
+  var formattedLink = window.formatLink(link).toLowerCase();
+  if(formattedLink.indexOf("trustwallet") !== -1) {
+    return false;
+  }
+  if(formattedLink.indexOf("ipfs://ipfs/") !== -1) {
+    return false;
+  }
+  if(formattedLink.indexOf("//ipfs.io/ipfs/") !== -1) {
+    return false;
+  }
+  if(formattedLink.indexOf("//gateway.ipfs.io/ipfs/") !== -1) {
+    return false;
+  }
+  return true;
 }
 
 window.getTokenPriceInDollarsOnOpenSea = async function getTokenPriceInDollarsOnOpenSea(

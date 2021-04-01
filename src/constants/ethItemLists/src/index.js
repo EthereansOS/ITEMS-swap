@@ -133,10 +133,7 @@ async function getLogoURI(element) {
     await window.AJAXRequest(element.trustWalletURI)
     element.image = element.trustWalletURI
   } catch (e) {}
-  if (
-    element.image &&
-    (element.image.toLowerCase().indexOf('trustwallet') !== -1 || element.image.toLowerCase().indexOf('ipfs') !== -1)
-  ) {
+  if (!window.mustBeUploadedToIPFS(element.image)) {
     return element.image = window.formatLink(element.image)
   }
   if(element.image) {
@@ -144,9 +141,9 @@ async function getLogoURI(element) {
       await window.AJAXRequest(element.image)
       return await uploadToIPFS(element)
     } catch (e) {
+      element.objectId && console.log(element.address, element.image);
       element.objectId && console.error(e)
     }
-    element.objectId && console.log("Catteeva", element.address, element.image);
     return element.image
   }
   return getDefaultLogoURI(element)
