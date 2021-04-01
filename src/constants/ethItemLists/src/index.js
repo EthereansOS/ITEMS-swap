@@ -33,7 +33,17 @@ let elementImages = {}
 const elementImagesPath = path.resolve(__dirname, '../dist/elementImages.json')
 const metadatasPath = path.resolve(__dirname, '../dist/metadatas.json')
 
-window.metadatas = {}
+try {
+  elementImages = JSON.parse(fs.readFileSync(elementImagesPath, 'UTF-8'))
+} catch (e) {
+  elementImages = {}
+}
+
+try {
+  window.metadatas = JSON.parse(fs.readFileSync(metadatasPath, 'UTF-8'))
+} catch (e) {
+  window.metadatas = {}
+}
 
 async function loop() {
   const distPath = path.resolve(__dirname, '../dist')
@@ -116,6 +126,9 @@ async function elaborateCollection(collection, callback) {
 }
 
 async function getLogoURI(element) {
+  if(elementImages[element.address]) {
+    return element.image = elementImages[element.address];
+  }
   try {
     await window.AJAXRequest(element.trustWalletURI)
     element.image = element.trustWalletURI
@@ -124,16 +137,17 @@ async function getLogoURI(element) {
     element.image &&
     (element.image.toLowerCase().indexOf('trustwallet') !== -1 || element.image.toLowerCase().indexOf('ipfs') !== -1)
   ) {
-    console.log("Default", element.address, window.formatLink(element.image));
     return element.image = window.formatLink(element.image)
   }
-  try {
-    await window.AJAXRequest(element.image)
-    return await uploadToIPFS(element)
-  } catch (e) {
-    element.objectId && console.error(e)
+  if(element.image) {
+    try {
+      await window.AJAXRequest(element.image)
+      return await uploadToIPFS(element)
+    } catch (e) {
+      element.objectId && console.error(e)
+    }
+    element.objectId && console.log("Catteeva", element.address, element.image);
   }
-  console.log("Catteeva", element.address, element.image);
   return getDefaultLogoURI(element)
 }
 
