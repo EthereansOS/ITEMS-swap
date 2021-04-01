@@ -124,20 +124,15 @@ async function getLogoURI(element) {
     element.image &&
     (element.image.toLowerCase().indexOf('trustwallet') !== -1 || element.image.toLowerCase().indexOf('ipfs') !== -1)
   ) {
-    console.log("Default", element.image);
-    return element.image
+    console.log("Default", window.formatLink(element.image));
+    return element.image = window.formatLink(element.image)
   }
   try {
     await window.AJAXRequest(element.image)
     return await uploadToIPFS(element)
   } catch (e) {
-    if (
-      element.image &&
-      (element.image.toLowerCase().indexOf('trustwallet') !== -1 || element.image.toLowerCase().indexOf('ipfs') !== -1)
-    ) {
-      return element.image
-    }
   }
+  console.log("Catteeva", element.address, element.image);
   return getDefaultLogoURI(element)
 }
 
@@ -149,12 +144,6 @@ function getDefaultLogoURI(element) {
 }
 
 function uploadToIPFS(element) {
-  if (
-    element.image &&
-    (element.image.toLowerCase().indexOf('trustwallet') !== -1 || element.image.toLowerCase().indexOf('ipfs') !== -1)
-  ) {
-    return element.image
-  }
   return new Promise(async function(ok, ko) {
     const timeoutCall = setTimeout(async function() {
       await window.sleep(7000)
@@ -167,7 +156,7 @@ function uploadToIPFS(element) {
         try {
           const { cid } = await window.ipfs.add(body)
           await window.sleep(5000)
-          return ok((elementImages[element.address] = 'https://ipfs.io/ipfs/' + cid))
+          return ok((elementImages[element.address] = window.context.ipfsUrlChanger + cid))
         } catch (e) {
           return ko(e)
         }

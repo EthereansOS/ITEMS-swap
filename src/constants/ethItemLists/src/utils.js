@@ -2633,7 +2633,7 @@ window.tryRetrieveMetadata = async function tryRetrieveMetadata(item) {
       item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
       if(item.metadataLink.toLowerCase().indexOf("ipfs") === -1) {
         const { cid } = await window.ipfs.add(JSON.stringify(item.metadata))
-        window.metadatas[item.address] = 'https://ipfs.io/ipfs/' + cid;
+        window.metadatas[item.address] = window.context.ipfsUrlChanger + cid;
       }
       if (typeof item.metadata !== 'string') {
         Object.entries(item.metadata).forEach(it => (item[it[0]] = it[1]))
