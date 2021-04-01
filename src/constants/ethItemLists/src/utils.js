@@ -2633,6 +2633,16 @@ window.tryRetrieveMetadata = async function tryRetrieveMetadata(item) {
       try {
         item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
       } catch(e) {
+        if((e.message || e).toLowerCase().indexOf("econnrefused") !== -1) {
+          for(var i = 0; i < 10; i++) {
+            await window.sleep(10000);
+            try {
+              item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
+              break;
+            } catch(e) {
+            }
+          }
+        }
         console.log(item.address, window.formatLink(item.metadataLink))
         console.error(e)
       }
