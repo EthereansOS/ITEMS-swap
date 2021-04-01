@@ -2633,6 +2633,7 @@ window.tryRetrieveMetadata = async function tryRetrieveMetadata(item) {
       try {
         item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
       } catch(e) {
+        console.log(item.address, window.formatLink(item.metadataLink))
         console.error(e)
       }
       if(window.mustBeUploadedToIPFS(item.metadataLink)) {
