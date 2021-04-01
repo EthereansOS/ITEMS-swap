@@ -131,6 +131,7 @@ async function getLogoURI(element) {
     await window.AJAXRequest(element.image)
     return await uploadToIPFS(element)
   } catch (e) {
+    console.error(e)
   }
   console.log("Catteeva", element.address, element.image);
   return getDefaultLogoURI(element)
@@ -160,6 +161,8 @@ function uploadToIPFS(element) {
         } catch (e) {
           return ko(e)
         }
+      } else {
+        return ko(error || response.statusCode);
       }
       return ok(getDefaultLogoURI(element))
     })
