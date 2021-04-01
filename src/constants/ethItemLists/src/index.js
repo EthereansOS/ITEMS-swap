@@ -126,6 +126,7 @@ async function elaborateCollection(collection, callback) {
 }
 
 async function getLogoURI(element) {
+  element.address.toLowerCase() === '0x9b16e70797276Ae1bE23874961D1E6a9698e1EC6' && console.log(element.address, element.image, element.metadataLink, JSON.stringify(element.metadata));
   if(elementImages[element.address]) {
     return element.image = elementImages[element.address];
   }
