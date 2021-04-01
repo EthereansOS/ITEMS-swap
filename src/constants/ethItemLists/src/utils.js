@@ -2631,9 +2631,13 @@ window.tryRetrieveMetadata = async function tryRetrieveMetadata(item) {
     item.metadataLink = window.metadatas[item.address] || item.metadataLink;
     if (item.metadataLink !== '') {
       item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
-      if(window.mustBeUploadedToIPFS(item.metadataLink)) {
-        const { cid } = await window.ipfs.add(JSON.stringify(item.metadata))
-        window.metadatas[item.address] = window.context.ipfsUrlChanger + cid;
+      try {
+        if(window.mustBeUploadedToIPFS(item.metadataLink)) {
+          const { cid } = await window.ipfs.add(JSON.stringify(item.metadata))
+          window.metadatas[item.address] = window.context.ipfsUrlChanger + cid;
+        }
+      } catch(e) {
+        console.error(e);
       }
       if (typeof item.metadata !== 'string') {
         Object.entries(item.metadata).forEach(it => (item[it[0]] = it[1]))
