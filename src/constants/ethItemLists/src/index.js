@@ -33,7 +33,6 @@ let elementImages = {}
 const elementImagesPath = path.resolve(__dirname, '../dist/elementImages.json')
 const metadatasPath = path.resolve(__dirname, '../dist/metadatas.json')
 
-elementImages = {}
 window.metadatas = {}
 
 async function loop() {
@@ -117,9 +116,6 @@ async function elaborateCollection(collection, callback) {
 }
 
 async function getLogoURI(element) {
-  if (elementImages[element.address]) {
-    return (element.image = elementImages[element.address])
-  }
   try {
     await window.AJAXRequest(element.trustWalletURI)
     element.image = element.trustWalletURI
@@ -128,6 +124,7 @@ async function getLogoURI(element) {
     element.image &&
     (element.image.toLowerCase().indexOf('trustwallet') !== -1 || element.image.toLowerCase().indexOf('ipfs') !== -1)
   ) {
+    console.log("Default", element.image);
     return element.image
   }
   try {
