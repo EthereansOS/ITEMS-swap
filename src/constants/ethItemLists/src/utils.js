@@ -2630,14 +2630,14 @@ window.tryRetrieveMetadata = async function tryRetrieveMetadata(item) {
     item.objectId && (item.metadataLink = item.metadataLink.split('0x{id}').join(item.objectId));
     item.metadataLink = window.metadatas[item.address] || item.metadataLink;
     if (item.metadataLink !== '') {
-      item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
       try {
-        if(window.mustBeUploadedToIPFS(item.metadataLink)) {
-          const { cid } = await window.ipfs.add(JSON.stringify(item.metadata))
-          window.metadatas[item.address] = window.context.ipfsUrlChanger + cid;
-        }
+        item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
       } catch(e) {
-        console.error(e);
+        console.error(e)
+      }
+      if(window.mustBeUploadedToIPFS(item.metadataLink)) {
+        const { cid } = await window.ipfs.add(JSON.stringify(item.metadata))
+        window.metadatas[item.address] = window.context.ipfsUrlChanger + cid
       }
       if (typeof item.metadata !== 'string') {
         Object.entries(item.metadata).forEach(it => (item[it[0]] = it[1]))
