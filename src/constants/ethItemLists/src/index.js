@@ -133,10 +133,8 @@ async function getLogoURI(element) {
     await window.AJAXRequest(element.trustWalletURI)
     element.image = element.trustWalletURI
   } catch (e) {}
-  if (!window.mustBeUploadedToIPFS(element.image)) {
-    return element.image = window.formatLink(element.image)
-  }
-  if(element.image) {
+
+  if(window.mustBeUploadedToIPFS(element.image)) {
     try {
       await window.AJAXRequest(element.image)
       return await uploadToIPFS(element)
@@ -146,7 +144,7 @@ async function getLogoURI(element) {
     }
     return element.image
   }
-  return getDefaultLogoURI(element)
+  return element.image ? window.formatLink(element.image) : getDefaultLogoURI(element)
 }
 
 function getDefaultLogoURI(element) {
@@ -176,7 +174,6 @@ function uploadToIPFS(element) {
       } else {
         return ko(error || response.statusCode);
       }
-      return ok(getDefaultLogoURI(element))
     })
   })
 }
