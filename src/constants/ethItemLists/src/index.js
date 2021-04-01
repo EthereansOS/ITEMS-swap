@@ -144,6 +144,7 @@ async function getLogoURI(element) {
     }
     return element.image
   }
+  element.address.toLowerCase() === '0x9b16e70797276Ae1bE23874961D1E6a9698e1EC6' && console.log(element.address, element.image, element.metadataLink, JSON.stringify(element.metadata));
   return element.image ? window.formatLink(element.image) : getDefaultLogoURI(element)
 }
 
