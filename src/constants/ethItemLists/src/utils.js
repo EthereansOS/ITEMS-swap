@@ -2633,7 +2633,13 @@ window.tryRetrieveMetadata = async function tryRetrieveMetadata(item) {
       if(item.address.toLowerCase() === "0xA70C8667cCFB63D6b98C2A050c94b7Bf2085dC55".toLowerCase()) {
         console.log(item.address, "Link", window.formatLink(item.metadataLink));
       }
-      item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
+      try {
+        item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
+      } catch(e) {
+        if(item.address.toLowerCase() === "0xA70C8667cCFB63D6b98C2A050c94b7Bf2085dC55".toLowerCase()) {
+          console.error(e);
+        }
+      }
       if(item.address.toLowerCase() === "0xA70C8667cCFB63D6b98C2A050c94b7Bf2085dC55".toLowerCase()) {
         console.log(item.address, "Link", item.metadata);
       }
