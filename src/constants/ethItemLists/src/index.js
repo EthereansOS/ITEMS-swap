@@ -147,6 +147,7 @@ async function getLogoURI(element) {
       element.objectId && console.error(e)
     }
     element.objectId && console.log("Catteeva", element.address, element.image);
+    return element.image
   }
   return getDefaultLogoURI(element)
 }
