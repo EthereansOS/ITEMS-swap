@@ -13,7 +13,7 @@
   "listURITemplate": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/dist/{0}.json",
   "logoURITemplate": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/{0}-{1}.png",
   "collectionLogoURI": "https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/resources/logo.png",
-  "itemsContextURL" : "https://raw.githubusercontent.com/b-u-i-d-l/ETHITEM/main/data/context.json",
+  "itemsContextURL": "https://raw.githubusercontent.com/b-u-i-d-l/ETHITEM/main/data/context.json",
   "deploySearchStart": "11092976",
   "deploySearchStartRopsten": "8900000",
   "requestTimeout": 60000,

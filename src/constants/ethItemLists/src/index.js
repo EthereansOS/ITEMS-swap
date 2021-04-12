@@ -126,26 +126,27 @@ async function elaborateCollection(collection, callback) {
 }
 
 async function getLogoURI(element) {
-  console.log(element.address, element.image, element.metadataLink, JSON.stringify(element.metadata));
-  if(elementImages[element.address]) {
-    return element.image = elementImages[element.address];
+  console.log(element.address, element.image, element.metadataLink, JSON.stringify(element.metadata))
+  if (elementImages[element.address]) {
+    return (element.image = elementImages[element.address])
   }
   try {
     await window.AJAXRequest(element.trustWalletURI)
     element.image = element.trustWalletURI
   } catch (e) {}
 
-  if(window.mustBeUploadedToIPFS(element.image)) {
+  if (window.mustBeUploadedToIPFS(element.image)) {
     try {
       await window.AJAXRequest(element.image)
       return await uploadToIPFS(element)
     } catch (e) {
-      element.objectId && console.log(element.address, element.image);
+      element.objectId && console.log(element.address, element.image)
       element.objectId && console.error(e)
     }
     return element.image
   }
-  element.address.toLowerCase() === '0x9b16e70797276Ae1bE23874961D1E6a9698e1EC6' && console.log(element.address, element.image, element.metadataLink, JSON.stringify(element.metadata));
+  element.address.toLowerCase() === '0x9b16e70797276Ae1bE23874961D1E6a9698e1EC6' &&
+    console.log(element.address, element.image, element.metadataLink, JSON.stringify(element.metadata))
   return element.image ? window.formatLink(element.image) : getDefaultLogoURI(element)
 }
 
@@ -174,7 +175,7 @@ function uploadToIPFS(element) {
           return ko(e)
         }
       } else {
-        return ko(error || response.statusCode);
+        return ko(error || response.statusCode)
       }
     })
   })
@@ -208,19 +209,25 @@ async function loadEnvironment() {
 }
 
 async function loadCollections() {
-  var itemContext = await window.AJAXRequest(window.context.itemsContextURL);
+  const itemContext = await window.AJAXRequest(window.context.itemsContextURL)
   window.excludingCollections = (itemContext.excludingCollections || []).map(it =>
     window.web3.utils.toChecksumAddress(it)
   )
   try {
-    window.excludingCollections.push(...itemContext.pandorasBox.map(it => window.web3.utils.toChecksumAddress(it)).filter(it => window.excludingCollections.indexOf(it) === -1))
-  } catch(e) {
-  }
+    window.excludingCollections.push(
+      ...itemContext.pandorasBox
+        .map(it => window.web3.utils.toChecksumAddress(it))
+        .filter(it => window.excludingCollections.indexOf(it) === -1)
+    )
+  } catch (e) {}
   try {
-    var pandorasBox = await window.AJAXRequest(itemContext.pandorasBoxURL);
-    window.excludingCollections.push(...pandorasBox.map(it => window.web3.utils.toChecksumAddress(it)).filter(it => window.excludingCollections.indexOf(it) === -1))
-  } catch(e) {
-  }
+    const pandorasBox = await window.AJAXRequest(itemContext.pandorasBoxURL)
+    window.excludingCollections.push(
+      ...pandorasBox
+        .map(it => window.web3.utils.toChecksumAddress(it))
+        .filter(it => window.excludingCollections.indexOf(it) === -1)
+    )
+  } catch (e) {}
   const map = {}
   Object.entries(window.context.ethItemFactoryEvents).forEach(it => (map[window.web3.utils.sha3(it[0])] = it[1]))
   const topics = [Object.keys(map)]

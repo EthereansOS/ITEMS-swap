@@ -2627,26 +2627,25 @@ window.tryRetrieveMetadata = async function tryRetrieveMetadata(item) {
     item.metadataLink = item.objectId
       ? await window.blockchainCall(item.contract.methods.uri, item.objectId)
       : await window.blockchainCall(item.contract.methods.uri)
-    item.objectId && (item.metadataLink = item.metadataLink.split('0x{id}').join(item.objectId));
-    item.metadataLink = window.metadatas[item.address] || item.metadataLink;
+    item.objectId && (item.metadataLink = item.metadataLink.split('0x{id}').join(item.objectId))
+    item.metadataLink = window.metadatas[item.address] || item.metadataLink
     if (item.metadataLink !== '') {
       try {
         item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
-      } catch(e) {
-        if((e.message || e).toLowerCase().indexOf("econnrefused") !== -1) {
-          for(var i = 0; i < 10; i++) {
-            await window.sleep(10000);
+      } catch (e) {
+        if ((e.message || e).toLowerCase().indexOf('econnrefused') !== -1) {
+          for (let i = 0; i < 10; i++) {
+            await window.sleep(10000)
             try {
               item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
-              break;
-            } catch(e) {
-            }
+              break
+            } catch (e) {}
           }
         }
         console.log(item.address, window.formatLink(item.metadataLink))
         console.error(e)
       }
-      if(window.mustBeUploadedToIPFS(item.metadataLink)) {
+      if (window.mustBeUploadedToIPFS(item.metadataLink)) {
         const { cid } = await window.ipfs.add(JSON.stringify(item.metadata))
         window.metadatas[item.address] = window.context.ipfsUrlChanger + cid
       }
@@ -2681,23 +2680,23 @@ window.getTokenPriceInDollarsOnUniswap = async function getTokenPriceInDollarsOn
 }
 
 window.mustBeUploadedToIPFS = function mustBeUploadedToIPFS(link) {
-  if(!link) {
+  if (!link) {
     return false
   }
-  var formattedLink = window.formatLink(link).toLowerCase();
-  if(formattedLink.indexOf("trustwallet") !== -1) {
-    return false;
+  const formattedLink = window.formatLink(link).toLowerCase()
+  if (formattedLink.indexOf('trustwallet') !== -1) {
+    return false
   }
-  if(formattedLink.indexOf("ipfs://ipfs/") !== -1) {
-    return false;
+  if (formattedLink.indexOf('ipfs://ipfs/') !== -1) {
+    return false
   }
-  if(formattedLink.indexOf("//ipfs.io/ipfs/") !== -1) {
-    return false;
+  if (formattedLink.indexOf('//ipfs.io/ipfs/') !== -1) {
+    return false
   }
-  if(formattedLink.indexOf("//gateway.ipfs.io/ipfs/") !== -1) {
-    return false;
+  if (formattedLink.indexOf('//gateway.ipfs.io/ipfs/') !== -1) {
+    return false
   }
-  return true;
+  return true
 }
 
 window.getTokenPriceInDollarsOnOpenSea = async function getTokenPriceInDollarsOnOpenSea(
@@ -2756,7 +2755,8 @@ window.loadCollectionItems = async function loadCollectionItems(collectionAddres
       objectId = web3.eth.abi.decodeParameters(['uint256', 'address', 'uint256'], log.data)[0]
       address = web3.eth.abi.decodeParameters(['uint256', 'address', 'uint256'], log.data)[1]
     }
-    window.excludingCollections.indexOf(window.web3.utils.toChecksumAddress(address)) === -1 && (collectionObjectIds[objectId] = true)
+    window.excludingCollections.indexOf(window.web3.utils.toChecksumAddress(address)) === -1 &&
+      (collectionObjectIds[objectId] = true)
   }
   return Object.keys(collectionObjectIds)
 }
