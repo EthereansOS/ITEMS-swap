@@ -230,7 +230,8 @@ async function loadCollections() {
   } catch (e) {}
   const map = {}
   Object.entries(window.context.ethItemFactoryEvents).forEach(it => (map[window.web3.utils.sha3(it[0])] = it[1]))
-  const topics = [Object.keys(map)]
+  var topics = [[Object.keys(map).filter(key => map[key].indexOf("721") === -1)]];
+  topics.push([Object.keys(map).filter(key => map[key].indexOf("721") !== -1), [], window.web3.eth.abi.encodeParameter("uint256", "2")])
   const addresses = await window.blockchainCall(window.ethItemOrchestrator.methods.factories)
   const list = (window.getNetworkElement('additionalFactories') || []).map(it =>
     window.web3.utils.toChecksumAddress(it)
@@ -239,12 +240,15 @@ async function loadCollections() {
   const blocks = await window.loadBlockSearchTranches()
   const subCollectionsPromises = []
   for (const block of blocks) {
-    const logs = await window.getLogs({
-      address,
-      topics,
-      fromBlock: block[0],
-      toBlock: block[1]
-    })
+    var logs = [];
+    for(var topic of topics) {
+      logs.push(...(await window.getLogs({
+        address,
+        topics : topic,
+        fromBlock: block[0],
+        toBlock: block[1]
+      })));
+    }
     for (const log of logs) {
       const modelAddress = window.web3.eth.abi.decodeParameter('address', log.topics[1])
       const collectionAddress = window.web3.utils.toChecksumAddress(
