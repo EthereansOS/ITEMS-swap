@@ -1,6 +1,6 @@
 // the Uniswap Default token list lives here
 export const DEFAULT_TOKEN_LIST_URL =
-  'https://raw.githubusercontent.com/b-u-i-d-l/ITEMswap/master/src/constants/ethItemLists/dist/tokensList.json'
+  'https://raw.githubusercontent.com/EthereansOS/ITEMS-swap/master/src/constants/ethItemLists/dist/tokensList.json'
 
 const dynamicListOfLists: string[] = [DEFAULT_TOKEN_LIST_URL]
 

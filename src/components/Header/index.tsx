@@ -320,7 +320,7 @@ export default function Header() {
           >
             Governance <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink>
-          <StyledExternalLink id={`stake-nav-link`} href={'https://github.com/b-u-i-d-l/WIMD-uniswap'}>
+          <StyledExternalLink id={`stake-nav-link`} href={'https://github.com/EthereansOS/WIMD-uniswap'}>
             Github <span style={{ fontSize: '11px' }}>↗</span>
           </StyledExternalLink>
         </HeaderLinks>

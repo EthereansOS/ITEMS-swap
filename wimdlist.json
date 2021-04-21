@@ -7,7 +7,7 @@
     "patch": 0
   },
   "tags": {},
-  "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/master/src/assets/images/logo.png",
+  "logoURI": "https://raw.githubusercontent.com/EthereansOS/WIMD-uniswap/master/src/assets/images/logo.png",
   "keywords": ["WIMD", "default"],
   "tokens": [
     {
@@ -16,7 +16,7 @@
       "symbol": "PenguinFS",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/master/src/assets/images/1314350493399825849440291684746997404115301872024.png"
+      "logoURI": "https://raw.githubusercontent.com/EthereansOS/WIMD-uniswap/master/src/assets/images/1314350493399825849440291684746997404115301872024.png"
     },
     {
       "name": "Unicorn Cat",
@@ -24,7 +24,7 @@
       "symbol": "UniCat",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/master/src/assets/images/1111946385153737223689257886665575715568350448705.png"
+      "logoURI": "https://raw.githubusercontent.com/EthereansOS/WIMD-uniswap/master/src/assets/images/1111946385153737223689257886665575715568350448705.png"
     },
     {
       "name": "Magician Unicorn",
@@ -32,7 +32,7 @@
       "symbol": "MagUni",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/master/src/assets/images/953680776037830019376762634780957885111415987285.png"
+      "logoURI": "https://raw.githubusercontent.com/EthereansOS/WIMD-uniswap/master/src/assets/images/953680776037830019376762634780957885111415987285.png"
     },
     {
       "name": "Magician Cat",
@@ -40,7 +40,7 @@
       "symbol": "MagCat",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/master/src/assets/images/708710380818572902317750208759935671347114619642.png"
+      "logoURI": "https://raw.githubusercontent.com/EthereansOS/WIMD-uniswap/master/src/assets/images/708710380818572902317750208759935671347114619642.png"
     },
     {
       "name": "Penguin Unicorn",
@@ -48,7 +48,7 @@
       "symbol": "PenUni",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/master/src/assets/images/885404311393007699790400512240499286361791930054.png"
+      "logoURI": "https://raw.githubusercontent.com/EthereansOS/WIMD-uniswap/master/src/assets/images/885404311393007699790400512240499286361791930054.png"
     },
     {
       "name": "Unicorn Ghost",
@@ -56,7 +56,7 @@
       "symbol": "UniGhost",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/master/src/assets/images/780555624824904431919937819844714503576378827799.png"
+      "logoURI": "https://raw.githubusercontent.com/EthereansOS/WIMD-uniswap/master/src/assets/images/780555624824904431919937819844714503576378827799.png"
     },
     {
       "name": "Unicorn Dragon",
@@ -64,7 +64,7 @@
       "symbol": "UniDragon",
       "decimals": 18,
       "chainId": 1,
-      "logoURI": "https://raw.githubusercontent.com/b-u-i-d-l/WIMD-uniswap/master/src/assets/images/199242316350403115624675989599876480538394016058.png"
+      "logoURI": "https://raw.githubusercontent.com/EthereansOS/WIMD-uniswap/master/src/assets/images/199242316350403115624675989599876480538394016058.png"
     }
   ]
 }
