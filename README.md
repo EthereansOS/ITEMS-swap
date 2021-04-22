@@ -4,6 +4,3 @@
 https://swap.item.eth 
 
 https://swap.item.eth.link
-
-https://swap.ethitem.com
-
