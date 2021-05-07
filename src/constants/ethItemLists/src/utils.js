@@ -4,6 +4,8 @@ const request = require('request')
 
 window.Web3Browser = require('web3')
 
+const Base64 = require('base-64');
+
 window.voidEthereumAddress = '0x0000000000000000000000000000000000000000'
 window.voidEthereumAddressExtended = '0x0000000000000000000000000000000000000000000000000000000000000000'
 window.descriptionWordLimit = 300
@@ -2631,7 +2633,7 @@ window.tryRetrieveMetadata = async function tryRetrieveMetadata(item) {
     item.metadataLink = window.metadatas[item.address] || item.metadataLink
     if (item.metadataLink !== '') {
       try {
-        item.metadata = await window.AJAXRequest(window.formatLink(item.metadataLink))
+        item.metadata = item.metadataLink.startsWith("data:application/json;base64,") ? JSON.parse(Base64.decode(item.metadataLink.substring("data:application/json;base64,".length))) : await window.AJAXRequest(window.formatLink(item.metadataLink));
       } catch (e) {
         if ((e.message || e).toLowerCase().indexOf('econnrefused') !== -1) {
           for (let i = 0; i < 10; i++) {
@@ -2684,6 +2686,9 @@ window.mustBeUploadedToIPFS = function mustBeUploadedToIPFS(link) {
     return false
   }
   const formattedLink = window.formatLink(link).toLowerCase()
+  if(formattedLink.indexOf("//data") === 0) {
+    return false;
+  }
   if (formattedLink.indexOf('trustwallet') !== -1) {
     return false
   }

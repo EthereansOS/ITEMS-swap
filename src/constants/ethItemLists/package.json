@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/EthereansOS/item-token-lists-generator#readme",
   "dependencies": {
+    "base-64": "^1.0.0",
     "dotenv": "^8.2.0",
     "ipfs-http-client": "^49.0.4",
     "request": "^2.88.2",

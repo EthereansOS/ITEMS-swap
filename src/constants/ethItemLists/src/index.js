@@ -147,7 +147,11 @@ async function getLogoURI(element) {
   }
   element.address.toLowerCase() === '0x9b16e70797276Ae1bE23874961D1E6a9698e1EC6' &&
     console.log(element.address, element.image, element.metadataLink, JSON.stringify(element.metadata))
-  return element.image ? window.formatLink(element.image) : getDefaultLogoURI(element)
+  element.image = element.image ? window.formatLink(element.image) : getDefaultLogoURI(element)
+  if(element.image.startsWith('//data')) {
+    element.image = element.image.susbstring(2)
+  }
+  return element.image
 }
 
 function getDefaultLogoURI(element) {
@@ -234,7 +238,8 @@ async function loadCollections() {
   topics.push([
     Object.keys(map).filter(key => map[key].indexOf('721') !== -1),
     [],
-    window.web3.eth.abi.encodeParameter('uint256', '2')
+    [window.web3.eth.abi.encodeParameter('uint256', '2'),
+    window.web3.eth.abi.encodeParameter('uint256', '3')]
   ])
   const addresses = await window.blockchainCall(window.ethItemOrchestrator.methods.factories)
   const list = (window.getNetworkElement('additionalFactories') || []).map(it =>
